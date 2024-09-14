@@ -142,6 +142,12 @@ export default function Footer1() {
                                                     <a target="_blank" href="https://www.instagram.com/ekanstech/">Instagram</a>
                                                 </p>
                                             </li>
+                                            <li>
+                                                <p className="d-flex  align-items-center gap-3">
+                                                    <span className="icon-linkedin border border-dark rounded-circle text-dark p-2"></span>
+                                                    <a target="_blank" href="https://www.linkedin.com/in/ekanstech-solutions-a73528310/?originalSubdomain=in">Linkedin</a>
+                                                </p>
+                                            </li>
                                         </ul>
                                     </div>
                                 </div>

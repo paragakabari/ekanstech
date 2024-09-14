@@ -37,7 +37,7 @@ const MobileMenu = ({ isSidebar, handleMobileMenu }) => {
               <img
                 src="assets/img/resource/footer-one-1.png"
                 alt="Logo"
-                className="w-75"
+                className="w-50"
               />
             </Link>
           </div>
@@ -110,6 +110,14 @@ const MobileMenu = ({ isSidebar, handleMobileMenu }) => {
                   href="https://www.instagram.com/ekanstech/"
                 >
                   <i className="fab fa-instagram"></i>
+                </Link>
+              </li>
+              <li>
+                <Link
+                  target="_blank"
+                  href="https://www.linkedin.com/in/ekanstech-solutions-a73528310/?originalSubdomain=in"
+                >
+                  <i className="icon-linkedin"></i>
                 </Link>
               </li>
             </ul>

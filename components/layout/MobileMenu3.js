@@ -65,6 +65,8 @@ const MobileMenu = ({ isSidebar, handleMobileMenu }) => {
                 <ul className="clearfix list-wrap">
                 <li><Link target="_blank" href="https://www.facebook.com/people/Ekanstech/100091184266839/"><i className="fab fa-facebook-f"></i></Link></li>
                 <li><Link target="_blank" href="https://www.instagram.com/ekanstech/"><i className="fab fa-instagram"></i></Link></li>
+                <li><Link target="_blank" href="https://www.linkedin.com/in/ekanstech-solutions-a73528310/?originalSubdomain=in"><i className="icon-linkedin"></i></Link></li>
+
                 </ul>
             </div>
         </nav>
