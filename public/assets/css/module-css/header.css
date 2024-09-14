@@ -256,8 +256,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 45px;
-    height: 45px;
+    width: 35px;
+    height: 35px;
     background: var(--thm-black-bg);
     border-radius: 50%;
 }
@@ -266,7 +266,7 @@
     position: relative;
     display: inline-block;
     color: var(--thm-white);
-    font-size: 20px;
+    font-size: 16px;
     line-height: 14px;
     font-weight: 700;
 }
@@ -279,7 +279,7 @@
 
 .mobile-menu .contact-info p a {
     color: var(--thm-black);
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 400;
 
 }
@@ -320,10 +320,10 @@
     align-items: center;
     justify-content: center;
     color: var(--thm-white);
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 400;
-    height: 45px;
-    width: 45px;
+    height: 35px;
+    width: 35px;
     border-radius: 50%;
     background: var(--thm-black-bg);
     transition: all 200ms linear;
