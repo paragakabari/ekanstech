@@ -70,12 +70,12 @@
     justify-content: center;
     top: 15px;
     right: 30px;
-    width: 35px;
-    height: 35px;
+    width: 25px;
+    height: 25px;
     background-color: var(--thm-black-bg);
     border-radius: 50%;
     color: var(--thm-white);
-    font-size: 18px;
+    font-size: 16px;
     cursor: pointer;
     z-index: 10;
     -webkit-transition: all 0.9s ease;
