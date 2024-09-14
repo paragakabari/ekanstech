@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <>
-      <Layout headerStyle={4} footerStyle={2} breadcrumbTitle="Contact">
+      <Layout headerStyle={4} footerStyle={1} breadcrumbTitle="Contact">
         {/*Start Contact Page*/}
         <section className="contact-page">
           <div className="contact-page__top">
@@ -109,7 +109,7 @@ export default function Home() {
               <div className="container">
                 <div className="contact-page__bottom-form-inner">
                   <div className="title-box sec-title-animation animation-style1">
-                    <h2>Let’s Get in Touch</h2>
+                    <h2>Let s Get in Touch</h2>
                     <p>
                       Your email address will not be published. Required fields
                       are marked *
@@ -117,7 +117,7 @@ export default function Home() {
                   </div>
                   <div className="contact-page__bottom-form-inner-box">
                     <form
-                      action="assets/inc/sendemail.php"
+                      
                       className="contact-page__form contact-form-validated"
                     >
                       <div className="row">
