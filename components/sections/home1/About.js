@@ -38,7 +38,7 @@ export default function About() {
                                     <div className="col-xl-6 col-lg-6 col-md-6">
                                         <div className="about-three__fact-single">
                                             <div className="count-outer count-box">
-                                            <CounterUp end={256} />
+                                            <CounterUp end={25} />
                                                 <i className="icon-plus-symbol-button"></i>
                                             </div>
                                             <div className="title">
