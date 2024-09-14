@@ -100,7 +100,7 @@ export default function Service() {
                     {/*End Single Service Three*/}
 
                     {/*Start Single Service Three*/}
-                    <div className="col-xl-4 col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="200ms"
+                    {/* <div className="col-xl-4 col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="200ms"
                         data-wow-duration="1500ms">
                         <div className="service-three__single">
                             <div className="service-three__single-icon">
@@ -118,11 +118,11 @@ export default function Service() {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                     {/*End Single Service Three*/}
 
                     {/*Start Single Service Three*/}
-                    <div className="col-xl-4 col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="0ms"
+                    {/* <div className="col-xl-4 col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="0ms"
                         data-wow-duration="1500ms">
                         <div className="service-three__single">
                             <div className="service-three__single-icon">
@@ -140,7 +140,7 @@ export default function Service() {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                     {/*End Single Service Three*/}
 
                     {/*Start Single Service Three*/}

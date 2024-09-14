@@ -3,7 +3,7 @@ export default function Blog() {
     return (
         <>
         {/*Start Blog Three*/}
-        <section className="blog-three">
+        {/* <section className="blog-three">
             <div className="blog-three__shape1 float-bob-y">
                 <img src="assets/img/shape/blog-three__shape1.png" alt="shapes"/>
             </div>
@@ -21,7 +21,6 @@ export default function Blog() {
                 </div>
                 <div className="row">
 
-                    {/*Start Single Blog Three*/}
                     <div className="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay=".3s">
                         <div className="blog-three__single">
                             <div className="blog-three__single-img">
@@ -56,9 +55,7 @@ export default function Blog() {
                             </div>
                         </div>
                     </div>
-                    {/*End Single Blog Three*/}
 
-                    {/*Start Single Blog Three*/}
                     <div className="col-xl-4 col-lg-4 wow fadeInDown" data-wow-delay=".3s">
                         <div className="blog-three__single">
                             <div className="blog-three__single-img">
@@ -94,9 +91,7 @@ export default function Blog() {
                             </div>
                         </div>
                     </div>
-                    {/*End Single Blog Three*/}
 
-                    {/*Start Single Blog Three*/}
                     <div className="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay=".3s">
                         <div className="blog-three__single">
                             <div className="blog-three__single-img">
@@ -131,12 +126,11 @@ export default function Blog() {
                             </div>
                         </div>
                     </div>
-                    {/*End Single Blog Three*/}
 
                 </div>
             </div>
-        </section>
-        {/*End Blog Three*/}
+        </section> */}
+        {/*End Blog Three*/} 
         </>
     )
 }

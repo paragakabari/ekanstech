@@ -69,12 +69,12 @@ export default function Footer3() {
                                 <li>
                                     <p><Link href="web-development">Services</Link></p>
                                 </li>
-                                <li>
+                                {/* <li>
                                     <p><Link href="#">Portfolio</Link></p>
                                 </li>
                                 <li>
                                     <p><Link href="blog-details">Blog</Link></p>
-                                </li>
+                                </li> */}
                             </ul>
                         </div>
                         <div className="footer-middle__mail-box">
@@ -82,7 +82,7 @@ export default function Footer3() {
                                 <span className="icon-mail-inbox-app"></span>
                             </div>
                             <div className="text">
-                                <p><Link href="mailto:yourmailsupport@gmail.com">yourmailsupport@gmail.com</Link></p>
+                                <p><Link href="mailto:ekanstechinfo@gmail.com">ekanstechinfo@gmail.com</Link></p>
                             </div>
                         </div>
 
@@ -96,7 +96,7 @@ export default function Footer3() {
                 <div className="container">
                     <div className="footer-bottom__inner">
                         <div className="copyright-text text-center">
-                            <p>Copyright © 2024 Diligent by <Link href="https://themeforest.net/user/thememx">Thememx. </Link>
+                            <p>Copyright © 2024 Ekanstech by <Link href="https://ekanstech.com">Ekanstech. </Link>
                                 All Rights Reserved</p>
                         </div>
                     </div>

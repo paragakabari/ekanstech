@@ -23,7 +23,7 @@ export default function Header3({ scroll, handlePopup, handleMobileMenu  }) {
                                         <div className="icon">
                                             <span className="icon-email"></span>
                                         </div>
-                                        <p><Link href="mailto:info@example.com">Support@gmail.com</Link></p>
+                                        <p><Link href="mailto:ekanstechinfo@gmail.com">ekanstechinfo@gmail.com</Link></p>
                                     </li>
                                 </ul>
                             </div>

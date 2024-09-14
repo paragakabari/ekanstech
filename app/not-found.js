@@ -15,7 +15,7 @@ export default function Error404() {
                                     <div className="error-page__title-box">
                                         <h2 className="error-page__title">404</h2>
                                     </div>
-                                    <h3 className="error-page__tagline">Sorry we can't find that page!</h3>
+                                    <h3 className="error-page__tagline">Sorry we can t find that page!</h3>
                                     <p className="error-page__text">The page you are looking for was never existed.</p>
                                     <form className="error-page__form">
                                         <div className="error-page__form-input">

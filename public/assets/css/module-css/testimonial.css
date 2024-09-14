@@ -460,3 +460,134 @@
     margin-right: 0px;
     margin-bottom: 50px;
 }
+
+
+/* Global container */
+.agency-section {
+    padding: 140px 0;
+    background-color: white;
+    color: #000000;
+  }
+  
+  .list-unstyled .text p::before{
+        content: " ✔ ";
+        font-family: "Flaticon";
+        position: absolute;
+        left: -10px;
+        top: -1px;
+        color: var(--thm-primary);
+        font-weight: 400;
+        font-size: 18px;
+  }
+
+  .list-unstyled{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  /* Section title */
+  .sec-title h2 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    line-height: 1.2;
+  }
+  
+  /* Tabs */
+  .default-tabs {
+    margin-top: 30px;
+  }
+  
+  .tab-btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .tab-btns .tab-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000000;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+  }
+  
+  .tab-btns .tab-btn.active-btn,
+  .tab-btns .tab-btn:hover {
+    border-bottom: 2px solid #00baff;
+    color: #00baff;
+    border-radius: 7px;
+  }
+  
+  /* Tab content animation */
+  .tab-content .content {
+    padding-top: 20px;
+    font-size: 16px;
+    line-height: 1.8;
+    opacity: 0;
+    transform: translateY(50px); /* Initial position */
+    transition: all 0.5s ease-in-out; /* Smooth transition */
+  }
+  
+  /* Active tab content animation */
+  .tab-content .content.active {
+    opacity: 1;
+    transform: translateY(0); /* Final position */
+  }
+  
+  /* Right column image */
+  .featured-block-two {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
+    gap: 40px;
+    
+  }
+  
+  .featured-block-two .image img {
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .featured-block-two ul li {
+    padding-left: 15px;
+    position: relative;
+    font-size: 16px;
+    line-height: 1.8;
+  }
+  
+  /* Responsive styling */
+  @media (max-width: 768px) {
+    .sec-title h2 {
+      font-size: 32px;
+    }
+  
+    .tab-btns {
+      flex-direction: column;
+    }
+  
+    .tab-btns .tab-btn {
+      margin-bottom: 10px;
+      font-size: 14px;
+    }
+  
+    .featured-block-two .image img {
+      max-width: 60%;
+      margin: 0 auto;
+    }
+  
+    .tab-content .content {
+      text-align: center;
+    }
+  }
+  

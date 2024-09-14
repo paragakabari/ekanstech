@@ -41,7 +41,7 @@ export default function Get() {
                                     </div>
                                     <div className="text-box">
                                         <p>
-                                            <Link href="mailto:yourmailsupport@gmail.com">yourmailsupport@gmail.com</Link>
+                                            <Link href="mailto:ekanstechinfo@gmail.com">ekanstechinfo@gmail.com</Link>
                                         </p>
                                     </div>
                                 </li>

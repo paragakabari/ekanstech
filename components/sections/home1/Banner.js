@@ -31,13 +31,14 @@ export default function Banner() {
             <div className="container">
                 <div className="banner-three__content">
 
-                    <div className="banner-three__content-inner">
+                    <div className="banner-three__content-inner ms-md-5">
                         <div className="sec-title-four sec-title-animation animation-style1">
                             <div className="sub-title">
-                                <h4>Welcome To Diligent</h4>
+                                <h4>Welcome To Ekanstech</h4>
                             </div>
                             <h2>
-                                Digital Agency<br/>For Growth
+                            Brand, Design, Product, In-house Development & More
+                                {/* Digital Agency<br/>For Growth */}
                             </h2>
                         </div>
                         <div className="text">
@@ -53,18 +54,6 @@ export default function Banner() {
                                     <i className="icon-next"></i>
                                 </span>
                             </Link>
-                            <div className="video-gallery">
-                                <div className="icon wow zoomIn animated" data-wow-delay="300ms" data-wow-duration="1500ms">
-                                    <a className="video-popup" title="Video Gallery"
-                                        onClick={() => setOpen(true)}>
-                                        <span className="icon-play"></span>
-                                    </a>
-                                </div>
-                                <div className="text2">
-                                    <p>Watch Our</p>
-                                    <p>Demo Video</p>
-                                </div>
-                            </div>
                         </div>
                     </div>
 
@@ -73,14 +62,14 @@ export default function Banner() {
                             <li>
                                 <div className="banner-three__img-single">
                                     <div className="inner">
-                                        <img src="assets/img/slider/banner-three__img1.jpg" alt="image"/>
+                                        <img src="assets/img/slider/banner-three__img1 (2).jpg" className="bigImg" alt="image"/>
                                     </div>
                                 </div>
                             </li>
                             <li>
                                 <div className="banner-three__img-single instyle--2">
                                     <div className="inner">
-                                        <img src="assets/img/slider/banner-three__img2.jpg" alt="image"/>
+                                        <img src="assets/img/slider/banner-three__img2 (2).jpg" className="smallImg" alt="image"/>
                                     </div>
                                 </div>
                             </li>
@@ -91,7 +80,6 @@ export default function Banner() {
             </div>
         </section>
         {/*End Banner Two*/}
-        <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="Get7rqXYrbQ" onClose={() => setOpen(false)} />
             
         </>
     )

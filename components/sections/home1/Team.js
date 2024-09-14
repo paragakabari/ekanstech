@@ -3,7 +3,7 @@ export default function Team() {
     return (
         <>
         {/*Start Team Two*/}
-        <section className="team-two">
+        {/* <section className="team-two">
             <div className="team-two__shape1">
                 <img src="assets/img/shape/team-two__shape1.png" alt="shapes"/>
             </div>
@@ -29,7 +29,6 @@ export default function Team() {
                     </h2>
                 </div>
                 <div className="row">
-                    {/*Start Team Two Single*/}
                     <div className="col-xl-4 col-lg-4 wow animated fadeInUp" data-wow-delay="0.1s">
                         <div className="team-two__single">
                             <div className="team-two__single-overlay-bg"></div>
@@ -62,9 +61,7 @@ export default function Team() {
                             </div>
                         </div>
                     </div>
-                    {/*End Team Two Single*/}
 
-                    {/*Start Team Two Single*/}
                     <div className="col-xl-4 col-lg-4 wow animated fadeInUp" data-wow-delay="0.3s">
                         <div className="team-two__single">
                             <div className="team-two__single-overlay-bg"></div>
@@ -97,9 +94,7 @@ export default function Team() {
                             </div>
                         </div>
                     </div>
-                    {/*End Team Two Single*/}
 
-                    {/*Start Team Two Single*/}
                     <div className="col-xl-4 col-lg-4 wow animated fadeInUp" data-wow-delay="0.5s">
                         <div className="team-two__single">
                             <div className="team-two__single-overlay-bg"></div>
@@ -132,11 +127,10 @@ export default function Team() {
                             </div>
                         </div>
                     </div>
-                    {/*End Team Two Single*/}
 
                 </div>
             </div>
-        </section>
+        </section> */}
         {/*End Team Two*/}
         </>
     )

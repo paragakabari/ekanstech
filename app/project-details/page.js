@@ -97,13 +97,13 @@ export default function Home() {
                                                     <div className="project-details__single">
                                                         <p className="project-details__text-1">Lorem Ipsum is simply dummy text of
                                                             the printing and typesetting industry. Lorem Ipsum has been the
-                                                            industry's standard dummy text ever since the 1500s, when an unknown
+                                                            industry&apos;s standard dummy text ever since the 1500s, when an unknown
                                                             printer took a galltype and scrambled it to make a type specimen
                                                             book. It has survived not only five centuries tinto electronic
                                                             typesetting remaining essentially unchanged</p>
                                                         <p className="project-details__text-2">Lorem Ipsum is simply dummy text of
                                                             the printing and typesetting industry. Lorem Ipsum has been the
-                                                            industry's standard dummy text ever since the 1500s, when an unknown
+                                                            industry&apos;s standard dummy text ever since the 1500s, when an unknown
                                                             print Lorem Ipsum is simply </p>
                                                         <div className="project-details__single-img">
                                                             <img src="assets/images/project/project-details-single-img-1.jpg"
@@ -112,7 +112,7 @@ export default function Home() {
                                                         <p className="project-details__sub-title">Security Camera</p>
                                                         <p className="project-details__text-3">Lorem Ipsum is simply dummy text of
                                                             the printing and typesetting industry. Lorem Ipsum has been the
-                                                            industry's standard dummy text ever since the 1500s, when an unknown
+                                                            industry&apos;s standard dummy text ever since the 1500s, when an unknown
                                                             printer took a galltype and scrambled it to make a type specimen
                                                             book. It has survived not only five centuries tinto electronic
                                                             typesetting remaining essentially unchanged</p>
@@ -122,13 +122,13 @@ export default function Home() {
                                                     <div className="project-details__single">
                                                         <p className="project-details__text-1">Lorem Ipsum is simply dummy text of
                                                             the printing and typesetting industry. Lorem Ipsum has been the
-                                                            industry's standard dummy text ever since the 1500s, when an unknown
+                                                            industry&apos;s standard dummy text ever since the 1500s, when an unknown
                                                             printer took a galltype and scrambled it to make a type specimen
                                                             book. It has survived not only five centuries tinto electronic
                                                             typesetting remaining essentially unchanged</p>
                                                         <p className="project-details__text-2">Lorem Ipsum is simply dummy text of
                                                             the printing and typesetting industry. Lorem Ipsum has been the
-                                                            industry's standard dummy text ever since the 1500s, when an unknown
+                                                            industry&apos;s standard dummy text ever since the 1500s, when an unknown
                                                             print Lorem Ipsum is simply </p>
                                                         <div className="project-details__single-img">
                                                             <img src="assets/images/project/project-details-single-img-2.jpg"
@@ -137,7 +137,7 @@ export default function Home() {
                                                         <p className="project-details__sub-title">Control Camera</p>
                                                         <p className="project-details__text-3">Lorem Ipsum is simply dummy text of
                                                             the printing and typesetting industry. Lorem Ipsum has been the
-                                                            industry's standard dummy text ever since the 1500s, when an unknown
+                                                            industry&apos;s standard dummy text ever since the 1500s, when an unknown
                                                             printer took a galltype and scrambled it to make a type specimen
                                                             book. It has survived not only five centuries tinto electronic
                                                             typesetting remaining essentially unchanged</p>
@@ -211,13 +211,13 @@ export default function Home() {
                                                     <div className="project-details__single">
                                                         <p className="project-details__text-1">Lorem Ipsum is simply dummy text of
                                                             the printing and typesetting industry. Lorem Ipsum has been the
-                                                            industry's standard dummy text ever since the 1500s, when an unknown
+                                                            industry&apos;s standard dummy text ever since the 1500s, when an unknown
                                                             printer took a galltype and scrambled it to make a type specimen
                                                             book. It has survived not only five centuries tinto electronic
                                                             typesetting remaining essentially unchanged</p>
                                                         <p className="project-details__text-2">Lorem Ipsum is simply dummy text of
                                                             the printing and typesetting industry. Lorem Ipsum has been the
-                                                            industry's standard dummy text ever since the 1500s, when an unknown
+                                                            industry&apos;s standard dummy text ever since the 1500s, when an unknown
                                                             print Lorem Ipsum is simply </p>
                                                         <div className="project-details__single-img">
                                                             <img src="assets/images/project/project-details-single-img-1.jpg"
@@ -226,7 +226,7 @@ export default function Home() {
                                                         <p className="project-details__sub-title">Security Camera</p>
                                                         <p className="project-details__text-3">Lorem Ipsum is simply dummy text of
                                                             the printing and typesetting industry. Lorem Ipsum has been the
-                                                            industry's standard dummy text ever since the 1500s, when an unknown
+                                                            industry&apos;s standard dummy text ever since the 1500s, when an unknown
                                                             printer took a galltype and scrambled it to make a type specimen
                                                             book. It has survived not only five centuries tinto electronic
                                                             typesetting remaining essentially unchanged</p>
@@ -236,13 +236,13 @@ export default function Home() {
                                                     <div className="project-details__single">
                                                         <p className="project-details__text-1">Lorem Ipsum is simply dummy text of
                                                             the printing and typesetting industry. Lorem Ipsum has been the
-                                                            industry's standard dummy text ever since the 1500s, when an unknown
+                                                            industry&apos;s standard dummy text ever since the 1500s, when an unknown
                                                             printer took a galltype and scrambled it to make a type specimen
                                                             book. It has survived not only five centuries tinto electronic
                                                             typesetting remaining essentially unchanged</p>
                                                         <p className="project-details__text-2">Lorem Ipsum is simply dummy text of
                                                             the printing and typesetting industry. Lorem Ipsum has been the
-                                                            industry's standard dummy text ever since the 1500s, when an unknown
+                                                            industry&apos;s standard dummy text ever since the 1500s, when an unknown
                                                             print Lorem Ipsum is simply </p>
                                                         <div className="project-details__single-img">
                                                             <img src="assets/images/project/project-details-single-img-2.jpg"
@@ -251,7 +251,7 @@ export default function Home() {
                                                         <p className="project-details__sub-title">Control Camera</p>
                                                         <p className="project-details__text-3">Lorem Ipsum is simply dummy text of
                                                             the printing and typesetting industry. Lorem Ipsum has been the
-                                                            industry's standard dummy text ever since the 1500s, when an unknown
+                                                            industry&apos;s standard dummy text ever since the 1500s, when an unknown
                                                             printer took a galltype and scrambled it to make a type specimen
                                                             book. It has survived not only five centuries tinto electronic
                                                             typesetting remaining essentially unchanged</p>
@@ -325,13 +325,13 @@ export default function Home() {
                                                     <div className="project-details__single">
                                                         <p className="project-details__text-1">Lorem Ipsum is simply dummy text of
                                                             the printing and typesetting industry. Lorem Ipsum has been the
-                                                            industry's standard dummy text ever since the 1500s, when an unknown
+                                                            industry&apos;s standard dummy text ever since the 1500s, when an unknown
                                                             printer took a galltype and scrambled it to make a type specimen
                                                             book. It has survived not only five centuries tinto electronic
                                                             typesetting remaining essentially unchanged</p>
                                                         <p className="project-details__text-2">Lorem Ipsum is simply dummy text of
                                                             the printing and typesetting industry. Lorem Ipsum has been the
-                                                            industry's standard dummy text ever since the 1500s, when an unknown
+                                                            industry&apos;s standard dummy text ever since the 1500s, when an unknown
                                                             print Lorem Ipsum is simply </p>
                                                         <div className="project-details__single-img">
                                                             <img src="assets/images/project/project-details-single-img-1.jpg"
@@ -340,7 +340,7 @@ export default function Home() {
                                                         <p className="project-details__sub-title">Security Camera</p>
                                                         <p className="project-details__text-3">Lorem Ipsum is simply dummy text of
                                                             the printing and typesetting industry. Lorem Ipsum has been the
-                                                            industry's standard dummy text ever since the 1500s, when an unknown
+                                                            industry&apos;s standard dummy text ever since the 1500s, when an unknown
                                                             printer took a galltype and scrambled it to make a type specimen
                                                             book. It has survived not only five centuries tinto electronic
                                                             typesetting remaining essentially unchanged</p>
@@ -350,13 +350,13 @@ export default function Home() {
                                                     <div className="project-details__single">
                                                         <p className="project-details__text-1">Lorem Ipsum is simply dummy text of
                                                             the printing and typesetting industry. Lorem Ipsum has been the
-                                                            industry's standard dummy text ever since the 1500s, when an unknown
+                                                            industry&apos;s standard dummy text ever since the 1500s, when an unknown
                                                             printer took a galltype and scrambled it to make a type specimen
                                                             book. It has survived not only five centuries tinto electronic
                                                             typesetting remaining essentially unchanged</p>
                                                         <p className="project-details__text-2">Lorem Ipsum is simply dummy text of
                                                             the printing and typesetting industry. Lorem Ipsum has been the
-                                                            industry's standard dummy text ever since the 1500s, when an unknown
+                                                            industry&apos;s standard dummy text ever since the 1500s, when an unknown
                                                             print Lorem Ipsum is simply </p>
                                                         <div className="project-details__single-img">
                                                             <img src="assets/images/project/project-details-single-img-2.jpg"
@@ -365,7 +365,7 @@ export default function Home() {
                                                         <p className="project-details__sub-title">Control Camera</p>
                                                         <p className="project-details__text-3">Lorem Ipsum is simply dummy text of
                                                             the printing and typesetting industry. Lorem Ipsum has been the
-                                                            industry's standard dummy text ever since the 1500s, when an unknown
+                                                            industry&apos;s standard dummy text ever since the 1500s, when an unknown
                                                             printer took a galltype and scrambled it to make a type specimen
                                                             book. It has survived not only five centuries tinto electronic
                                                             typesetting remaining essentially unchanged</p>
@@ -439,13 +439,13 @@ export default function Home() {
                                                     <div className="project-details__single">
                                                         <p className="project-details__text-1">Lorem Ipsum is simply dummy text of
                                                             the printing and typesetting industry. Lorem Ipsum has been the
-                                                            industry's standard dummy text ever since the 1500s, when an unknown
+                                                            industry&apos;s standard dummy text ever since the 1500s, when an unknown
                                                             printer took a galltype and scrambled it to make a type specimen
                                                             book. It has survived not only five centuries tinto electronic
                                                             typesetting remaining essentially unchanged</p>
                                                         <p className="project-details__text-2">Lorem Ipsum is simply dummy text of
                                                             the printing and typesetting industry. Lorem Ipsum has been the
-                                                            industry's standard dummy text ever since the 1500s, when an unknown
+                                                            industry&apos;s standard dummy text ever since the 1500s, when an unknown
                                                             print Lorem Ipsum is simply </p>
                                                         <div className="project-details__single-img">
                                                             <img src="assets/images/project/project-details-single-img-1.jpg"
@@ -454,7 +454,7 @@ export default function Home() {
                                                         <p className="project-details__sub-title">Security Camera</p>
                                                         <p className="project-details__text-3">Lorem Ipsum is simply dummy text of
                                                             the printing and typesetting industry. Lorem Ipsum has been the
-                                                            industry's standard dummy text ever since the 1500s, when an unknown
+                                                            industry&apos;s standard dummy text ever since the 1500s, when an unknown
                                                             printer took a galltype and scrambled it to make a type specimen
                                                             book. It has survived not only five centuries tinto electronic
                                                             typesetting remaining essentially unchanged</p>
@@ -464,13 +464,13 @@ export default function Home() {
                                                     <div className="project-details__single">
                                                         <p className="project-details__text-1">Lorem Ipsum is simply dummy text of
                                                             the printing and typesetting industry. Lorem Ipsum has been the
-                                                            industry's standard dummy text ever since the 1500s, when an unknown
+                                                            industry&apos;s standard dummy text ever since the 1500s, when an unknown
                                                             printer took a galltype and scrambled it to make a type specimen
                                                             book. It has survived not only five centuries tinto electronic
                                                             typesetting remaining essentially unchanged</p>
                                                         <p className="project-details__text-2">Lorem Ipsum is simply dummy text of
                                                             the printing and typesetting industry. Lorem Ipsum has been the
-                                                            industry's standard dummy text ever since the 1500s, when an unknown
+                                                            industry&apos;s standard dummy text ever since the 1500s, when an unknown
                                                             print Lorem Ipsum is simply </p>
                                                         <div className="project-details__single-img">
                                                             <img src="assets/images/project/project-details-single-img-2.jpg"
@@ -479,7 +479,7 @@ export default function Home() {
                                                         <p className="project-details__sub-title">Control Camera</p>
                                                         <p className="project-details__text-3">Lorem Ipsum is simply dummy text of
                                                             the printing and typesetting industry. Lorem Ipsum has been the
-                                                            industry's standard dummy text ever since the 1500s, when an unknown
+                                                            industry&apos;s standard dummy text ever since the 1500s, when an unknown
                                                             printer took a galltype and scrambled it to make a type specimen
                                                             book. It has survived not only five centuries tinto electronic
                                                             typesetting remaining essentially unchanged</p>
@@ -553,13 +553,13 @@ export default function Home() {
                                                     <div className="project-details__single">
                                                         <p className="project-details__text-1">Lorem Ipsum is simply dummy text of
                                                             the printing and typesetting industry. Lorem Ipsum has been the
-                                                            industry's standard dummy text ever since the 1500s, when an unknown
+                                                            industry&apos;s standard dummy text ever since the 1500s, when an unknown
                                                             printer took a galltype and scrambled it to make a type specimen
                                                             book. It has survived not only five centuries tinto electronic
                                                             typesetting remaining essentially unchanged</p>
                                                         <p className="project-details__text-2">Lorem Ipsum is simply dummy text of
                                                             the printing and typesetting industry. Lorem Ipsum has been the
-                                                            industry's standard dummy text ever since the 1500s, when an unknown
+                                                            industry&apos;s standard dummy text ever since the 1500s, when an unknown
                                                             print Lorem Ipsum is simply </p>
                                                         <div className="project-details__single-img">
                                                             <img src="assets/images/project/project-details-single-img-1.jpg"
@@ -568,7 +568,7 @@ export default function Home() {
                                                         <p className="project-details__sub-title">Security Camera</p>
                                                         <p className="project-details__text-3">Lorem Ipsum is simply dummy text of
                                                             the printing and typesetting industry. Lorem Ipsum has been the
-                                                            industry's standard dummy text ever since the 1500s, when an unknown
+                                                            industry&apos;s standard dummy text ever since the 1500s, when an unknown
                                                             printer took a galltype and scrambled it to make a type specimen
                                                             book. It has survived not only five centuries tinto electronic
                                                             typesetting remaining essentially unchanged</p>
@@ -578,13 +578,13 @@ export default function Home() {
                                                     <div className="project-details__single">
                                                         <p className="project-details__text-1">Lorem Ipsum is simply dummy text of
                                                             the printing and typesetting industry. Lorem Ipsum has been the
-                                                            industry's standard dummy text ever since the 1500s, when an unknown
+                                                            industry&apos;s standard dummy text ever since the 1500s, when an unknown
                                                             printer took a galltype and scrambled it to make a type specimen
                                                             book. It has survived not only five centuries tinto electronic
                                                             typesetting remaining essentially unchanged</p>
                                                         <p className="project-details__text-2">Lorem Ipsum is simply dummy text of
                                                             the printing and typesetting industry. Lorem Ipsum has been the
-                                                            industry's standard dummy text ever since the 1500s, when an unknown
+                                                            industry&apos;s standard dummy text ever since the 1500s, when an unknown
                                                             print Lorem Ipsum is simply </p>
                                                         <div className="project-details__single-img">
                                                             <img src="assets/images/project/project-details-single-img-2.jpg"
@@ -593,7 +593,7 @@ export default function Home() {
                                                         <p className="project-details__sub-title">Control Camera</p>
                                                         <p className="project-details__text-3">Lorem Ipsum is simply dummy text of
                                                             the printing and typesetting industry. Lorem Ipsum has been the
-                                                            industry's standard dummy text ever since the 1500s, when an unknown
+                                                            industry&apos;s standard dummy text ever since the 1500s, when an unknown
                                                             printer took a galltype and scrambled it to make a type specimen
                                                             book. It has survived not only five centuries tinto electronic
                                                             typesetting remaining essentially unchanged</p>

@@ -60,8 +60,7 @@ export default function Project() {
     
     return (
         <>
-        {/*Start Project Two*/}
-        <section className="project-two">
+        {/* <section className="project-two">
             <div className="container">
                 <div className="sec-title-three text-center sec-title-animation animation-style1">
                     <div className="sub-title">
@@ -78,7 +77,6 @@ export default function Project() {
 
                                 <div className="swiper-wrapper">
 
-                                    {/*Start Single Project Two*/}
                                     <SwiperSlide>
                                     <div className="swiper-slide">
                                         <div className="project-two__single">
@@ -92,9 +90,7 @@ export default function Project() {
                                         </div>
                                     </div>
                                     </SwiperSlide>
-                                    {/*End Single Project Two*/}
 
-                                    {/*Start Single Project Two*/}
                                     <SwiperSlide>
                                     <div className="swiper-slide">
                                         <div className="project-two__single">
@@ -108,9 +104,7 @@ export default function Project() {
                                         </div>
                                     </div>
                                     </SwiperSlide>
-                                    {/*End Single Project Two*/}
 
-                                    {/*Start Single Project Two*/}
                                     <SwiperSlide>
                                     <div className="swiper-slide">
                                         <div className="project-two__single">
@@ -124,9 +118,7 @@ export default function Project() {
                                         </div>
                                     </div>
                                     </SwiperSlide>
-                                    {/*End Single Project Two*/}
 
-                                    {/*Start Single Project Two*/}
                                     <SwiperSlide>
                                     <div className="swiper-slide">
                                         <div className="project-two__single">
@@ -140,9 +132,7 @@ export default function Project() {
                                         </div>
                                     </div>
                                     </SwiperSlide>
-                                    {/*End Single Project Two*/}
 
-                                    {/*Start Single Project Two*/}
                                     <SwiperSlide>
                                     <div className="swiper-slide">
                                         <div className="project-two__single">
@@ -156,9 +146,7 @@ export default function Project() {
                                         </div>
                                     </div>
                                     </SwiperSlide>
-                                    {/*End Single Project Two*/}
                                     
-                                    {/*Start Single Project Two*/}
                                     <SwiperSlide>
                                     <div className="swiper-slide">
                                         <div className="project-two__single">
@@ -172,10 +160,8 @@ export default function Project() {
                                         </div>
                                     </div>
                                     </SwiperSlide>
-                                    {/*End Single Project Two*/}
 
                                 </div>
-                                {/* If we need navigation buttons */}
                                 <div className="swiper-nav-style2 project-two__swiper-nav">
                                     <div className="border1"></div>
                                     <div className="border2"></div>
@@ -192,8 +178,7 @@ export default function Project() {
                     </div>
                 </div>
             </div>
-        </section>
-        {/*End Project Two*/}
+        </section> */}
         </>
     )
 }

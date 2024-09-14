@@ -316,7 +316,7 @@
     position: relative;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center !important;
     border-bottom: 1px solid rgb(255, 255, 255, 0.2);
     padding-bottom: 55px;
 }
@@ -766,6 +766,7 @@
     position: relative;
     display: block;
     padding: 0;
+    padding-top: 50px;
 }
 
 .footer-three__shape1 {
@@ -787,6 +788,10 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: #151515;
+    padding:  20px;
+    border-radius: 15px;
+
 }
 
 .footer-three__logo-box {
@@ -816,7 +821,6 @@
     left: 0;
     bottom: 0;
     right: -9999999999px;
-    background-color: var(--thm-black);
     z-index: -1;
 }
 
@@ -866,6 +870,7 @@
     background-color: var(--thm-white);
     padding-left: 25px;
     padding-right: 25px;
+    border-radius: 10px;
 }
 
 .footer-three__get-quote-form form input[type="text"]::-webkit-input-placeholder {
@@ -926,8 +931,8 @@
     color: var(--thm-black);
     padding-left: 20px;
     padding-right: 20px;
-    border-radius: 0;
     margin-left: 10px;
+    border-radius: 10PX;
 }
 
 .footer-three__get-quote-form .form-group button.thm-btn::after {
@@ -939,7 +944,7 @@
 }
 
 .footer-main-three__inner {
-    padding: 131px 0px 127px;
+    padding: 70px 0px 127px;
 }
 
 .single-footer-widget-style2 .title h3 {

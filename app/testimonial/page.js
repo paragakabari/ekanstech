@@ -112,7 +112,7 @@ export default function Home() {
                                     <h4>Customers Feedback</h4>
                                 </div>
                                 <h2>
-                                    What Says Our Client’s<br/>About Diligent
+                                    What Says Our Client s<br/>About Ekanstech
                                 </h2>
                             </div>
 
@@ -189,7 +189,7 @@ export default function Home() {
                     <div className="cta-two__content sec-title-animation animation-style1">
                         <h2>Have Any Discussion?</h2>
                         <p>Gathered have greater made fruitful. Void to let to know
-                            about that you'll sixth upon day.</p>
+                            about that you ll sixth upon day.</p>
                     </div>
                     <div className="cta-two__btn">
                         <Link className="thm-btn" href="#">

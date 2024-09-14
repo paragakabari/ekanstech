@@ -50,7 +50,7 @@
 :root {
     --thm-body-font: 'Inter Tight', sans-serif;
     --thm-heading-font: 'Gilroy';
-    --thm-primary: #FF5A79;
+    --thm-primary: #68CBF4;
     --thm-primary-rgb: 255, 90, 121;
     --thm-secondary: #68CBF4;
     --thm-secondary-rgb: 218, 226, 107;
@@ -317,7 +317,7 @@ h6 a {
   }
   
   .handle-preloader .animation-preloader .spinner{
-    animation: spinner 1s infinite linear;
+    animation: spinner 19s infinite linear;
     border-radius: 50%;
     height: 150px;
     margin: 0 auto 45px auto;
@@ -330,7 +330,7 @@ h6 a {
   }
   
   .handle-preloader .animation-preloader .txt-loading .letters-loading:before{
-    animation: letters-loading 4s infinite;
+    animation: letters-loading 19s infinite;
     content: attr(data-text-preloader);
     left: 0;
     opacity: 0;
@@ -369,7 +369,7 @@ h6 a {
   
   .preloader .loaded .animation-preloader {
     opacity: 0;
-    transition: 0.3s ease-out;
+    transition: 9s ease-out;
   }
   
   .handle-preloader .animation-preloader .txt-loading .letters-loading:before{
@@ -2437,7 +2437,7 @@ label {
     pointer-events: none;
     opacity: 0;
     transition: opacity .5s ease-out;
-    background: linear-gradient(to top, rgb(218, 226, 106, 0.7), rgba(0, 0, 0, 0) 95%);
+    background: linear-gradient(to top, #68cbf4, rgba(0, 0, 0, 0) 95%);
     z-index: 1;
 }
 
@@ -2888,6 +2888,24 @@ label {
     display: block;
     padding: 105px 0px 108px;
 }
+
+/* .jarallax-img {
+    object-fit: cover;
+    object-position: 50% 50%;
+    max-width: none;
+    position: fixed !important;
+    bottom: -225px;
+    left: 0px;
+    width: 100vw;
+    height: 845.9px;
+    overflow: hidden;
+    pointer-events: none;
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+    transform: translate3d(0px, -231.15px, 0px);
+    filter: brightness(0.4);
+    z-index:0;
+} */
 
 .cta-three__bg {
     position: absolute;

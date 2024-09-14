@@ -529,13 +529,14 @@
 
 .about-three__img .img-box {
     position: relative;
-    display: block;
+    display: contents;
     overflow: hidden;
     border-radius: 5px;
 }
 
 .about-three__img .img-box img {
-    width: 100%;
+    width: 40%;
+    border-radius: 5px;
 }
 
 .about-three__img .title-box {
@@ -626,9 +627,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    top: 0;
+    top: -101px;
     left: -10px;
-    bottom: 84px;
+    bottom: 127px;
     right: 0;
     margin: auto;
     width: 200px;

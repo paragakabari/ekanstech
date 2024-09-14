@@ -270,10 +270,6 @@ export default function Home() {
                                                 <div className="cercale-box"></div>
                                                 <Link href="#"> Digital Marketing <span>(9)</span></Link>
                                             </li>
-                                            <li>
-                                                <div className="cercale-box"></div>
-                                                <Link href="#"> Corporate Agency <span>(12)</span></Link>
-                                            </li>
                                         </ul>
                                     </div>
                                     {/*End Sidebar Single*/}
@@ -293,7 +289,6 @@ export default function Home() {
                                             <li> <Link href="#">Business</Link> </li>
                                             <li> <Link href="#">Financial</Link> </li>
                                             <li> <Link href="#">App UI</Link> </li>
-                                            <li> <Link href="#">Corporate</Link> </li>
                                             <li> <Link href="#">Design Studio</Link> </li>
                                             <li> <Link href="#">Web App</Link> </li>
                                         </ul>

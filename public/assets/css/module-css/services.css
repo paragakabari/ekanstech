@@ -780,13 +780,18 @@
     margin-top: 5px;
 }
 
-.service-details__img-box2 .content-box .list-item li .circle-box {
-    position: relative;
-    display: inline-block;
-    width: 6px;
-    height: 6px;
-    border-radius: 50%;
-    background-color: var(--thm-body-font-color);
+.service-details__img-box2 .content-box .list-item li .circle-box::before {
+    content: " ✔ ";
+    font-family: "Flaticon";
+    position: absolute;
+    left: -10px;
+    top: -1px;
+    color: var(--thm-primary);
+    font-weight: 400;
+    font-size: 18px;
+}
+.hightLight{
+    color: var(--thm-primary);
 }
 
 .service-details__img-box2 .content-box .list-item li .text {

@@ -1,44 +1,89 @@
-'use client'
-import Layout from "@/components/layout/Layout"
-import CounterUp from "@/components/elements/CounterUp"
-import { Autoplay, Navigation, Pagination } from "swiper/modules"
-import Link from "next/link"
-import { useState } from 'react'
-import { Swiper, SwiperSlide } from "swiper/react"
-
+"use client";
+import Layout from "@/components/layout/Layout";
+import CounterUp from "@/components/elements/CounterUp";
+import { Autoplay, Navigation, Pagination } from "swiper/modules";
+import Link from "next/link";
+import { useState } from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Container, Row, Col, Image } from "react-bootstrap";
 
 const swiperOptions = {
-    modules: [Autoplay, Pagination, Navigation],
-    slidesPerView: 1,
-    spaceBetween: 30,
-    // autoplay: {
-    //     delay: 2500,
-    //     disableOnInteraction: false,
-    // },
-    loop: true,
+  modules: [Autoplay, Pagination, Navigation],
+  slidesPerView: 1,
+  spaceBetween: 30,
+  // autoplay: {
+  //     delay: 2500,
+  //     disableOnInteraction: false,
+  // },
+  loop: true,
 
-    // Navigation
-    navigation: {
-        nextEl: '.h1n',
-        prevEl: '.h1p',
-    },
+  // Navigation
+  navigation: {
+    nextEl: ".h1n",
+    prevEl: ".h1p",
+  },
 
-    // Pagination
-    pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-    },
-
-
-
-}
+  // Pagination
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+};
 
 export default function About() {
-    return (
-        <>
-        <Layout headerStyle={4} footerStyle={1} breadcrumbTitle="About company">
-        
-
+    const [activeTab, setActiveTab] = useState("agency-tab-1");
+    const [isAnimating, setIsAnimating] = useState(true);
+  
+    const handleTabClick = (tab) => {
+      setIsAnimating(false); // Reset animation before switching tab
+      setTimeout(() => {
+        setActiveTab(tab); // Switch the tab
+        setIsAnimating(true); // Trigger animation
+      }, 300); // Adding a slight delay to ensure smooth transition
+    };
+  
+    const renderContent = () => {
+      switch (activeTab) {
+        case "agency-tab-1":
+          return (
+            <div className={`content p-3 text ${isAnimating ? "active" : ""}`}>
+              <p>
+                Empower businesses with cutting-edge digital marketing and web
+                development solutions, driving growth, and achieving online
+                success through strategic innovation and exceptional client
+                service.
+              </p>
+            </div>
+          );
+        case "agency-tab-2":
+          return (
+            <div className={`content p-3 text ${isAnimating ? "active" : ""}`}>
+              <p>
+                To be a global leader in digital marketing and web development,
+                recognized for our expertise, innovation, and unwavering
+                commitment to delivering transformative results for our clients.
+              </p>
+            </div>
+          );
+        case "agency-tab-3":
+          return (
+            <div className={`content p-3 text ${isAnimating ? "active" : ""}`}>
+              <p>
+                Over 10 years of industry experience, we have evolved alongside
+                the digital landscape, continually adapting and refining our
+                strategies to stay ahead. Our track record of success and
+                long-standing client partnerships speak to our expertise and
+                dedication.
+              </p>
+            </div>
+          );
+        default:
+          return null;
+      }
+    }; 
+  return (
+    <>
+      <Layout headerStyle={4} footerStyle={1} breadcrumbTitle="About company">
         {/*Start About Three*/}
         <section className="about-three">
             <div className="about-three__shape1 float-bob-y">
@@ -53,7 +98,7 @@ export default function About() {
             <div className="container">
                 <div className="row">
                     <div className="col-xl-6">
-                        <div className="about-three__content">
+                        <div className="about-three__content mx-auto mb-md-5">
                             <div className="sec-title-four sec-title-animation animation-style1">
                                 <div className="sub-title">
                                     <h4>Get To Know About Us</h4>
@@ -71,7 +116,7 @@ export default function About() {
                                     <div className="col-xl-6 col-lg-6 col-md-6">
                                         <div className="about-three__fact-single">
                                             <div className="count-outer count-box">
-                                                <h2>256</h2>
+                                            <CounterUp end={256} />
                                                 <i className="icon-plus-symbol-button"></i>
                                             </div>
                                             <div className="title">
@@ -86,7 +131,7 @@ export default function About() {
                                     <div className="col-xl-6 col-lg-6 col-md-6">
                                         <div className="about-three__fact-single">
                                             <div className="count-outer count-box">
-                                                <h2>89</h2>
+                                            <CounterUp end={89} />
                                                 <i className="icon-percentage"></i>
                                             </div>
                                             <div className="title">
@@ -102,12 +147,12 @@ export default function About() {
                             </div>
                             <div className="about-three__img">
                                 <div className="img-box">
-                                    <img src="assets/img/about/about-three__img1.jpg" alt="image"/>
+                                    <img src="assets/img/about/about-three__img1 (2).jpg" alt="image"/>
                                 </div>
                                 <div className="title-box">
                                     <h3>We Are The Best Digital<br/>Agencies In The City</h3>
                                     <div className="btn-box">
-                                        <Link className="thm-btn" href="#">
+                                        <Link className="thm-btn" href="about">
                                             <span className="txt">Learn More</span>
                                             <i className="icon-next"></i>
                                         </Link>
@@ -117,20 +162,20 @@ export default function About() {
                         </div>
                     </div>
                     <div className="col-xl-6">
-                        <div className="about-three__img-box">
+                        <div className="about-three__img-box mx-auto">
                             <ul>
                                 <li className="wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
                                     {/*Single About Three Img*/}
                                     <div className="single-about-three__img-box">
-                                        <img src="assets/img/about/about-three__img2.jpg" alt="image"/>
+                                        <img src="assets/img/about/about-three__img2 (2).jpg" alt="image"/>
                                     </div>
                                     {/*End About Three Img*/}
                                 </li>
 
-                                <li className="wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
+                                <li className="wow fadeInRight" data-wow-delay="0ms" style={{transform:"scale(1.25)"}} data-wow-duration="1500ms">
                                     {/*Single About Three Img*/}
                                     <div className="single-about-three__img-box">
-                                        <img src="assets/img/about/about-three__img3.jpg" alt="image"/>
+                                        <img src="assets/img/about/about-three__img3 (2).jpg"  alt="image"/>
                                     </div>
                                     {/*End About Three Img*/}
                                 </li>
@@ -140,7 +185,7 @@ export default function About() {
                                 data-wow-duration="1500ms">
                                 {/*Single About Three Img*/}
                                 <div className="single-about-three__img-box">
-                                    <img src="assets/img/about/about-three__img4.jpg" alt="image"/>
+                                    <img src="assets/img/about/about-three__img4 (2).jpg" alt="image"/>
                                 </div>
                                 {/*End About Three Img*/}
                             </div>
@@ -148,7 +193,7 @@ export default function About() {
                             <div className="overlay-box text-center">
                                 <div className="outer-box">
                                     <div className="count-outer count-box">
-                                        <h2>15</h2>
+                                    <CounterUp end={5} />
                                         <i className="icon-plus-symbol-button"></i>
                                     </div>
                                     <div className="title">
@@ -165,10 +210,9 @@ export default function About() {
         {/*End About Three*/}
 
         {/*Start Partner style3*/}
-        <section className="partner-style3 about">
+        {/* <section className="partner-style3 about">
             <div className="container">
                 <ul className="row clearfix list-one">
-                    {/*Start Single Partner Logo Box*/}
                     <li className="col-xl-3 col-lg-3">
                         <div className="single-partner-style3-logo-box">
                             <Link href="#">
@@ -177,8 +221,6 @@ export default function About() {
                             </Link>
                         </div>
                     </li>
-                    {/*End Single Partner Logo Box*/}
-                    {/*Start Single Partner Logo Box*/}
                     <li className="col-xl-3 col-lg-3">
                         <div className="single-partner-style3-logo-box">
                             <Link href="#">
@@ -187,8 +229,6 @@ export default function About() {
                             </Link>
                         </div>
                     </li>
-                    {/*End Single Partner Logo Box*/}
-                    {/*Start Single Partner Logo Box*/}
                     <li className="col-xl-3 col-lg-3">
                         <div className="single-partner-style3-logo-box">
                             <Link href="#">
@@ -197,8 +237,6 @@ export default function About() {
                             </Link>
                         </div>
                     </li>
-                    {/*End Single Partner Logo Box*/}
-                    {/*Start Single Partner Logo Box*/}
                     <li className="col-xl-3 col-lg-3">
                         <div className="single-partner-style3-logo-box">
                             <Link href="#">
@@ -207,11 +245,9 @@ export default function About() {
                             </Link>
                         </div>
                     </li>
-                    {/*End Single Partner Logo Box*/}
                 </ul>
 
                 <ul className="row">
-                    {/*Start Single Partner Logo Box*/}
                     <li className="col-xl-3 col-lg-3">
                         <div className="single-partner-style3-logo-box">
                             <Link href="#">
@@ -220,8 +256,6 @@ export default function About() {
                             </Link>
                         </div>
                     </li>
-                    {/*End Single Partner Logo Box*/}
-                    {/*Start Single Partner Logo Box*/}
                     <li className="col-xl-3 col-lg-3">
                         <div className="single-partner-style3-logo-box">
                             <Link href="#">
@@ -230,8 +264,6 @@ export default function About() {
                             </Link>
                         </div>
                     </li>
-                    {/*End Single Partner Logo Box*/}
-                    {/*Start Single Partner Logo Box*/}
                     <li className="col-xl-3 col-lg-3">
                         <div className="single-partner-style3-logo-box">
                             <Link href="#">
@@ -240,8 +272,6 @@ export default function About() {
                             </Link>
                         </div>
                     </li>
-                    {/*End Single Partner Logo Box*/}
-                    {/*Start Single Partner Logo Box*/}
                     <li className="col-xl-3 col-lg-3">
                         <div className="single-partner-style3-logo-box">
                             <Link href="#">
@@ -250,81 +280,105 @@ export default function About() {
                             </Link>
                         </div>
                     </li>
-                    {/*End Single Partner Logo Box*/}
                 </ul>
             </div>
-        </section>
-        {/*End Partner style3*/}
+        </section> */}
 
         {/*Start Service Three*/}
         <section className="service-three">
-            <div className="service-three__shape1 float-bob-x">
-                <img src="assets/img/shape/service-three__shape1.png" alt="shapes"/>
+          <div className="service-three__shape1 float-bob-x">
+            <img
+              src="assets/img/shape/service-three__shape1.png"
+              alt="shapes"
+            />
+          </div>
+          <div className="service-three__shape2">
+            <img
+              src="assets/img/shape/service-three__shape2.png"
+              alt="shapes"
+            />
+          </div>
+          <div className="service-three__shape3 float-bob-y">
+            <img
+              src="assets/img/shape/service-three__shape3.png"
+              alt="shapes"
+            />
+          </div>
+          <div className="container">
+            <div className="sec-title-three text-center sec-title-animation animation-style1">
+              <div className="sub-title">
+                <h4>Featured Services</h4>
+              </div>
+              <h2>What We Offer For You</h2>
             </div>
-            <div className="service-three__shape2">
-                <img src="assets/img/shape/service-three__shape2.png" alt="shapes"/>
-            </div>
-            <div className="service-three__shape3 float-bob-y">
-                <img src="assets/img/shape/service-three__shape3.png" alt="shapes"/>
-            </div>
-            <div className="container">
-                <div className="sec-title-three text-center sec-title-animation animation-style1">
-                    <div className="sub-title">
-                        <h4>Featured Services</h4>
+            <div className="row">
+              {/*Start Single Service Three*/}
+              <div
+                className="col-xl-4 col-lg-6 col-md-6 wow fadeInLeft"
+                data-wow-delay="0ms"
+                data-wow-duration="1500ms"
+              >
+                <div className="service-three__single">
+                  <div className="service-three__single-icon">
+                    <span className="icon-design-strategy1">
+                      <span className="path1"></span>
+                      <span className="path2"></span>
+                    </span>
+                  </div>
+                  <div className="service-three__single-content">
+                    <div className="title">
+                      <h3>
+                        <Link href="web-development">Design Strategy</Link>
+                      </h3>
                     </div>
-                    <h2>
-                        What We Offer For You
-                    </h2>
+                    <div className="text">
+                      <p>
+                        All trials are our Pro planed by default you can try out
+                        all the features available.
+                      </p>
+                    </div>
+                  </div>
                 </div>
-                <div className="row">
+              </div>
+              {/*End Single Service Three*/}
 
-                    {/*Start Single Service Three*/}
-                    <div className="col-xl-4 col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="0ms"
-                        data-wow-duration="1500ms">
-                        <div className="service-three__single">
-                            <div className="service-three__single-icon">
-                                <span className="icon-design-strategy1">
-                                    <span className="path1"></span><span className="path2"></span>
-                                </span>
-                            </div>
-                            <div className="service-three__single-content">
-                                <div className="title">
-                                    <h3><Link href="web-development">Design Strategy</Link></h3>
-                                </div>
-                                <div className="text">
-                                    <p>All trials are our Pro planed by default you
-                                        can try out all the features available.</p>
-                                </div>
-                            </div>
-                        </div>
+              {/*Start Single Service Three*/}
+              <div
+                className="col-xl-4 col-lg-6 col-md-6 wow fadeInRight"
+                data-wow-delay="100ms"
+                data-wow-duration="1500ms"
+              >
+                <div className="service-three__single">
+                  <div className="service-three__single-icon">
+                    <span className="icon-web-development2">
+                      <span className="path1"></span>
+                      <span className="path2"></span>
+                      <span className="path3"></span>
+                      <span className="path4"></span>
+                      <span className="path5"></span>
+                      <span className="path6"></span>
+                      <span className="path7"></span>
+                    </span>
+                  </div>
+                  <div className="service-three__single-content">
+                    <div className="title">
+                      <h3>
+                        <Link href="web-development">Web Development</Link>
+                      </h3>
                     </div>
-                    {/*End Single Service Three*/}
-
-                    {/*Start Single Service Three*/}
-                    <div className="col-xl-4 col-lg-6 col-md-6 wow fadeInRight" data-wow-delay="100ms"
-                        data-wow-duration="1500ms">
-                        <div className="service-three__single">
-                            <div className="service-three__single-icon">
-                                <span className="icon-web-development2"><span className="path1"></span><span
-                                        className="path2"></span><span className="path3"></span><span className="path4"></span><span
-                                        className="path5"></span><span className="path6"></span><span className="path7"></span>
-                                </span>
-                            </div>
-                            <div className="service-three__single-content">
-                                <div className="title">
-                                    <h3><Link href="web-development">Web Development</Link></h3>
-                                </div>
-                                <div className="text">
-                                    <p>All trials are our Pro planed by default you
-                                        can try out all the features available.</p>
-                                </div>
-                            </div>
-                        </div>
+                    <div className="text">
+                      <p>
+                        All trials are our Pro planed by default you can try out
+                        all the features available.
+                      </p>
                     </div>
-                    {/*End Single Service Three*/}
+                  </div>
+                </div>
+              </div>
+              {/*End Single Service Three*/}
 
-                    {/*Start Single Service Three*/}
-                    <div className="col-xl-4 col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="200ms"
+              {/*Start Single Service Three*/}
+              {/* <div className="col-xl-4 col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="200ms"
                         data-wow-duration="1500ms">
                         <div className="service-three__single">
                             <div className="service-three__single-icon">
@@ -342,11 +396,11 @@ export default function About() {
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    {/*End Single Service Three*/}
+                    </div> */}
+              {/*End Single Service Three*/}
 
-                    {/*Start Single Service Three*/}
-                    <div className="col-xl-4 col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="0ms"
+              {/*Start Single Service Three*/}
+              {/* <div className="col-xl-4 col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="0ms"
                         data-wow-duration="1500ms">
                         <div className="service-three__single">
                             <div className="service-three__single-icon">
@@ -364,57 +418,73 @@ export default function About() {
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    {/*End Single Service Three*/}
+                    </div> */}
+              {/*End Single Service Three*/}
 
-                    {/*Start Single Service Three*/}
-                    <div className="col-xl-4 col-lg-6 col-md-6 wow fadeInRight" data-wow-delay="100ms"
-                        data-wow-duration="1500ms">
-                        <div className="service-three__single">
-                            <div className="service-three__single-icon">
-                                <span className="icon-product-development"><span className="path1"></span><span
-                                        className="path2"></span><span className="path3"></span>
-                                </span>
-                            </div>
-                            <div className="service-three__single-content">
-                                <div className="title">
-                                    <h3><Link href="web-development">Product Development</Link></h3>
-                                </div>
-                                <div className="text">
-                                    <p>All trials are our Pro planed by default you
-                                        can try out all the features available.</p>
-                                </div>
-                            </div>
-                        </div>
+              {/*Start Single Service Three*/}
+              <div
+                className="col-xl-4 col-lg-6 col-md-6 wow fadeInRight"
+                data-wow-delay="100ms"
+                data-wow-duration="1500ms"
+              >
+                <div className="service-three__single">
+                  <div className="service-three__single-icon">
+                    <span className="icon-product-development">
+                      <span className="path1"></span>
+                      <span className="path2"></span>
+                      <span className="path3"></span>
+                    </span>
+                  </div>
+                  <div className="service-three__single-content">
+                    <div className="title">
+                      <h3>
+                        <Link href="web-development">Product Development</Link>
+                      </h3>
                     </div>
-                    {/*End Single Service Three*/}
-
-                    {/*Start Single Service Three*/}
-                    <div className="col-xl-4 col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="200ms"
-                        data-wow-duration="1500ms">
-                        <div className="service-three__single">
-                            <div className="service-three__single-icon">
-                                <span className="icon-business-strategy"></span>
-                            </div>
-                            <div className="service-three__single-content">
-                                <div className="title">
-                                    <h3><Link href="web-development">Business Strategy</Link></h3>
-                                </div>
-                                <div className="text">
-                                    <p>All trials are our Pro planed by default you
-                                        can try out all the features available.</p>
-                                </div>
-                            </div>
-                        </div>
+                    <div className="text">
+                      <p>
+                        All trials are our Pro planed by default you can try out
+                        all the features available.
+                      </p>
                     </div>
-                    {/*End Single Service Three*/}
+                  </div>
                 </div>
+              </div>
+              {/*End Single Service Three*/}
+
+              {/*Start Single Service Three*/}
+              <div
+                className="col-xl-4 col-lg-6 col-md-6 wow fadeInLeft"
+                data-wow-delay="200ms"
+                data-wow-duration="1500ms"
+              >
+                <div className="service-three__single">
+                  <div className="service-three__single-icon">
+                    <span className="icon-business-strategy"></span>
+                  </div>
+                  <div className="service-three__single-content">
+                    <div className="title">
+                      <h3>
+                        <Link href="web-development">Business Strategy</Link>
+                      </h3>
+                    </div>
+                    <div className="text">
+                      <p>
+                        All trials are our Pro planed by default you can try out
+                        all the features available.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              {/*End Single Service Three*/}
             </div>
+          </div>
         </section>
         {/*End Service Three*/}
 
         {/*Start Team Two*/}
-        <section className="team-two">
+        {/* <section className="team-two">
             <div className="team-two__shape1">
                 <img src="assets/img/shape/team-two__shape1.png" alt="shapes"/>
             </div>
@@ -440,7 +510,6 @@ export default function About() {
                     </h2>
                 </div>
                 <div className="row">
-                    {/*Start Team Two Single*/}
                     <div className="col-xl-4 col-lg-4 wow animated fadeInUp" data-wow-delay="0.1s">
                         <div className="team-two__single">
                             <div className="team-two__single-overlay-bg"></div>
@@ -473,9 +542,7 @@ export default function About() {
                             </div>
                         </div>
                     </div>
-                    {/*End Team Two Single*/}
 
-                    {/*Start Team Two Single*/}
                     <div className="col-xl-4 col-lg-4 wow animated fadeInUp" data-wow-delay="0.3s">
                         <div className="team-two__single">
                             <div className="team-two__single-overlay-bg"></div>
@@ -508,9 +575,7 @@ export default function About() {
                             </div>
                         </div>
                     </div>
-                    {/*End Team Two Single*/}
 
-                    {/*Start Team Two Single*/}
                     <div className="col-xl-4 col-lg-4 wow animated fadeInUp" data-wow-delay="0.5s">
                         <div className="team-two__single">
                             <div className="team-two__single-overlay-bg"></div>
@@ -543,114 +608,153 @@ export default function About() {
                             </div>
                         </div>
                     </div>
-                    {/*End Team Two Single*/}
 
                 </div>
             </div>
-        </section>
+        </section> */}
         {/*End Team Two*/}
 
         {/*Start Fact Counter One*/}
         <section className="fact-counter-one about">
-            <div className="shape1"><img src="assets/img/shape/fact-counter-one-about-shape1.png" alt=""/></div>
-            <div className="shape2"><img src="assets/img/shape/fact-counter-one-about-shape2.png" alt=""/></div>
-            <div className="shape3"><img src="assets/img/shape/fact-counter-one-about-shape3.png" alt=""/></div>
-            <div className="shape4"><img src="assets/img/shape/fact-counter-one-about-shape4.png" alt=""/></div>
-            <div className="container">
-                <div className="row">
-                    {/*Start Single Fact Counter*/}
-                    <div className="col-xl-3 col-lg-6 col-md-6">
-                        <div className="single-fact-counter wow fadeInUp" data-wow-delay=".1s">
-                            <div className="single-fact-counter-inner">
-                                <div className="single-fact-counter-icon">
-                                    <span className="icon-completed-projects"><span className="path1"></span><span
-                                            className="path2"></span><span className="path3"></span></span>
-                                </div>
-                                <div className="outer-box">
-                                    <div className="count-outer count-box">
-                                    <CounterUp end={484} />
-                                        <i className="icon-plus-symbol-button"></i>
-                                    </div>
-                                    <div className="title">
-                                        <p>Completed Projects</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+          <div className="shape1">
+            <img
+              src="assets/img/shape/fact-counter-one-about-shape1.png"
+              alt=""
+            />
+          </div>
+          <div className="shape2">
+            <img
+              src="assets/img/shape/fact-counter-one-about-shape2.png"
+              alt=""
+            />
+          </div>
+          <div className="shape3">
+            <img
+              src="assets/img/shape/fact-counter-one-about-shape3.png"
+              alt=""
+            />
+          </div>
+          <div className="shape4">
+            <img
+              src="assets/img/shape/fact-counter-one-about-shape4.png"
+              alt=""
+            />
+          </div>
+          <div className="container">
+            <div className="row">
+              {/*Start Single Fact Counter*/}
+              <div className="col-xl-3 col-lg-6 col-md-6">
+                <div
+                  className="single-fact-counter wow fadeInUp"
+                  data-wow-delay=".1s"
+                >
+                  <div className="single-fact-counter-inner">
+                    <div className="single-fact-counter-icon">
+                      <span className="icon-completed-projects">
+                        <span className="path1"></span>
+                        <span className="path2"></span>
+                        <span className="path3"></span>
+                      </span>
                     </div>
-                    {/*End Single Fact Counter*/}
-                    {/*Start Single Fact Counter*/}
-                    <div className="col-xl-3 col-lg-6 col-md-6">
-                        <div className="single-fact-counter wow fadeInUp" data-wow-delay=".2s">
-                            <div className="single-fact-counter-inner">
-                                <div className="single-fact-counter-icon">
-                                    <span className="icon-happy-clients"><span className="path1"></span><span
-                                            className="path2"></span><span className="path3"></span><span
-                                            className="path4"></span></span>
-                                </div>
-                                <div className="outer-box">
-                                    <div className="count-outer count-box">
-                                    <CounterUp end={209} />
-                                        <i className="icon-plus-symbol-button"></i>
-                                    </div>
-                                    <div className="title">
-                                        <p>Happy Clients</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                    <div className="outer-box">
+                      <div className="count-outer count-box">
+                        <CounterUp end={484} />
+                        <i className="icon-plus-symbol-button"></i>
+                      </div>
+                      <div className="title">
+                        <p>Completed Projects</p>
+                      </div>
                     </div>
-                    {/*End Single Fact Counter*/}
-                    {/*Start Single Fact Counter*/}
-                    <div className="col-xl-3 col-lg-6 col-md-6">
-                        <div className="single-fact-counter wow fadeInUp" data-wow-delay=".3s">
-                            <div className="single-fact-counter-inner">
-                                <div className="single-fact-counter-icon">
-                                    <span className="icon-winning-award"></span>
-                                </div>
-                                <div className="outer-box">
-                                    <div className="count-outer count-box">
-                                    <CounterUp end={123} />
-                                        <i className="icon-plus-symbol-button"></i>
-                                    </div>
-                                    <div className="title">
-                                        <p>Winning Award</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    {/*End Single Fact Counter*/}
-                    {/*Start Single Fact Counter*/}
-                    <div className="col-xl-3 col-lg-6 col-md-6">
-                        <div className="single-fact-counter wow fadeInUp" data-wow-delay=".4s">
-                            <div className="single-fact-counter-inner">
-                                <div className="single-fact-counter-icon">
-                                    <span className="icon-cup-teas"><span className="path1"></span><span
-                                            className="path2"></span><span className="path3"></span><span
-                                            className="path4"></span></span>
-                                </div>
-                                <div className="outer-box">
-                                    <div className="count-outer count-box">
-                                    <CounterUp end={245} />
-                                        <i className="icon-plus-symbol-button"></i>
-                                    </div>
-                                    <div className="title">
-                                        <p>Cup of Teas</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    {/*End Single Fact Counter*/}
+                  </div>
                 </div>
+              </div>
+              {/*End Single Fact Counter*/}
+              {/*Start Single Fact Counter*/}
+              <div className="col-xl-3 col-lg-6 col-md-6">
+                <div
+                  className="single-fact-counter wow fadeInUp"
+                  data-wow-delay=".2s"
+                >
+                  <div className="single-fact-counter-inner">
+                    <div className="single-fact-counter-icon">
+                      <span className="icon-happy-clients">
+                        <span className="path1"></span>
+                        <span className="path2"></span>
+                        <span className="path3"></span>
+                        <span className="path4"></span>
+                      </span>
+                    </div>
+                    <div className="outer-box">
+                      <div className="count-outer count-box">
+                        <CounterUp end={209} />
+                        <i className="icon-plus-symbol-button"></i>
+                      </div>
+                      <div className="title">
+                        <p>Happy Clients</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              {/*End Single Fact Counter*/}
+              {/*Start Single Fact Counter*/}
+              <div className="col-xl-3 col-lg-6 col-md-6">
+                <div
+                  className="single-fact-counter wow fadeInUp"
+                  data-wow-delay=".3s"
+                >
+                  <div className="single-fact-counter-inner">
+                    <div className="single-fact-counter-icon">
+                      <span className="icon-winning-award"></span>
+                    </div>
+                    <div className="outer-box">
+                      <div className="count-outer count-box">
+                        <CounterUp end={123} />
+                        <i className="icon-plus-symbol-button"></i>
+                      </div>
+                      <div className="title">
+                        <p>Winning Award</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              {/*End Single Fact Counter*/}
+              {/*Start Single Fact Counter*/}
+              <div className="col-xl-3 col-lg-6 col-md-6">
+                <div
+                  className="single-fact-counter wow fadeInUp"
+                  data-wow-delay=".4s"
+                >
+                  <div className="single-fact-counter-inner">
+                    <div className="single-fact-counter-icon">
+                      <span className="icon-cup-teas">
+                        <span className="path1"></span>
+                        <span className="path2"></span>
+                        <span className="path3"></span>
+                        <span className="path4"></span>
+                      </span>
+                    </div>
+                    <div className="outer-box">
+                      <div className="count-outer count-box">
+                        <CounterUp end={245} />
+                        <i className="icon-plus-symbol-button"></i>
+                      </div>
+                      <div className="title">
+                        <p>Cup of Teas</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              {/*End Single Fact Counter*/}
             </div>
+          </div>
         </section>
         {/*End Fact Counter One*/}
 
-
         {/*Start Testmonials Three*/}
-        <section className="testimonials-three about">
+        {/* <section className="testimonials-three about">
             <div className="testimonials-three__shape1 rotate-me">
                 <img src="assets/img/shape/testimonials-three__shape1.png" alt="shapes"/>
             </div>
@@ -666,27 +770,21 @@ export default function About() {
                         <div className="testimonials-three__img">
                             <ul>
                                 <li className="wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
-                                    {/*Single About Two Img*/}
                                     <div className="single-testimonials-three__img-box">
                                         <div className="inner">
                                             <img src="assets/img/testimonial/testimonials-three__img1.jpg" alt="image"/>
                                         </div>
                                     </div>
-                                    {/*End About Two Img*/}
-                                    {/*Single About Two Img*/}
                                     <div className="single-testimonials-three__img-box">
                                         <div className="inner">
                                             <img src="assets/img/testimonial/testimonials-three__img2.jpg" alt="image"/>
                                         </div>
                                     </div>
-                                    {/*End About Two Img*/}
                                 </li>
                                 <li className="wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                                    {/*Single About Two Img*/}
                                     <div className="single-testimonials-three__img-box">
                                         <img src="assets/img/testimonial/testimonials-three__img3.jpg" alt="image"/>
                                     </div>
-                                    {/*End About Two Img*/}
                                 </li>
                             </ul>
                         </div>
@@ -699,11 +797,10 @@ export default function About() {
                                     <h4>Customers Feedback</h4>
                                 </div>
                                 <h2>
-                                    What Says Our Client’s<br/>About Diligent
+                                    What Says Our Client’s<br/>About Ekanstech
                                 </h2>
                             </div>
 
-                            {/* If we need navigation buttons */}
                             <div className="swiper-nav-style2 testimonials-three__swiper-nav-style">
                                 <div className="swiper-button-prev h1p" id="testimonials-three__swiper-button-prev">
                                     <i className="icon-left-arrow right"></i>
@@ -762,12 +859,102 @@ export default function About() {
                     </div>
                 </div>
             </div>
-        </section>
-        {/*End Testmonials Three*/}
+        </section> */}
 
-            </Layout>
-        </>
-    )
+<section className="agency-section">
+      <Container>
+        <Row className="justify-content-between">
+          <Col xl={6} lg={12}>
+            <div className="inner">
+              <div className="sec-title text-center text-sm-start pb-0">
+                <h2>
+                  WE ARE YOUR DIGITAL <br /> MARKETING EXPERTS
+                  <span className="dot">.</span>
+                </h2>
+              </div>
+
+              <div className="default-tabs tabs-box">
+                <div className="tab-btns flex-row">
+                  <button
+                    className={`tab-btn ${
+                      activeTab === "agency-tab-1" ? "active-btn" : ""
+                    }`}
+                    onClick={() => handleTabClick("agency-tab-1")}
+                  >
+                    Our Mission
+                  </button>
+                  <button
+                    className={`tab-btn ${
+                      activeTab === "agency-tab-2" ? "active-btn" : ""
+                    }`}
+                    onClick={() => handleTabClick("agency-tab-2")}
+                  >
+                    Our Vision
+                  </button>
+                  <button
+                    className={`tab-btn ${
+                      activeTab === "agency-tab-3" ? "active-btn" : ""
+                    }`}
+                    onClick={() => handleTabClick("agency-tab-3")}
+                  >
+                    Our History
+                  </button>
+                </div>
+
+                <div className="tab-content">{renderContent()}</div>
+              </div>
+            </div>
+          </Col>
+
+          <Col xl={6} lg={12}>
+            <div className="inner">
+              <div className="text sub-title-text pb-3">
+                <p>
+                  At Ekanstech solution, our team of seasoned professionals
+                  collaborates with you, tailoring our services to your budget.
+                  We optimize your online presence, maximizing profitability.
+                  With swift and efficient solutions, we ensure your brand or
+                  product is quickly launched, delivering excellent value for
+                  your investment.
+                </p>
+              </div>
+
+              <div className="featured-block-two clearfix flex-column flex-md-row">
+                <Image
+                  src="https://dalvindigital.com/wp-content/uploads/2023/07/dalvin-digital-about-us-img-2.jpg"
+                  alt="dalvin-digital-about-us-img-2"
+                  roundedCircle
+                  fluid
+                />
+                <ul className="m-0 list-unstyled">
+                  <li className="text">
+                    <p>
+                      Connecting our clients at the right moment, and with the
+                      right targets.
+                    </p>
+                  </li>
+                  <li className="text">
+                    <p>Reliable & Trusted Services</p>
+                  </li>
+                  <li className="text">
+                    <p>Experienced Professional Designers</p>
+                  </li>
+                  <li className="text">
+                    <p>
+                      Trendy, creative, and feature-rich SEO friendly design
+                    </p>
+                  </li>
+                  <li className="text">
+                    <p>5-star review from Happy Customers.</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </Col>
+        </Row>
+      </Container>
+    </section>
+      </Layout>
+    </>
+  );
 }
-
-

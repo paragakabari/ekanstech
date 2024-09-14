@@ -39,7 +39,7 @@ export default function Home() {
                     <div className="container">
                         <div className="sec-title-two text-center sec-title-animation animation-style1">
                             <h2>Pick Your <span>Pricing Plan</span></h2>
-                            <p>It’s about telling a story through the message and visuals
+                            <p>It s about telling a story through the message and visuals
                                 that get your<br/>ideas across to your customers</p>
                         </div>
                         <div className="row">
@@ -208,7 +208,7 @@ export default function Home() {
                             <div className="cta-two__content sec-title-animation animation-style1">
                                 <h2>Have Any Discussion?</h2>
                                 <p>Gathered have greater made fruitful. Void to let to know
-                                    about that you'll sixth upon day.</p>
+                                    about that you ll sixth upon day.</p>
                             </div>
                             <div className="cta-two__btn">
                                 <Link className="thm-btn" href="#">

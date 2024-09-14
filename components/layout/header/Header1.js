@@ -7,7 +7,7 @@ export default function Header1({ scroll, handleMobileMenu }) {
         <>
         
         <header className={`main-header main-header-three ${scroll ? "fixed-header" : ""}`}>
-            <div className="main-header-three__top">
+            {/* <div className="main-header-three__top">
                 <div className="container">
                     <div className="main-header-three__top-inner">
                         <div className="main-header-three__top-left">
@@ -29,7 +29,7 @@ export default function Header1({ scroll, handleMobileMenu }) {
                                         <div className="icon">
                                             <span className="icon-email"></span>
                                         </div>
-                                        <p><Link href="mailto:info@example.com">Support@gmail.com</Link></p>
+                                        <p><Link href="mailto:ekanstechinfo@gmail.com">ekanstechinfo@gmail.com</Link></p>
                                     </li>
                                 </ul>
                             </div>
@@ -37,7 +37,7 @@ export default function Header1({ scroll, handleMobileMenu }) {
 
                     </div>
                 </div>
-            </div>
+            </div> */}
 
 
             <div className="main-header-three__bottom">
@@ -48,7 +48,7 @@ export default function Header1({ scroll, handleMobileMenu }) {
                             <div className="main-header-three__bottom-left">
                                 <div className="logo-box-one">
                                     <Link href="/">
-                                        <img src="assets/img/resource/logo-3.png" alt="Logo"/>
+                                        <img src="assets/img/resource/footer-one-1.png" width={150} alt="Logo"/>
                                     </Link>
                                 </div>
                             </div>

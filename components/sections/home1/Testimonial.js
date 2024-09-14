@@ -59,8 +59,7 @@ const swiperOptions = {
 export default function Testimonial() {
     return (
         <>
-        {/*Start Testmonials Three*/}
-        <section className="testimonials-three">
+        {/* <section className="testimonials-three">
             <div className="testimonials-three__shape1 rotate-me">
                 <img src="assets/img/shape/testimonials-three__shape1.png" alt="shapes"/>
             </div>
@@ -76,27 +75,21 @@ export default function Testimonial() {
                         <div className="testimonials-three__img">
                             <ul>
                                 <li className="wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
-                                    {/*Single About Two Img*/}
                                     <div className="single-testimonials-three__img-box">
                                         <div className="inner">
                                             <img src="assets/img/testimonial/testimonials-three__img1.jpg" alt="image"/>
                                         </div>
                                     </div>
-                                    {/*End About Two Img*/}
-                                    {/*Single About Two Img*/}
                                     <div className="single-testimonials-three__img-box">
                                         <div className="inner">
                                             <img src="assets/img/testimonial/testimonials-three__img2.jpg" alt="image"/>
                                         </div>
                                     </div>
-                                    {/*End About Two Img*/}
                                 </li>
                                 <li className="wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                                    {/*Single About Two Img*/}
                                     <div className="single-testimonials-three__img-box">
                                         <img src="assets/img/testimonial/testimonials-three__img3.jpg" alt="image"/>
                                     </div>
-                                    {/*End About Two Img*/}
                                 </li>
                             </ul>
                         </div>
@@ -109,11 +102,10 @@ export default function Testimonial() {
                                     <h4>Customers Feedback</h4>
                                 </div>
                                 <h2>
-                                    What Says Our Client’s<br/>About Diligent
+                                    What Says Our Client’s<br/>Ekanstech
                                 </h2>
                             </div>
 
-                            {/* If we need navigation buttons */}
                             <div className="swiper-nav-style2 testimonials-three__swiper-nav-style">
                                 <div className="swiper-button-prev h1p" id="testimonials-three__swiper-button-prev">
                                     <i className="icon-left-arrow right"></i>
@@ -174,8 +166,7 @@ export default function Testimonial() {
                     </div>
                 </div>
             </div>
-        </section>
-        {/*End Testmonials Three*/}
+        </section> */}
             
         </>
     )

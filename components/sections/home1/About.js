@@ -20,7 +20,7 @@ export default function About() {
             <div className="container">
                 <div className="row">
                     <div className="col-xl-6">
-                        <div className="about-three__content">
+                        <div className="about-three__content mx-auto mb-md-5">
                             <div className="sec-title-four sec-title-animation animation-style1">
                                 <div className="sub-title">
                                     <h4>Get To Know About Us</h4>
@@ -69,7 +69,7 @@ export default function About() {
                             </div>
                             <div className="about-three__img">
                                 <div className="img-box">
-                                    <img src="assets/img/about/about-three__img1.jpg" alt="image"/>
+                                    <img src="assets/img/about/about-three__img1 (2).jpg" alt="image"/>
                                 </div>
                                 <div className="title-box">
                                     <h3>We Are The Best Digital<br/>Agencies In The City</h3>
@@ -84,20 +84,20 @@ export default function About() {
                         </div>
                     </div>
                     <div className="col-xl-6">
-                        <div className="about-three__img-box">
+                        <div className="about-three__img-box mx-auto">
                             <ul>
                                 <li className="wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
                                     {/*Single About Three Img*/}
                                     <div className="single-about-three__img-box">
-                                        <img src="assets/img/about/about-three__img2.jpg" alt="image"/>
+                                        <img src="assets/img/about/about-three__img2 (2).jpg" alt="image"/>
                                     </div>
                                     {/*End About Three Img*/}
                                 </li>
 
-                                <li className="wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
+                                <li className="wow fadeInRight" data-wow-delay="0ms" style={{transform:"scale(1.25)"}} data-wow-duration="1500ms">
                                     {/*Single About Three Img*/}
                                     <div className="single-about-three__img-box">
-                                        <img src="assets/img/about/about-three__img3.jpg" alt="image"/>
+                                        <img src="assets/img/about/about-three__img3 (2).jpg"  alt="image"/>
                                     </div>
                                     {/*End About Three Img*/}
                                 </li>
@@ -107,7 +107,7 @@ export default function About() {
                                 data-wow-duration="1500ms">
                                 {/*Single About Three Img*/}
                                 <div className="single-about-three__img-box">
-                                    <img src="assets/img/about/about-three__img4.jpg" alt="image"/>
+                                    <img src="assets/img/about/about-three__img4 (2).jpg" alt="image"/>
                                 </div>
                                 {/*End About Three Img*/}
                             </div>
@@ -115,7 +115,7 @@ export default function About() {
                             <div className="overlay-box text-center">
                                 <div className="outer-box">
                                     <div className="count-outer count-box">
-                                    <CounterUp end={15} />
+                                    <CounterUp end={5} />
                                         <i className="icon-plus-symbol-button"></i>
                                     </div>
                                     <div className="title">

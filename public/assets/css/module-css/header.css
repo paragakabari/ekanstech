@@ -21,7 +21,7 @@
     position: fixed;
     top: 0;
     right: 0;
-    width: 300px;
+    width: 500px;
     padding-right: 30px;
     max-width: 100%;
     height: 100%;
@@ -68,14 +68,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    top: 10px;
-    right: 10px;
-    width: 30px;
-    height: 30px;
+    top: 15px;
+    right: 30px;
+    width: 45px;
+    height: 45px;
     background-color: var(--thm-black-bg);
     border-radius: 50%;
     color: var(--thm-white);
-    font-size: 15px;
+    font-size: 20px;
     cursor: pointer;
     z-index: 10;
     -webkit-transition: all 0.9s ease;
@@ -173,8 +173,8 @@
     position: relative;
     display: block;
     line-height: 24px;
-    padding: 10px 60px 10px 25px;
-    font-size: 16px;
+    padding: 20px 60px 20px 25px;
+        font-size: 25px;
     font-weight: 700;
     color: var(--thm-black);
     text-transform: capitalize;
@@ -257,8 +257,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 35px;
-    height: 35px;
+    width: 45px;
+    height: 45px;
     background: var(--thm-black-bg);
     border-radius: 50%;
 }
@@ -267,7 +267,7 @@
     position: relative;
     display: inline-block;
     color: var(--thm-white);
-    font-size: 14px;
+    font-size: 20px;
     line-height: 14px;
     font-weight: 700;
 }
@@ -280,6 +280,8 @@
 
 .mobile-menu .contact-info p a {
     color: var(--thm-black);
+    font-size: 25px;
+
 }
 
 .mobile-menu .contact-info p a:hover {
@@ -318,10 +320,10 @@
     align-items: center;
     justify-content: center;
     color: var(--thm-white);
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 400;
-    height: 40px;
-    width: 40px;
+    height: 45px;
+    width: 45px;
     border-radius: 50%;
     background: var(--thm-black-bg);
     transition: all 200ms linear;
@@ -500,7 +502,6 @@
     transition: .3s linear;
     transform: translateY(-50%);
 }
-
 
 
 .navbar-wrap ul li .sub-menu {
@@ -934,6 +935,7 @@
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    
 }
 
 .main-header-three__top-left {
@@ -997,6 +999,7 @@
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    padding: 0px 30px;
 }
 
 .main-header-three__bottom-left {
@@ -1007,6 +1010,9 @@
 .main-header-three__bottom-middle {
     position: relative;
     display: block;
+}
+.main-header-three__bottom-middle i {
+    font-size: 50px;
 }
 
 

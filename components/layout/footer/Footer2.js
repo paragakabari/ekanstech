@@ -33,31 +33,6 @@ export default function Footer2() {
                             </Link>
                         </div>
 
-                        <div className="footer-two__socel-link">
-                            <ul className="clearfix">
-                                <li>
-                                    <Link href="#">
-                                        <i className="icon-facebook"></i>
-                                    </Link>
-                                </li>
-                                <li>
-                                    <Link href="#">
-                                        <i className="icon-twitter"></i>
-                                    </Link>
-                                </li>
-                                <li>
-                                    <Link href="#">
-                                        <i className="icon-instagram-symbol"></i>
-                                    </Link>
-                                </li>
-                                <li>
-                                    <Link href="#">
-                                        <i className="icon-linkedin"></i>
-                                    </Link>
-                                </li>
-                            </ul>
-                        </div>
-
                     </div>
                     {/* End Footer Main Two Top*/}
 
@@ -78,19 +53,19 @@ export default function Footer2() {
                                                 <div className="icon">
                                                     <span className="icon-pin"></span>
                                                 </div>
-                                                <p>55 Green Street, New York</p>
-                                            </li>
+                                                <p><Link href="https://maps.app.goo.gl/Dh545u1x7F1pNWBJ7" target="_blank">238, Atlanta Mall, Near sudama chock, Mota Varachha ( Digital Valley ), Surat</Link></p>
+                                                </li>
                                             <li>
                                                 <div className="icon">
                                                     <span className="icon-mail-inbox-app"></span>
                                                 </div>
-                                                <p><Link href="mailto:support@gmail.com">support@gmail.com</Link></p>
+                                                <p><Link href="mailto:ekanstechinfo@gmail.com">ekanstechinfo@gmail.com</Link></p>
                                             </li>
                                             <li>
                                                 <div className="icon">
                                                     <span className="icon-phone-call"></span>
                                                 </div>
-                                                <p><Link href="tel:000245862092">000 245 (862) 092</Link></p>
+                                                <p><Link href="tel:8160362614">+91 81603 62614</Link></p>
                                             </li>
                                         </ul>
                                     </div>
@@ -99,24 +74,21 @@ export default function Footer2() {
                             {/*End Single Footer Widget*/}
 
                             {/*Start Single Footer Widget*/}
-                            <div className="col-xl-2 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".2s">
+                            <div className="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".2s">
                                 <div className="single-footer-widget ml55">
                                     <div className="title">
                                         <h3>Quick Links</h3>
                                     </div>
                                     <div className="single-footer-widget-box single-footer-widget__links">
-                                        <ul className="clearfix">
+                                    <ul className="clearfix">
                                             <li>
-                                                <p><Link href="about">Need a career?</Link></p>
+                                                <p><Link href="/">Home</Link></p>
                                             </li>
                                             <li>
                                                 <p><Link href="about">About Us</Link></p>
                                             </li>
                                             <li>
                                                 <p><Link href="web-development">Our Services</Link></p>
-                                            </li>
-                                            <li>
-                                                <p><Link href="blog-details">Latest News</Link></p>
                                             </li>
                                             <li>
                                                 <p><Link href="contact">Contact Us</Link></p>
@@ -134,21 +106,18 @@ export default function Footer2() {
                                         <h3>Our Services</h3>
                                     </div>
                                     <div className="single-footer-widget-box single-footer-widget__links">
-                                        <ul className="clearfix">
+                                    <ul className="clearfix">
                                             <li>
-                                                <p><Link href="web-development">Front End Development</Link></p>
-                                            </li>
-                                            <li>
-                                                <p><Link href="web-development">UI/UX Development</Link></p>
+                                                <p><Link href="uiux-design">UI/UX Development</Link></p>
                                             </li>
                                             <li>
                                                 <p><Link href="web-development">Web Development</Link></p>
                                             </li>
                                             <li>
-                                                <p><Link href="web-development">Web Design Strategy</Link></p>
+                                                <p><Link href="app-development">Mobile App Development</Link></p>
                                             </li>
                                             <li>
-                                                <p><Link href="web-development">Digital Marketing</Link></p>
+                                                <p><Link href="digital-marketing">Digital Marketing</Link></p>
                                             </li>
                                         </ul>
                                     </div>
@@ -156,8 +125,33 @@ export default function Footer2() {
                             </div>
                             {/*End Single Footer Widget*/}
 
+                            <div className="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
+                                <div className="single-footer-widget ml50">
+                                    <div className="title">
+                                    <h3>Write</h3>
+                                    </div>
+                                    <div className="single-footer-widget-box single-footer-widget__links">
+                                    <ul className="clearfix">
+                                            <li>
+                                                <p className="d-flex  align-items-center gap-3">
+                                                    <span className="icon-facebook  rounded-circle p-2 border text-white" ></span>
+                                                    <a target="_blank" href="https://www.facebook.com/people/Ekanstech/100091184266839/">Facebook</a>
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p className="d-flex  align-items-center gap-3">
+                                                <span className="fab fa-instagram  border text-white rounded-circle p-2"></span>
+                                                <a target="_blank" href="https://www.instagram.com/ekanstech/">Instagram</a>
+                                                </p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+
                             {/*Strat Single Footer Widget*/}
-                            <div className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".4s">
+                            {/* <div className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".4s">
                                 <div className="single-footer-widget">
                                     <div className="title">
                                         <h3>Latest News</h3>
@@ -232,7 +226,7 @@ export default function Footer2() {
                                         </ul>
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
                             {/*End Single Footer Widget*/}
                         </div>
                     </div>
@@ -244,8 +238,8 @@ export default function Footer2() {
                     <div className="container">
                         <div className="footer-bottom__inner footer-bottom__two-inner">
                             <div className="copyright-text text-center">
-                                <p>Copyright © 2024 Diligent by <Link
-                                        href="https://themeforest.net/user/thememx">Thememx. </Link>
+                                <p>Copyright © 2024 Ekanstech by <Link
+                                        href="https://ekanstech.com">Ekanstech. </Link>
                                     All Rights Reserved</p>
                             </div>
                         </div>
