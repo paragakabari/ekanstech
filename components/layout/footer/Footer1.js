@@ -25,7 +25,7 @@ export default function Footer1() {
                                 <p>Best solutions for your company</p>
                             </div>
 
-                            <form method="post">
+                            <form>
                                 <div className="form-group">
                                     <input type="email" name="email" placeholder="Email Address"/>
                                     <button className="submit thm-btn">
