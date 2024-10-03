@@ -27,6 +27,7 @@
 @import url('../vendors/bootstrap/css/bootstrap.min.css');
 @import url('../vendors/fontawesome/css/all.min.css');
 @import url('../fonts/gilroy/stylesheet.css');
+@import url('../fonts/static/stylesheet.css');
 @import url('../css/module-css/footer.css');
 @import url('../css/10-icomoon.css');
 @import url('../css/module-css/services.css');
@@ -49,7 +50,7 @@
 ===============================*/
 :root {
     --thm-body-font: 'Inter Tight', sans-serif;
-    --thm-heading-font: 'Gilroy';
+    --thm-heading-font: 'Fredoka', sans-serif; /* Update the heading font */
     --thm-primary: #68CBF4;
     --thm-primary-rgb: 255, 90, 121;
     --thm-secondary: #68CBF4;

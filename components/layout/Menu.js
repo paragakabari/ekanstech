@@ -1,8 +1,11 @@
+"use client"
 import Link from "next/link"
+import { useState } from "react"
 // import { useRouter } from "next/router"
 
 export default function Menu() {
     // const router = useRouter()
+    const [isActive , setIsActive]=useState("Home")
 
 
     return (
@@ -15,13 +18,8 @@ export default function Menu() {
 
        
             <ul className="navigation">
-                <li className="">
-                    <Link href="/">Home </Link>
-                    {/* <ul className="sub-menu">
-                        <li><Link href="/">Home One</Link></li>
-                        <li><Link href="index-2">Home Two</Link></li>
-                        <li><Link href="index-3">Home Three</Link></li>                
-                    </ul> */}
+                <li className={isActive === "Home" && "active"}>
+                    <Link href="/">Home</Link>
                 </li>
                 <li>
                     <Link href="about">About</Link>
@@ -35,6 +33,9 @@ export default function Menu() {
                         <li><Link href="digital-marketing">Digital Marketing</Link></li>
                         
                     </ul>
+                </li>
+                <li>
+                    <Link href="blog">Blog</Link>
                 </li>
                 <li>
                     <Link href="contact">Contact</Link>

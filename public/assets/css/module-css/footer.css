@@ -452,7 +452,7 @@
 .single-footer-widget__about ul li {
     position: relative;
     display: flex;
-    align-items: center;
+    /* align-items: center; */
 }
 
 .single-footer-widget__about ul li+li {
@@ -470,12 +470,13 @@
     position: relative;
     display: inline-block;
     color: var(--thm-secondary);
-    font-size: 15px;
+    font-size: 20px;
+    padding-top: 5px;
 }
 
 .single-footer-widget__about ul li p {
     color: rgb(255, 255, 255, 0.8);
-    font-size: 18px;
+    /* font-size: 18px; */
     line-height: 28px;
     font-weight: 500;
 }
@@ -521,7 +522,7 @@
     position: relative;
     display: inline-block;
     color: rgb(255, 255, 255, 0.8);
-    font-size: 18px;
+    /* font-size: 18px; */
     line-height: 28px;
     font-weight: 500;
     transition: all 200ms linear;
@@ -1000,7 +1001,7 @@
 }
 
 .footer-bottom-three {
-    background-color: rgb(20, 20, 20, 0.05);
+    background-color: rgb(0, 0, 0);
 }
 
 .footer-bottom__three-inner {
@@ -1009,13 +1010,22 @@
 }
 
 .footer-bottom__three-inner .copyright-text p {
-    color: rgb(20, 20, 20, 0.7);
+    color: rgba(255, 255, 255, 0.7);
 }
 
 .footer-bottom__three-inner .copyright-text p a {
-    color: rgb(20, 20, 20, 0.7);
+    color: rgba(255, 255, 255, 0.7);
 }
 
 .footer-bottom__three-inner .copyright-text p a:hover {
-    color: rgb(20, 20, 20, 0.7);
+    color: #64c2e9;
+}
+.socialIconFooter {
+    transition: transform 1s ease-in-out;
+    cursor: pointer;
+}
+
+.socialIconFooter:hover {
+    transform: rotateX(360deg); /* Flips the element vertically */
+    color: white !important;
 }

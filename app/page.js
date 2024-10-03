@@ -11,6 +11,7 @@ import Team from "@/components/sections/home1/Team"
 import Work from "@/components/sections/home1/Work"
 
 
+
 export default function Home() {
 
     return (
