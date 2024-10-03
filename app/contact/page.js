@@ -109,7 +109,7 @@ export default function Home() {
               <div className="container">
                 <div className="contact-page__bottom-form-inner">
                   <div className="title-box sec-title-animation animation-style1">
-                    <h2>Let s Get in Touch</h2>
+                    <h2>Let's Get in Touch</h2>
                     <p>
                       Your email address will not be published. Required fields
                       are marked *

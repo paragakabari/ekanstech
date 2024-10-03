@@ -175,7 +175,7 @@
     line-height: 24px;
     padding: 20px 60px 20px 25px;
     font-size: 20px;
-    font-weight: 700;
+    font-weight: 600 !important;
     color: var(--thm-black);
     text-transform: capitalize;
     -webkit-transition: all 500ms ease;
@@ -268,7 +268,7 @@
     color: var(--thm-white);
     font-size: 16px;
     line-height: 14px;
-    font-weight: 700;
+    font-weight: 600 !important;
 }
 
 .mobile-menu .contact-info p {
@@ -391,11 +391,12 @@
     left: 0;
     width: 100%;
     margin: auto;
-    background: var(--thm-white);
+    box-shadow: 0px -24px 44px var(--thm-secondary);
+    background:var(--thm-black);
     -webkit-animation: 1000ms ease-in-out 0s normal none 1 running fadeInDown;
     animation: 1000ms ease-in-out 0s normal none 1 running fadeInDown;
-    -webkit-box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
-    box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
+    -webkit-box-shadow: 0px -24px 44px var(--thm-secondary);
+ 
     border-radius: 0;
     z-index: 99;
     animation-name: menu_sticky;
@@ -406,6 +407,7 @@
 
 .sticky-menu .navbar-wrap ul li a {
     padding: 33px 0;
+    color:  var(--thm-white) !important;
 }
 
 
@@ -472,7 +474,7 @@
     color: var(--thm-body-font-color);
     font-size: 18px;
     line-height: 24px;
-    font-weight: 400;
+    font-weight: 500;
     text-transform: capitalize;
     padding: 38px 0px 38px;
     transition: none;
@@ -495,7 +497,7 @@
     top: 50%;
     right: -20px;
     content: "\e907";
-    font-weight: 700;
+    font-weight: 600 !important;
     font-family: 'icomoon' !important;
     font-size: 14px;
     line-height: 14px;
@@ -528,6 +530,7 @@
     visibility: hidden;
     opacity: 0;
     z-index: 9;
+    border-radius:0px 0px 30px 30px;
 }
 
 .navbar-wrap ul li:hover>.sub-menu {
@@ -640,7 +643,7 @@
 .header-contact-info-one ul li .icon span {
     color: var(--thm-body-font-color);
     font-size: 16px;
-    font-weight: 700;
+    font-weight: 600 !important;
 }
 
 .header-contact-info-one ul li p {
@@ -958,7 +961,7 @@
     color: var(--thm-black);
     font-size: 18px;
     line-height: 18px;
-    font-weight: 700;
+    font-weight: 600 !important;
     top: 2px;
     padding-right: 3px;
 }
@@ -1040,7 +1043,7 @@
 }
 
 .main-header-three__bottom-right .thm-btn:hover {
-    color: var(--thm-black);
+    color: var(--thm-secondary);
 }
 
 
@@ -1073,12 +1076,12 @@ Main Header Three About
 }
 
 .main-header-three.about .navbar-wrap>ul>li>.sub-menu>li>a {
-    color: var(--thm-black);
+    color: var(--thm-black) !important;
 }
 
 .main-header-three.about .navbar-wrap>ul>li>.sub-menu>li.active>a,
 .main-header-three.about .navbar-wrap>ul>li>.sub-menu>li:hover>a {
-    color: var(--thm-black);
+    color: var(--thm-secondary) !important;
 }
 
 .main-header-three.about .sticky-menu {

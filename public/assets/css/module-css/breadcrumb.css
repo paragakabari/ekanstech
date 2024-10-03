@@ -35,7 +35,7 @@
     color: var(--thm-white);
     font-size: 48px;
     line-height: 58px;
-    font-weight: 700;
+    font-weight: 600 !important;
     text-transform: capitalize;
     margin-bottom: 26px;
 }

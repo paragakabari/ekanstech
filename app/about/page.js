@@ -643,7 +643,7 @@ export default function About() {
           <div className="container">
             <div className="row">
               {/*Start Single Fact Counter*/}
-              <div className="col-xl-3 col-lg-6 col-md-6">
+              <div className="col-xl-4 col-lg-6 col-md-6">
                 <div
                   className="single-fact-counter wow fadeInUp"
                   data-wow-delay=".1s"
@@ -658,7 +658,7 @@ export default function About() {
                     </div>
                     <div className="outer-box">
                       <div className="count-outer count-box">
-                        <CounterUp end={484} />
+                        <CounterUp end={25} />
                         <i className="icon-plus-symbol-button"></i>
                       </div>
                       <div className="title">
@@ -670,7 +670,7 @@ export default function About() {
               </div>
               {/*End Single Fact Counter*/}
               {/*Start Single Fact Counter*/}
-              <div className="col-xl-3 col-lg-6 col-md-6">
+              <div className="col-xl-4 col-lg-6 col-md-6">
                 <div
                   className="single-fact-counter wow fadeInUp"
                   data-wow-delay=".2s"
@@ -686,7 +686,7 @@ export default function About() {
                     </div>
                     <div className="outer-box">
                       <div className="count-outer count-box">
-                        <CounterUp end={209} />
+                        <CounterUp end={10} />
                         <i className="icon-plus-symbol-button"></i>
                       </div>
                       <div className="title">
@@ -698,7 +698,7 @@ export default function About() {
               </div>
               {/*End Single Fact Counter*/}
               {/*Start Single Fact Counter*/}
-              <div className="col-xl-3 col-lg-6 col-md-6">
+              <div className="col-xl-4 col-lg-6 col-md-6">
                 <div
                   className="single-fact-counter wow fadeInUp"
                   data-wow-delay=".3s"
@@ -709,7 +709,7 @@ export default function About() {
                     </div>
                     <div className="outer-box">
                       <div className="count-outer count-box">
-                        <CounterUp end={123} />
+                        <CounterUp end={20} />
                         <i className="icon-plus-symbol-button"></i>
                       </div>
                       <div className="title">
@@ -721,7 +721,7 @@ export default function About() {
               </div>
               {/*End Single Fact Counter*/}
               {/*Start Single Fact Counter*/}
-              <div className="col-xl-3 col-lg-6 col-md-6">
+              {/* <div className="col-xl-3 col-lg-6 col-md-6">
                 <div
                   className="single-fact-counter wow fadeInUp"
                   data-wow-delay=".4s"
@@ -746,7 +746,7 @@ export default function About() {
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> */}
               {/*End Single Fact Counter*/}
             </div>
           </div>

@@ -10,11 +10,11 @@ export default function Breadcrumb({ breadcrumbTitle }) {
             <div className="container">
                 <div className="page-header__inner">
                     <h2>{breadcrumbTitle}</h2>
-                    <ul className="thm-breadcrumb">
+                    {/* <ul className="thm-breadcrumb">
                         <li><Link href="/"><span className="fa fa-home"></span> Home</Link></li>
                         <li><i className="icon-right-arrow-angle"></i></li>
                         <li className="color-base">{breadcrumbTitle}</li>
-                    </ul>
+                    </ul> */}
                 </div>
             </div>
         </section>

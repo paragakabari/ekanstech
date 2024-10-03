@@ -278,7 +278,7 @@
 .blog-two__single-content-title h3 {
     font-size: 24px;
     line-height: 34px;
-    font-weight: 700;
+    font-weight: 600 !important;
     margin-bottom: 10px;
 }
 
@@ -495,7 +495,7 @@
 .blog-three__single-content .title-box h3 {
     font-size: 24px;
     line-height: 34px;
-    font-weight: 700;
+    font-weight: 600 !important;
 }
 
 .blog-three__single-content .title-box h3 a {
@@ -659,7 +659,7 @@
 .blog-page__single-content .title-box h3 {
     font-size: 40px;
     line-height: 50px;
-    font-weight: 700;
+    font-weight: 600 !important;
 }
 
 .blog-page__single-content .title-box h3 a {
@@ -732,6 +732,8 @@
     font-weight: 500;
     padding-left: 25px;
     padding-right: 25px;
+    border-radius: 5px;
+
 }
 
 .sidebar__search-form::-webkit-input-placeholder {
@@ -758,6 +760,9 @@
     color: var(--thm-body-font-color);
 }
 
+.sidebar__search-form button[type="submit"]:hover {
+    color: var(--thm-white);
+}
 .sidebar__search-form button[type="submit"] {
     position: relative;
     display: flex;
@@ -769,16 +774,17 @@
     background-color: var(--thm-secondary);
     color: var(--thm-black);
     font-size: 21px;
-    font-weight: 700;
+    font-weight: 600 !important;
     outline: none;
     border: none;
+    border-radius: 5px;
     margin-left: 8px;
     -webkit-transition: all 500ms ease;
     transition: all 500ms ease;
 }
 
 .sidebar__search-form button i {
-    font-weight: 700;
+    font-weight: 600 !important;
 }
 
 .sidebar__search-form button:hover {
@@ -797,7 +803,7 @@
 .sidebar__single .title-box h2 {
     font-size: 24px;
     line-height: 34px;
-    font-weight: 700;
+    font-weight: 600 !important;
     text-transform: capitalize;
 }
 
@@ -1127,7 +1133,7 @@
 .blog-details-img1__content .title-box h2 {
     font-size: 48px;
     line-height: 1.2em;
-    font-weight: 700;
+    font-weight: 600 !important;
 }
 
 .blog-details-img1__content .title-box h2 a {
@@ -1247,7 +1253,7 @@
 .blog-details__img2-text h3 {
     font-size: 32px;
     line-height: 40px;
-    font-weight: 700;
+    font-weight: 600 !important;
     margin-bottom: 20px;
 }
 
@@ -1438,7 +1444,7 @@
     justify-content: center;
     color: var(--thm-white);
     font-size: 15px;
-    font-weight: 700;
+    font-weight: 600 !important;
     height: 30px;
     width: 30px;
     background: #3B5999;
@@ -1592,7 +1598,7 @@
 .blog-details__comment-box .title h3 {
     font-size: 32px;
     line-height: 30px;
-    font-weight: 700;
+    font-weight: 600 !important;
 }
 
 .single-comment-box {
@@ -1700,7 +1706,7 @@
 .add-comment-box .title h3 {
     font-size: 32px;
     line-height: 40px;
-    font-weight: 700;
+    font-weight: 600 !important;
     margin-bottom: 20px;
 }
 

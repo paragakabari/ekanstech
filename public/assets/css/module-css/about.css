@@ -90,7 +90,7 @@
     font-size: 22px;
     line-height: 1.2em;
     font-weight: 900;
-    font-family: var(--thm-heading-font);
+    /* font-family: var(--thm-heading-font); */
     top: -3px;
     margin-top: -6px;
     margin-left: 3px;
@@ -264,7 +264,7 @@
     color: var(--thm-black);
     font-size: 32px;
     line-height: 35px;
-    font-weight: 700;
+    font-weight: 600 !important;
     font-family: var(--thm-heading-font);
 }
 
@@ -273,7 +273,7 @@
     display: inline-block;
     color: var(--thm-black);
     font-size: 32px;
-    font-weight: 700;
+    font-weight: 600 !important;
     font-family: var(--thm-heading-font);
     margin-left: -4px;
 }
@@ -488,7 +488,7 @@
     color: #22D497;
     font-size: 48px;
     line-height: 1.2em;
-    font-weight: 700;
+    font-weight: 600 !important;
 }
 
 .about-three__fact-single .count-outer i {
@@ -560,11 +560,11 @@
 }
 
 .about-three__img .title-box .btn-box .thm-btn {
-    border-radius: 0;
+    /* border-radius: 0; */
 }
 
 .about-three__img .title-box .btn-box .thm-btn:hover {
-    color: var(--thm-black);
+    color: var(--thm-secondary) ;
 }
 
 .about-three__img .title-box .btn-box .thm-btn::before {
@@ -655,7 +655,7 @@
 .about-three__img-box .overlay-box .outer-box .count-outer {
     font-size: 32px;
     line-height: 40px;
-    font-weight: 700;
+    font-weight: 600 !important;
     color: var(--thm-black);
 }
 

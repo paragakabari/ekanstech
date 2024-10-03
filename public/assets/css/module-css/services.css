@@ -278,7 +278,7 @@
 .service-two__single-title-box h3 {
     font-size: 24px;
     line-height: 34px;
-    font-weight: 700;
+    font-weight: 600 !important;
 }
 
 .service-two__single-title-box h3 a {
@@ -342,7 +342,7 @@
 .service-two__single .overlay-btn a span {
     font-size: 18px;
     line-height: 25px;
-    font-weight: 700;
+    font-weight: 600 !important;
     margin-left: 14px;
     margin-top: 2px;
 }
@@ -558,7 +558,7 @@
 .service-three__single-content .title h3 {
     font-size: 24px;
     line-height: 34px;
-    font-weight: 700;
+    font-weight: 600 !important;
 }
 
 .service-three__single-content .title h3 a {
@@ -635,7 +635,7 @@
     color: #0C0A1F;
     font-size: 48px;
     line-height: 1.2em;
-    font-weight: 700;
+    font-weight: 600 !important;
     margin-bottom: 26px;
 }
 
@@ -710,7 +710,7 @@
     color: #0C0A1F;
     font-size: 32px;
     line-height: 40px;
-    font-weight: 700;
+    font-weight: 600 !important;
     margin-bottom: 20px;
 }
 
@@ -916,7 +916,7 @@
     color: var(--thm-white);
     font-size: 32px;
     line-height: 40px;
-    font-weight: 700;
+    font-weight: 600 !important;
 }
 
 .sidebar__contact-info .content-box .btn-box {

@@ -10,7 +10,7 @@ export default function CounterUp({ end }) {
         if (elements.length > 0) {
             const element = elements[0]
             const rect = element.getBoundingClientRect()
-            const isInViewport = rect.top >= 0 && rect.bottom <= window.innerHeight
+            const isInViewport = rect.top < window.innerHeight && rect.bottom >= 0
             if (isInViewport && !inViewport) {
                 setInViewport(true)
             }
@@ -18,11 +18,13 @@ export default function CounterUp({ end }) {
     }
 
     useEffect(() => {
+        handleScroll() // Check on mount
         window.addEventListener('scroll', handleScroll)
         return () => {
             window.removeEventListener('scroll', handleScroll)
         }
-    }, [])
+    }, [inViewport]) // Add `inViewport` to dependencies to prevent multiple state updates
+
     return (
         <>
             <span className="count-text">{inViewport && <Counter end={end} duration={20} />}</span>

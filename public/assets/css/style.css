@@ -49,8 +49,8 @@
 	1. Variable CSS
 ===============================*/
 :root {
-    --thm-body-font: 'Inter Tight', sans-serif;
-    --thm-heading-font: 'Fredoka', sans-serif; /* Update the heading font */
+    --thm-body-font: 'Fredoka', sans-serif;
+    --thm-heading-font: ; /* Update the heading font */
     --thm-primary: #68CBF4;
     --thm-primary-rgb: 255, 90, 121;
     --thm-secondary: #68CBF4;
@@ -62,7 +62,7 @@
     --thm-body-font-weight: 400;
 
     --thm-heading-font-color: #151515;
-    --thm-heading-font-weight: 700;
+    --thm-heading-font-weight: 600 !important;
     --thm-body-background: #ffffff;
     --thm-black-bg: #151515;
     --thm-gray-bg: #F3F3F5;
@@ -454,7 +454,7 @@ h6 a {
     text-align: center;
     line-height: 46px;
     font-size: 16px;
-    font-weight: 700;
+    font-weight: 600 !important;
     color: var(--thm-black);
     left: 0;
     top: 0;
@@ -940,7 +940,7 @@ h6 a {
     color: var(--thm-primary);
     font-size: 20px;
     line-height: 30px;
-    font-weight: 700;
+    font-weight: 600 !important;
     letter-spacing: 6px;
     text-transform: uppercase;
 }
@@ -948,7 +948,7 @@ h6 a {
 .sec-title h2 {
     font-size: 48px;
     line-height: 1.2em;
-    font-weight: 700;
+    font-weight: 600 !important;
 }
 
 
@@ -967,7 +967,7 @@ h6 a {
     font-size: 48px;
     line-height: 1.2em;
     font-family: var(--thm-heading-font);
-    font-weight: 700;
+    font-weight: 600 !important;
     margin-bottom: 37px;
 }
 
@@ -1027,7 +1027,7 @@ h6 a {
     font-size: 48px;
     line-height: 1.2em;
     font-family: var(--thm-heading-font);
-    font-weight: 700;
+    font-weight: 600 !important;
 }
 
 
@@ -1064,7 +1064,7 @@ h6 a {
     font-size: 48px;
     line-height: 1.2em;
     font-family: var(--thm-heading-font);
-    font-weight: 700;
+    font-weight: 600 !important;
 }
 
 
@@ -1099,25 +1099,30 @@ h6 a {
     display: inline-flex;
     align-items: center;
     overflow: hidden;
-    padding-top: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-bottom: 10px;
-    background-color: transparent;
-    color: var(--thm-white);
+    padding-top: 3px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 3px;
+    color: var(--thm-black);
     font-size: 18px;
     line-height: 45px;
     font-family: var(--thm-heading-font);
     font-weight: 600;
     text-transform: capitalize;
-    border-radius: 4px;
+    border-radius: 10px;
     -webkit-transition: all 0.3s linear;
     -o-transition: all 0.3s linear;
     transition: all 0.3s linear;
     z-index: 2;
+    background-color: var(--thm-secondary);
+    border: 2px solid transparent;
+}
+.thm-btn:hover {
+    background-color: transparent;
+    border: 2px solid var(--thm-secondary);
 }
 
-.thm-btn:after {
+/* .thm-btn:after {
     content: "";
     position: absolute;
     top: 0px;
@@ -1156,7 +1161,7 @@ h6 a {
     right: 0px;
     -webkit-transform: translateX(0);
     transform: translateX(0);
-}
+} */
 
 .thm-btn .txt {
     position: relative;
@@ -1393,7 +1398,7 @@ label {
     display: inline-block;
     color: var(--thm-black);
     font-size: 20px;
-    font-weight: 700;
+    font-weight: 600 !important;
     background-color: transparent;
     margin-left: 0;
     transition: all 200ms linear;
@@ -1539,7 +1544,7 @@ label {
     color: var(--thm-white);
     font-size: 25px;
     line-height: 30px;
-    font-weight: 700;
+    font-weight: 600 !important;
     margin: 0 0 27px;
 }
 
@@ -1814,7 +1819,7 @@ label {
     color: transparent;
     -webkit-text-stroke: 1px var(--thm-black);
     font-size: 32px;
-    font-weight: 700;
+    font-weight: 600 !important;
     margin-right: 8px;
 }
 
@@ -2502,7 +2507,7 @@ label {
 .project-two__single-img .overlay-title h3 {
     font-size: 24px;
     line-height: 34px;
-    font-weight: 700;
+    font-weight: 600 !important;
 }
 
 .project-two__single-img .overlay-title h3 a {
@@ -2845,7 +2850,7 @@ label {
 .cta-two__content h2 {
     font-size: 48px;
     line-height: 1.2em;
-    font-weight: 700;
+    font-weight: 600 !important;
     margin-bottom: 12px;
 }
 
@@ -2970,7 +2975,10 @@ label {
 
 .cta-three__btn .thm-btn {
     color: var(--thm-black);
-    border-radius: 0;
+    /* border-radius: 0; */
+}
+.cta-three__btn .thm-btn:hover {
+    color: var(--thm-secondary);
 }
 
 .cta-three__btn .thm-btn::after {
@@ -3349,7 +3357,7 @@ label {
 .single-cases-one__img .overlay-content h3 {
     font-size: 24px;
     line-height: 34px;
-    font-weight: 700;
+    font-weight: 600 !important;
     margin-bottom: 20px;
 }
 
@@ -3503,7 +3511,7 @@ label {
 .pricing-one__single-title h2 {
     font-size: 32px;
     line-height: 42px;
-    font-weight: 700;
+    font-weight: 600 !important;
     margin-bottom: 4px;
 }
 
@@ -3522,7 +3530,7 @@ label {
 .pricing-one__single-value h2 {
     font-size: 48px;
     line-height: 1.1em;
-    font-weight: 700;
+    font-weight: 600 !important;
 
 }
 
@@ -3929,7 +3937,7 @@ label {
 .working-process-one__single .content-box .title-box h3 {
     font-size: 32px;
     line-height: 30px;
-    font-weight: 700;
+    font-weight: 600 !important;
 }
 
 .working-process-one__single .content-box .title-box h3 a {

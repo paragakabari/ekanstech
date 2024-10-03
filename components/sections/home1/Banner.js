@@ -3,6 +3,7 @@
 import Link from "next/link"
 import { useState } from 'react'
 import ModalVideo from 'react-modal-video'
+import TypingAnimation from "./TypingAnimation"
 
 export default function Banner() {
     const [isOpen, setOpen] = useState(false)
@@ -34,7 +35,7 @@ export default function Banner() {
                     <div className="banner-three__content-inner ms-md-5">
                         <div className="sec-title-four sec-title-animation animation-style1">
                             <div className="sub-title">
-                                <h4>Welcome To Ekanstech</h4>
+                            <TypingAnimation />
                             </div>
                             <h2>
                             Brand, Design, Product, In-house Development & More

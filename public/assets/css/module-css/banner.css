@@ -55,7 +55,7 @@
     font-size: 20px;
     line-height: 20px;
     font-family: var(--thm-heading-font);
-    font-weight: 700;
+    font-weight: 600 !important;
     letter-spacing: 6px;
     text-transform: uppercase;
     margin-left: 10px;
@@ -72,7 +72,7 @@
     font-size: 78px;
     line-height: 1.3em;
     font-family: var(--thm-heading-font);
-    font-weight: 700;
+    font-weight: 600 !important;
 }
 
 .banner-one__content .text {
@@ -227,7 +227,7 @@
     font-size: 88px;
     line-height: 1.3em;
     font-family: var(--thm-heading-font);
-    font-weight: 700;
+    font-weight: 600 !important;
 }
 
 .banner-two__content .text {
@@ -406,7 +406,7 @@
 .banner-three__content .sec-title-four h2 {
     font-size: 60px;
     line-height: 1.3em;
-    font-weight: 700;
+    font-weight: 600 !important;
 }
 
 .banner-three__content .text {
@@ -432,11 +432,11 @@
 }
 
 .banner-three__content .btn-box .thm-btn {
-    border-radius: 0;
+    /* border-radius: 0; */
 }
 
 .banner-three__content .btn-box .thm-btn:hover {
-    color: var(--thm-black);
+    color: var(--thm-secondary);
 }
 
 .banner-three__content .btn-box .thm-btn::before {
