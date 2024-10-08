@@ -36,8 +36,8 @@ export default function Home() {
                               <h4>Address</h4>
                               <p>
                                 <Link href="https://maps.app.goo.gl/Dh545u1x7F1pNWBJ7" target="_blank">
-                                  238, Atlanta Mall, Near sudama chock, Mota
-                                  Varachha <br /> ( Digital Valley ), Surat
+                                  238, Atlanta Mall, Near sudama chock, <br /> Mota
+                                  Varachha, Surat - 394101
                                 </Link>
                               </p>
                             </div>

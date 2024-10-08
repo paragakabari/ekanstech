@@ -38,7 +38,8 @@ export default function Banner() {
                             <TypingAnimation />
                             </div>
                             <h2>
-                            Brand, Design, Product, In-house Development & More
+                            Brand, Design, Product, <br />
+                            In-house Development & More
                                 {/* Digital Agency<br/>For Growth */}
                             </h2>
                         </div>

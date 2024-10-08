@@ -113,7 +113,7 @@ export default function Home() {
                           We specialize in crafting user-friendly interfaces
                           that effortlessly guide visitors through your website.
                           To learn more about our services, please reach out to
-                          us at <b className="hightLight">+91 81603 62614</b>,
+                          us at <span className="hightLight">+91 81603 62614</span>,
                           and our team will be delighted to assist you.
                         </p>
                       </div>

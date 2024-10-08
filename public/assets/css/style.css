@@ -341,7 +341,7 @@ h6 a {
   
   .handle-preloader .animation-preloader .txt-loading .letters-loading{
     font-family: var(--thm-heading-font);
-    font-weight: 500;
+    font-weight: 400;
     letter-spacing: 15px;
     display: inline-block;
     position: relative;
@@ -766,7 +766,7 @@ h6 a {
 .swiper-nav-style2 .swiper-button-prev i {
     position: relative;
     display: inline-block;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .swiper-nav-style2 .swiper-button-prev i {
@@ -896,7 +896,7 @@ h6 a {
     background: transparent;
     color: var(--thm-body-font-color);
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 65px;
     font-family: var(--thm-heading-font);
     transition: all 500ms ease;
@@ -993,7 +993,7 @@ h6 a {
     font-size: 18px;
     line-height: 28px;
     font-family: var(--thm-body-font);
-    font-weight: 500;
+    font-weight: 400;
 }
 
 
@@ -1018,7 +1018,7 @@ h6 a {
     color: var(--thm-black);
     font-size: 20px;
     line-height: 35px;
-    font-weight: 500;
+    font-weight: 400;
     font-family: var(--thm-body-font);
 }
 
@@ -1055,7 +1055,7 @@ h6 a {
     color: var(--thm-black);
     font-size: 20px;
     line-height: 35px;
-    font-weight: 500;
+    font-weight: 400;
     font-family: var(--thm-body-font);
 }
 
@@ -2858,7 +2858,7 @@ label {
     color: var(--thm-black);
     font-size: 18px;
     line-height: 28px;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .cta-two__btn {
@@ -3105,7 +3105,7 @@ label {
     color: var(--thm-body-font-color);
     font-size: 18px;
     font-family: var(--thm-body-font);
-    font-weight: 500;
+    font-weight: 400;
     font-style: normal;
     border: none;
     border-radius: 4px;
@@ -3375,7 +3375,7 @@ label {
     color: var(--thm-white);
     font-size: 18px;
     line-height: 28px;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .single-cases-one__img .overlay-one-btn {
@@ -3518,7 +3518,7 @@ label {
 .pricing-one__single-title p {
     font-size: 18px;
     line-height: 28px;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .pricing-one__single-value {
@@ -3537,7 +3537,7 @@ label {
 .pricing-one__single-value h2 span {
     font-size: 18px;
     font-family: var(--thm-body-font);
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .pricing-one__single-list {
@@ -3584,7 +3584,7 @@ label {
     font-size: 18px;
     line-height: 28px;
     font-family: var(--thm-body-font);
-    font-weight: 500;
+    font-weight: 400;
     margin-left: 10px;
 }
 
@@ -3622,7 +3622,7 @@ label {
     font-size: 18px;
     line-height: 28px;
     font-family: var(--thm-body-font);
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .pricing-one__text p a {
@@ -3960,7 +3960,7 @@ label {
     color: rgb(255, 255, 255, 0.7);
     font-size: 18px;
     line-height: 28px;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 
@@ -4094,3 +4094,99 @@ Cta Two Testmonials Css
 .cta-two.testmonials::before {
     display: none;
 }
+
+
+.chatboxOuter {
+    height: 95vh;
+    width: 300px;
+    z-index: 100000;
+    right: 10px;
+    background-color: white;
+    border-radius: 20px;
+    bottom: 30px;
+    transition: all 0.5s;
+    position: fixed;
+}
+
+
+/* .chatboxOuter {
+    height: 90vh;
+    width: 300px;
+    z-index: 100;
+    right: 10px;
+    background-color: white;
+    border-radius: 20px;
+    bottom: 30px;
+    position: fixed;
+    transition: all 0.5s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+} */
+
+.closeButton {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: #333;
+    outline: none;
+}
+
+.closeButton:hover {
+    color: #ff0000;
+}
+
+.chatboxContent {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 10px;
+    padding-top: 40px; /* Adjust to create space for close button */
+}
+
+.messagesContainer {
+    flex-grow: 1;
+    overflow-y: auto;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+.inputContainer {
+    display: flex;
+    align-items: center;
+}
+
+.chatInput {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    margin-right: 5px;
+    outline: none;
+}
+
+.sendButton {
+    padding: 10px 15px;
+    background-color: var(--thm-secondary);
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border: 1px solid transparent;
+}
+
+.sendButton:hover {
+border: 1px solid var(--thm-secondary);
+background-color: transparent;
+color: var(--thm-secondary);
+}
+

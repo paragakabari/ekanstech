@@ -196,7 +196,7 @@
 .team-one__single-title p {
     font-size: 18px;
     line-height: 28px;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 
@@ -452,7 +452,7 @@
 .team-two__single-content p {
     font-size: 18px;
     line-height: 28px;
-    font-weight: 500;
+    font-weight: 400;
     transition: all 200ms linear;
     transition-delay: 0.1s;
 }

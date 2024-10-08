@@ -15,6 +15,7 @@ const TypingAnimation = () => {
                     ]}
                     typeSpeed={60}
                     backSpeed={30}
+                    startDelay={0}
                     loop
                 // cursorChar="|"
                 />

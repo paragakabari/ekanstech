@@ -22,7 +22,7 @@
         url('Gilroy-Medium.woff') format('woff'),
         url('Gilroy-Medium.ttf') format('truetype'),
         url('Gilroy-Medium.svg#Gilroy-Medium') format('svg');
-    font-weight: 500;
+    font-weight: 400;
     font-style: normal;
     font-display: swap;
 }
@@ -50,7 +50,7 @@
         url('Gilroy-MediumItalic.woff') format('woff'),
         url('Gilroy-MediumItalic.ttf') format('truetype'),
         url('Gilroy-MediumItalic.svg#Gilroy-MediumItalic') format('svg');
-    font-weight: 500;
+    font-weight: 400;
     font-style: italic;
     font-display: swap;
 }

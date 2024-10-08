@@ -267,7 +267,7 @@
 .blog-two__single-content .date-box ul li p {
     font-size: 18px;
     line-height: 28px;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .blog-two__single-content-title {
@@ -295,7 +295,7 @@
 .blog-two__single-content-title p {
     font-size: 18px;
     line-height: 28px;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .blog-two__single-content-btn-box {
@@ -478,7 +478,7 @@
 .blog-three__single-content .meta-box .meta-info li p {
     font-size: 18px;
     line-height: 28px;
-    font-weight: 500;
+    font-weight: 400;
     transition: all 200ms linear;
     transition-delay: 0.1s;
 }
@@ -638,7 +638,7 @@
 .blog-page__single-content .meta-box .meta-info li p {
     font-size: 18px;
     line-height: 28px;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .blog-page__single-content .meta-box .meta-info li p a {
@@ -657,7 +657,7 @@
 }
 
 .blog-page__single-content .title-box h3 {
-    font-size: 40px;
+   font-size: 28px;
     line-height: 50px;
     font-weight: 600 !important;
 }
@@ -729,7 +729,7 @@
     background-color: var(--thm-gray-bg);
     color: var(--thm-body-font-color);
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 400;
     padding-left: 25px;
     padding-right: 25px;
     border-radius: 5px;
@@ -894,7 +894,7 @@
     color: var(--thm-body-font-color);
     font-size: 16px;
     line-height: 26px;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .sidebar__latest-blog-list li .content-box p span {
@@ -950,7 +950,7 @@
     color: var(--thm-body-font-color);
     font-size: 18px;
     line-height: 28px;
-    font-weight: 500;
+    font-weight: 400;
     padding-left: 20px;
     transition: all 200ms linear;
     transition-delay: 0.1s;
@@ -993,7 +993,7 @@
     color: var(--thm-body-font-color);
     font-size: 16px;
     line-height: 28px;
-    font-weight: 500;
+    font-weight: 400;
     transition: all 500ms ease;
     font-family: var(--thm-font);
 }
@@ -1111,7 +1111,7 @@
 .blog-details-img1__content .meta-box .meta-info li p {
     font-size: 18px;
     line-height: 28px;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .blog-details-img1__content .meta-box .meta-info li p a {
@@ -1157,7 +1157,7 @@
     color: #657078;
     font-size: 18px;
     line-height: 28px;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .blog-details-img1__content .list-item {
@@ -1200,7 +1200,7 @@
     color: #657078;
     font-size: 18px;
     line-height: 28px;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .blog-details__img2-box {
@@ -1271,7 +1271,7 @@
     color: #657078;
     font-size: 18px;
     line-height: 28px;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .blog-details__text {
@@ -1339,7 +1339,7 @@
     color: #657078;
     font-size: 18px;
     line-height: 28px;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .blog-details__tag-share {
@@ -1393,7 +1393,7 @@
     color: #657078;
     font-size: 16px;
     line-height: 28px;
-    font-weight: 500;
+    font-weight: 400;
     transition: all 500ms ease;
     font-family: var(--thm-font);
 }
@@ -1564,7 +1564,7 @@
     color: var(--thm-body-font-color);
     font-size: 16px;
     line-height: 26px;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .blog-details__prev-next-option .single-box .text h3 {
@@ -1652,7 +1652,7 @@
 .single-comment-box .text-holder .top .text-box h3 p {
     font-size: 18px;
     line-height: 28px;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .single-comment-box .text-holder .top .reply {
@@ -1685,7 +1685,7 @@
     color: #657078;
     font-size: 18px;
     line-height: 28px;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .single-comment-box.ml105 {
@@ -1713,7 +1713,7 @@
 .add-comment-box .title p {
     font-size: 18px;
     line-height: 28px;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .add-comment-box form {
@@ -1743,7 +1743,7 @@
     color: var(--thm-body-font-color);
     font-size: 18px;
     font-family: var(--thm-body-font);
-    font-weight: 500;
+    font-weight: 400;
     font-style: normal;
     border: none;
     border: 1px solid var(--thm-border-color);
@@ -1828,7 +1828,7 @@
     padding-left: 30px;
     font-size: 18px;
     line-height: 28px;
-    font-weight: 500;
+    font-weight: 400;
     cursor: pointer;
     min-height: 28px;
 }

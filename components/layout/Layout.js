@@ -16,6 +16,8 @@ import Footer3 from "./footer/Footer3"
 
 
 export default function Layout({ headerStyle, footerStyle, headTitle, breadcrumbTitle, children, wrapperCls }) {
+
+    const [chatBoat, setChatBoat] = useState(false)
     const [scroll, setScroll] = useState(0)
     // Mobile Menu
     const [isMobileMenu, setMobileMenu] = useState(false)
@@ -55,7 +57,7 @@ export default function Layout({ headerStyle, footerStyle, headTitle, breadcrumb
                 {headerStyle == 2 ? <Header2 scroll={scroll} isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} handlePopup={handlePopup} isSidebar={isSidebar} handleSidebar={handleSidebar} /> : null}
                 {headerStyle == 3 ? <Header3 scroll={scroll} isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} handlePopup={handlePopup} isSidebar={isSidebar} handleSidebar={handleSidebar} /> : null}
                 {headerStyle == 4 ? <Header4 scroll={scroll} isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} handlePopup={handlePopup} isSidebar={isSidebar} handleSidebar={handleSidebar} /> : null}
-                
+
 
 
                 <Sidebar isSidebar={isSidebar} handleSidebar={handleSidebar} />
@@ -71,6 +73,50 @@ export default function Layout({ headerStyle, footerStyle, headTitle, breadcrumb
                 {footerStyle == 3 ? < Footer3 /> : null}
 
             </div>
+            <div onClick={() => setChatBoat(!chatBoat)}><img src="assets/img/Cute_chat_bot.png" className="chatBoatIcon" alt="" /></div>
+            {chatBoat ? (
+    <div
+        style={{ transition: "all 0.5s" }}
+        className="chatboxOuter"
+    >
+        {/* Close Button */}
+        <button className="closeButton" onClick={() => setChatBoat(false)}>
+            <i className="fas fa-times"></i>
+        </button>
+
+        {/* Chatbot content */}
+        <div className="chatboxContent">
+            {/* Messages container */}
+            <div className="messagesContainer">
+                {/* Messages will go here */}
+            </div>
+            {/* Input and send button */}
+            <div className="inputContainer">
+                <input 
+                    type="text" 
+                    placeholder="Type your message..." 
+                    className="chatInput"
+                />
+                <button className="sendButton">Send</button>
+            </div>
+        </div>
+    </div>
+) : (
+    <div
+        style={{
+            height: "10vh",
+            right: "-300px",
+            bottom: "30px",
+            transition: "all 0.5s"
+        }}
+        className="chatboxOuter"
+    >
+    </div>
+)}
+
+
+
+
             <BackToTop scroll={scroll} />
         </>
     )

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import chatboat from "../../../public/assets/img/Cute_chat_bot.png"
 
 export default function Footer1() {
   return (

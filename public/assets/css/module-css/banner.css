@@ -240,7 +240,7 @@
     color: rgb(255, 255, 255, 0.8);
     font-size: 20px;
     line-height: 30px;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .banner-two__content .bottom-box {
@@ -305,7 +305,7 @@
     color: var(--thm-white);
     font-size: 18px;
     line-height: 28px;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .banner-two__content .bottom-box .user-people .text p+p {}
@@ -404,7 +404,7 @@
 }
 
 .banner-three__content .sec-title-four h2 {
-    font-size: 60px;
+    font-size: 48px;
     line-height: 1.3em;
     font-weight: 600 !important;
 }
@@ -419,7 +419,7 @@
     color: rgb(20, 20, 20, 0.8);
     font-size: 20px;
     line-height: 30px;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 
