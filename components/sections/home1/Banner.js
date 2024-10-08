@@ -37,7 +37,7 @@ export default function Banner() {
                             <div className="sub-title">
                             <TypingAnimation />
                             </div>
-                            <h2>
+                            <h2 style={{fontFamily:"cursive"}}>
                             Brand, Design, Product, <br />
                             In-house Development & More
                                 {/* Digital Agency<br/>For Growth */}

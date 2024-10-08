@@ -555,6 +555,7 @@
     padding: 9px 25px;
     line-height: 1.4;
     color: var(--thm-body-font-color);
+    color: var(--thm-black) !important;
     text-transform: capitalize;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
@@ -565,7 +566,7 @@
 
 .navbar-wrap>ul>li>.sub-menu>li.active>a,
 .navbar-wrap>ul>li>.sub-menu>li:hover>a {
-    color: var(--thm-primary);
+    color: var(--thm-secondary) !important;
 }
 
 .navbar-wrap>ul>li>.sub-menu>li:hover>a {
@@ -1025,7 +1026,7 @@
 
 .main-header-three .navbar-wrap>ul>li.active>a,
 .main-header-three .navbar-wrap>ul>li:hover>a {
-    color: var(--thm-black);
+    color: var(--thm-secondary);
 }
 
 .main-header-three .navbar-wrap>ul>li>.sub-menu>li.active>a,
