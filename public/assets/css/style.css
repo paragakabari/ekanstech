@@ -49,7 +49,7 @@
 	1. Variable CSS
 ===============================*/
 :root {
-    --thm-body-font: 'Fredoka', sans-serif;
+    --thm-body-font: '__Fredoka_91bab0', '__Fredoka_Fallback_91bab0';
     --thm-heading-font: '__Fredoka_91bab0', '__Fredoka_Fallback_91bab0'; /* Update the heading font */
     --thm-primary: #68CBF4;
     --thm-primary-rgb: 255, 90, 121;
