@@ -1,0 +1,77 @@
+// styles/BoostSection.module.scss
+.boost-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 3rem;
+    background-color: #151818;
+    border-radius: 10px;
+    color: white;
+  
+    .boost-content {
+      max-width: 600px;
+  
+      h2 {
+        font-size: 2rem;
+        font-weight: bold;
+      }
+  
+      p {
+        font-size: 1.1rem;
+        margin: 1rem 0;
+      }
+  
+      .contact-btn {
+        display: inline-block ;
+        padding: 0.8rem 1.5rem;
+        background-color: #68cbf4;
+        color: black;
+        border-radius: 5px;
+        font-weight: bold;
+        text-decoration: none;
+        gap: 0.5rem;
+        transition: background-color 0.5s;
+        border: 2px solid transparent;
+  
+        .arrow {
+          font-size: 1.2rem;
+          padding-left: 10px;
+        }
+  
+        &:hover {
+          background-color: transparent;
+          border: 2px solid #68cbf4;
+          color: white;
+        }
+      }
+    }
+  
+    .boost-image {
+      img {
+        width: 300px;
+        height: auto;
+      }
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .boost-section {
+      flex-direction: column;
+      text-align: center;
+  
+      .boost-image {
+        margin-top: 1.5rem;
+      }
+  
+      .boost-content {
+        h2 {
+          font-size: 1.5rem;
+        }
+  
+        p {
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+  

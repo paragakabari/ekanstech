@@ -1,6 +1,7 @@
 "use client";
 import Link from "next/link";
 import Layout from "@/components/layout/Layout";
+import BoostSection from "../BoostSection/BoostSection ";
 export default function Home() {
   return (
     <>
@@ -58,7 +59,7 @@ export default function Home() {
                       </div>
                       <div className="col-xl-6 col-lg-6">
                         <div className="content-box">
-                          <h3>
+                          <h3 style={{ letterSpacing: "3px" }}>
                             <b>SERVICES WE UNDERTAKE</b>
                           </h3>
                           <p>
@@ -66,7 +67,7 @@ export default function Home() {
                             that ensure a seamless experience for visitors to
                             your website. Our team goes the extra mile,
                             utilizing innovative approaches, strategies, and
-                            tools to enhance your company’s corporate image.
+                            tools to enhance your company&#39;s corporate image.
                           </p>
                           <ul className="list-item clearfix">
                             <li>
@@ -160,17 +161,16 @@ export default function Home() {
                   </div> */}
                 </div>
               </div>
-
               {/*Start Sidebar*/}
               <div className="col-xl-4">
                 <div className="service-details__sidebar">
                   {/*Start Sidebar Single*/}
                   {/* <div className="sidebar__single sidebar__search wow fadeInUp" data-wow-delay=".1s">
                                 <form action="#" className="sidebar__search-form">
-                                    <input type="search" placeholder="Search here..."/>
-                                    <button type="submit"><i className="icon-magnifying-glass"></i></button>
+                                <input type="search" placeholder="Search here..."/>
+                                <button type="submit"><i className="icon-magnifying-glass"></i></button>
                                 </form>
-                            </div> */}
+                                </div> */}
                   {/*End Sidebar Single*/}
 
                   {/*Start Sidebar Single*/}
@@ -218,49 +218,52 @@ export default function Home() {
                   {/*Start Sidebar Single*/}
                   {/* <div className="sidebar__single sidebar__dwonlode-box wow fadeInUp" data-wow-delay=".5s">
                                 <div className="dwonlode-box">
-                                    <Link href="#">
-                                        Download Doc
-                                        <i className="icon-download"></i>
-                                    </Link>
-                                    <Link href="#">
-                                        Download Pdf
-                                        <i className="icon-download"></i>
-                                    </Link>
+                                <Link href="#">
+                                Download Doc
+                                <i className="icon-download"></i>
+                                </Link>
+                                <Link href="#">
+                                Download Pdf
+                                <i className="icon-download"></i>
+                                </Link>
                                 </div>
-                            </div> */}
+                                </div> */}
                   {/*End Sidebar Single*/}
 
                   {/*Start Sidebar Single*/}
-                  <div
+                  {/* <div
                     className="sidebar__contact-info wow fadeInUp"
                     data-wow-delay=".5s"
-                  >
+                    >
                     <div
-                      className="sidebar__contact-info-bg"
-                      style={{
-                        backgroundImage:
-                          "url(assets/img/service/service-details-sideber__img1.jpg)",
+                    className="sidebar__contact-info-bg"
+                    style={{
+                      backgroundImage:
+                      "url(assets/img/service/service-details-sideber__img1.jpg)",
                       }}
                     ></div>
                     <div className="content-box text-center">
-                      <h3>
+                    <h3>
                         Have Any Discussion
                         <br />
                         About Project?
-                      </h3>
-                      <div className="btn-box">
+                        </h3>
+                        <div className="btn-box">
                         <Link className="thm-btn" href="#">
-                          <span className="txt">Contact Us</span>
-                          <i className="icon-next"></i>
+                        <span className="txt">Contact Us</span>
+                        <i className="icon-next"></i>
                         </Link>
-                      </div>
-                    </div>
-                  </div>
+                        </div>
+                        </div>
+                        </div> */}
                   {/*End Sidebar Single*/}
                 </div>
               </div>
               {/*End Sidebar*/}
             </div>
+              <div className="pt-5 mt-5">
+                <BoostSection />
+              </div>
           </div>
         </section>
         {/*End Blog Details*/}

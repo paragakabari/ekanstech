@@ -41,7 +41,7 @@ export default function Header1({ scroll, handleMobileMenu }) {
 
 
             <div className="main-header-three__bottom">
-                <div id="sticky-header" className={`menu-area ${scroll ? "sticky-menu" : ""}`}>
+                <div id="sticky-header" className={`menu-area ${scroll ? "sticky-menu" : ""}`} >
                     <div className="container">
                         <div className="main-header-three__bottom-inner">
 

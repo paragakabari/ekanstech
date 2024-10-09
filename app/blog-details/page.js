@@ -103,7 +103,7 @@ export default function Home() {
                                             <h3><Link href="#">Repair For People Who Want More</Link></h3>
                                             <p>
                                                 Several ways and will continue to do so. As a result, it is something that will
-                                                never cease to halt. It’s an ever-growing business, which requires the help of
+                                                never cease to halt. It&#39;s an ever-growing business, which requires the help of
                                                 proper slogans to make yourself and and application stand out from under a rock,
                                                 lived an app named to do.
                                             </p>

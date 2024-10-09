@@ -1,10 +1,9 @@
 import { useEffect, useRef, useState } from 'react'
 
-
 export default function Counter({ end, duration }) {
     const [count, setCount] = useState(0)
     const countRef = useRef(null)
-    const increment = end / duration
+    const intervalRef = useRef(null)
 
     useEffect(() => {
         const observer = new IntersectionObserver(
@@ -22,31 +21,32 @@ export default function Counter({ end, duration }) {
         }
 
         return () => {
-            observer.disconnect()
+            if (observer) observer.disconnect()
         }
     }, [])
 
-    useEffect(() => {
-        const interval = setInterval(() => {
+    const startCount = () => {
+        // Increase increment for faster counting
+        const stepTime = (duration * 50) / end // Decreased interval to speed up counting
+        const increment = Math.max(1, Math.round(end / (duration * 2))) // Adjust increment
+
+        intervalRef.current = setInterval(() => {
             setCount((prevCount) => {
                 const newCount = prevCount + increment
                 if (newCount >= end) {
-                    clearInterval(interval)
+                    clearInterval(intervalRef.current)
                     return end
-                } else {
-                    return newCount
                 }
+                return newCount
             })
-        }, 1000 / duration)
-
-        return () => {
-            clearInterval(interval)
-        }
-    }, [end, increment])
-
-    const startCount = () => {
-        setCount(0)
+        }, stepTime)
     }
+
+    useEffect(() => {
+        return () => {
+            if (intervalRef.current) clearInterval(intervalRef.current)
+        }
+    }, [])
 
     return (
         <span ref={countRef}>

@@ -12,9 +12,11 @@
   "dependencies": {
     "@next/font": "^14.2.14",
     "bootstrap": "^5.3.3",
+    "framer-motion": "^11.11.2",
     "isotope-layout": "^3.0.6",
     "next": "13.4.19",
     "react": "18.2.0",
+    "react-awesome-reveal": "^4.2.14",
     "react-bootstrap": "^2.10.4",
     "react-curved-text": "^2.0.2",
     "react-dom": "18.2.0",

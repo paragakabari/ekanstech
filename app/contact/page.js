@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <>
-      <Layout headerStyle={4} footerStyle={1} breadcrumbTitle="Contact">
+      <Layout headerStyle={4} footerStyle={1} breadcrumbTitle="Contact" bgImg="assets/img/Contect Background Img.png">
         {/*Start Contact Page*/}
         <section className="contact-page">
           <div className="contact-page__top">
@@ -15,7 +15,7 @@ export default function Home() {
                       <h2>Get in Touch</h2>
                       <p>
                         No time to waste – we’ve got exactly what you need! Step
-                        up to success with Ekanstech IT Solution. Our team is
+                        up to success with Ekanstech Solution. Our team is
                         poised and ready to propel your business to new heights.
                         Don’t miss out, call us today for cutting-edge,
                         dependable digital marketing services that guarantee

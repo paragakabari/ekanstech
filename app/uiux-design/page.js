@@ -1,5 +1,6 @@
 import Layout from "@/components/layout/Layout";
 import Link from "next/link";
+import BoostSection from "../BoostSection/BoostSection ";
 export default function Home() {
   return (
     <>
@@ -28,7 +29,7 @@ export default function Home() {
                         <br />
                         Regardless of possessing a groundbreaking idea,
                         executing outstanding marketing campaigns, and employing
-                        top-notch salespeople, you might be wondering why you’re
+                        top-notch salespeople, you might be wondering why you&#39;re
                         still not attracting a significant number of customers.
                         The probable reason behind this could be attributed to
                         the subpar user experience offered by your website. At
@@ -221,7 +222,7 @@ export default function Home() {
                   {/*End Sidebar Single*/}
 
                   {/*Start Sidebar Single*/}
-                  <div
+                  {/* <div
                     className="sidebar__contact-info wow fadeInUp"
                     data-wow-delay=".5s"
                   >
@@ -245,12 +246,15 @@ export default function Home() {
                         </Link>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                   {/*End Sidebar Single*/}
                 </div>
               </div>
               {/*End Sidebar*/}
             </div>
+            <div className="pt-5 mt-5">
+                <BoostSection />
+              </div>
           </div>
         </section>
         {/*End Blog Details*/}

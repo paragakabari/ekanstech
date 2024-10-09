@@ -31,7 +31,7 @@ export default function Error404() {
                 </section>
                 {/* Error Page End */}
 
-                <section className="cta-one">
+                {/* <section className="cta-one">
                     <div className="container">
                         <div className="cta-one__inner">
                             <div className="cta-one__bg"  style={{ backgroundImage: 'url(assets/images/backgrounds/cta-one-bg.jpg)' }} >
@@ -55,7 +55,7 @@ export default function Error404() {
                             </div>
                         </div>
                     </div>
-                </section>
+                </section> */}
 
             </Layout>
 

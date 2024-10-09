@@ -12,6 +12,9 @@ export default function Menu() {
             <li className={isActive === "About" ? "active" : ""} onClick={() => setIsActive("About")}>
                 <Link href="/about">About</Link>
             </li>
+            <li className={isActive === "Career" ? "active" : ""} onClick={() => setIsActive("Career")}>
+                <Link href="/career">Career</Link>
+            </li>
             <li className="menu-item-has-children">
                 <Link href="#">Services</Link>
                 <ul className="sub-menu">

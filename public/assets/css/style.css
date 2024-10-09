@@ -41,6 +41,8 @@
 @import url('../css/module-css/testimonial.css');
 @import url('../css/module-css/team.css');
 @import url('../css/module-css/header.css');
+@import url("../css/module-css/career.css");
+
 
 
 
@@ -1516,6 +1518,7 @@ label {
     position: relative;
     display: block;
 }
+
 
 .side-info .content-box h3 {
     color: var(--thm-white);

@@ -321,7 +321,7 @@ export default function Testimonial() {
                                     <i className="icon-plus-symbol-button"></i>
                                 </div>
                                 <div className="text-box">
-                                    <p>Over the past 6 years, I’ve worked with<br/>more than 40 companies.</p>
+                                    <p>Over the past 6 years, I&#39;ve worked with<br/>more than 40 companies.</p>
                                 </div>
                             </div>
                         </div>
@@ -349,7 +349,7 @@ export default function Testimonial() {
                                     <i className="icon-plus-symbol-button"></i>
                                 </div>
                                 <div className="text-box">
-                                    <p>We’ve driven over 3M conversions through<br/>content worldwide.</p>
+                                    <p>We&#39;ve driven over 3M conversions through<br/>content worldwide.</p>
                                 </div>
                             </div>
                         </div>

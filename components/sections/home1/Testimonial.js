@@ -102,7 +102,7 @@ export default function Testimonial() {
                                     <h4>Customers Feedback</h4>
                                 </div>
                                 <h2>
-                                    What Says Our Client’s<br/>Ekanstech
+                                    What Says Our Client&#39;s<br/>Ekanstech
                                 </h2>
                             </div>
 

@@ -28,7 +28,7 @@ export default function Cta() {
                         <img src="assets/img/shape/cta-one__shape6.png" alt="#"/>
                     </div>
                     <div className="cta-one__inner-title-box">
-                        <h2>Have A Project In Mind? Let’s Get Start.</h2>
+                        <h2>Have A Project In Mind? Let&#39;s Get Start.</h2>
                     </div>
                     <div className="cta-one__inner-text-box">
                         <p>

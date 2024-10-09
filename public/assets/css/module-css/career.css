@@ -1,0 +1,206 @@
+.career-page__top {
+  background: url("/assets/img/career.png") no-repeat center center;
+  background-size: cover;
+  padding: 100px 0;
+}
+
+.career-title {
+  font-size: 2.5rem;
+  color: #ffffff;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.career-subtitle {
+  font-size: 1.25rem;
+  color: #ffffff;
+}
+
+.btn-explore {
+  background-color: #68cbf4;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 20px;
+  color: white;
+  font-size: 1rem;
+}
+
+.career-page__positions {
+  padding: 100px 0;
+  background-color: #ebebeb;
+}
+
+.positions-title {
+  font-size: 3rem;
+  color: #333333;
+  font-weight: bold;
+  word-spacing: 10px;
+  padding-bottom: 40px;
+}
+
+.position-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  height: 400px;
+  overflow: hidden;
+}
+
+.position-card:hover .position-image {
+  transform: scale(1.05);
+}
+.position-image {
+  border-radius: 8px;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 15px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.position-title {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+.Position {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.position-description {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .career-title {
+    font-size: 2rem;
+  }
+
+  .career-subtitle {
+    font-size: 1rem;
+  }
+
+  .btn-explore {
+    font-size: 0.875rem;
+  }
+
+  .position-title {
+    font-size: 1.3rem;
+  }
+
+  .position-description {
+    font-size: 0.875rem;
+  }
+}
+
+.careers-section {
+  background-color: rgb(235, 235, 235);
+  padding: 100px 0px;
+}
+
+.section1-title {
+  font-weight: bold;
+  font-size: 3rem;
+  word-spacing: 10px;
+}
+
+.section-text {
+  color: #666;
+  font-size: 18px;
+  line-height: 1.6;
+  padding: 40px;
+}
+
+.image-container {
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.image-item {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.image-item:hover {
+  transform: scale(1.05);
+}
+
+.about-ekanstech {
+  padding: 100px 0px;
+  background-color: #f9f9f9;
+}
+
+.section-title {
+  word-spacing: 10px;
+  padding: 40px 0px;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.section-intro {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #666;
+}
+
+.section-text {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+h4 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+p {
+  color: #666;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.highlight {
+  color: #68cbf4;
+  font-weight: bold;
+}
+
+i {
+  color: #68cbf4;
+}
+
+.final-call {
+  font-size: 1.1rem;
+  padding: 20px 100px;
+  color: #555;
+}
+
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .section-intro {
+    font-size: 1rem;
+  }
+
+  .section-text {
+    font-size: 1rem;
+  }
+
+  h4 {
+    font-size: 1.3rem;
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
+}

@@ -19,7 +19,7 @@ export default function Footer3() {
                             <Link href="/"><img src="assets/img/logo/footer-one-1.png" alt="#"/></Link>
                         </div>
                         <div className="footer-one__big-title">
-                            <h2>Let’s Talk with Me!</h2>
+                            <h2>Let&#39;s Talk with Me!</h2>
                         </div>
                         <div className="footer-one__text-box">
                             <p>We are not only better, but we are also the best in the advertisement.

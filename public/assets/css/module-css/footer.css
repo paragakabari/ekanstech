@@ -1080,7 +1080,7 @@
 }
 
 .socialIconFooter:hover {
-  transform: rotateX(360deg); /* Flips the element vertically */
+  /* transform: rotateX(360deg);  */
   color: white !important;
 }
 
@@ -1102,18 +1102,16 @@
     cursor: pointer;
     display: block;
     border-radius: 50%;
-    transition: all 2s linear;
     object-fit: cover;
     animation: bounce 2s infinite;
-}
-
-.chatBoatIcon:hover {
-}
-
-/* Bounce Animation */
-@keyframes bounce {
+  }
+  
+  
+  /* Bounce Animation */
+  @keyframes bounce {
     0%, 20%, 50%, 80%, 100% {
-        transform: translateY(0);
+      transform: translateY(0);
+      transform: scale(1.1) ;
     }
     40% {
         transform: translateY(-15px);

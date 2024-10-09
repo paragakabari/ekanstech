@@ -6,6 +6,7 @@ import Link from "next/link";
 import { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Container, Row, Col, Image } from "react-bootstrap";
+import BoostSection from "../BoostSection/BoostSection ";
 
 const swiperOptions = {
   modules: [Autoplay, Pagination, Navigation],
@@ -31,181 +32,222 @@ const swiperOptions = {
 };
 
 export default function About() {
-    const [activeTab, setActiveTab] = useState("agency-tab-1");
-    const [isAnimating, setIsAnimating] = useState(true);
-  
-    const handleTabClick = (tab) => {
-      setIsAnimating(false); // Reset animation before switching tab
-      setTimeout(() => {
-        setActiveTab(tab); // Switch the tab
-        setIsAnimating(true); // Trigger animation
-      }, 300); // Adding a slight delay to ensure smooth transition
-    };
-  
-    const renderContent = () => {
-      switch (activeTab) {
-        case "agency-tab-1":
-          return (
-            <div className={`content p-3 text ${isAnimating ? "active" : ""}`}>
-              <p>
-                Empower businesses with cutting-edge digital marketing and web
-                development solutions, driving growth, and achieving online
-                success through strategic innovation and exceptional client
-                service.
-              </p>
-            </div>
-          );
-        case "agency-tab-2":
-          return (
-            <div className={`content p-3 text ${isAnimating ? "active" : ""}`}>
-              <p>
-                To be a global leader in digital marketing and web development,
-                recognized for our expertise, innovation, and unwavering
-                commitment to delivering transformative results for our clients.
-              </p>
-            </div>
-          );
-        case "agency-tab-3":
-          return (
-            <div className={`content p-3 text ${isAnimating ? "active" : ""}`}>
-              <p>
-                Over 10 years of industry experience, we have evolved alongside
-                the digital landscape, continually adapting and refining our
-                strategies to stay ahead. Our track record of success and
-                long-standing client partnerships speak to our expertise and
-                dedication.
-              </p>
-            </div>
-          );
-        default:
-          return null;
-      }
-    }; 
+  const [activeTab, setActiveTab] = useState("agency-tab-1");
+  const [isAnimating, setIsAnimating] = useState(true);
+
+  const handleTabClick = (tab) => {
+    setIsAnimating(false); // Reset animation before switching tab
+    setTimeout(() => {
+      setActiveTab(tab); // Switch the tab
+      setIsAnimating(true); // Trigger animation
+    }, 300); // Adding a slight delay to ensure smooth transition
+  };
+
+  const renderContent = () => {
+    switch (activeTab) {
+      case "agency-tab-1":
+        return (
+          <div className={`content p-3 text ${isAnimating ? "active" : ""}`}>
+            <p>
+              Empower businesses with cutting-edge digital marketing and web
+              development solutions, driving growth, and achieving online
+              success through strategic innovation and exceptional client
+              service.
+            </p>
+          </div>
+        );
+      case "agency-tab-2":
+        return (
+          <div className={`content p-3 text ${isAnimating ? "active" : ""}`}>
+            <p>
+              To be a global leader in digital marketing and web development,
+              recognized for our expertise, innovation, and unwavering
+              commitment to delivering transformative results for our clients.
+            </p>
+          </div>
+        );
+      case "agency-tab-3":
+        return (
+          <div className={`content p-3 text ${isAnimating ? "active" : ""}`}>
+            <p>
+              Over 10 years of industry experience, we have evolved alongside
+              the digital landscape, continually adapting and refining our
+              strategies to stay ahead. Our track record of success and
+              long-standing client partnerships speak to our expertise and
+              dedication.
+            </p>
+          </div>
+        );
+      default:
+        return null;
+    }
+  };
   return (
     <>
-      <Layout headerStyle={4} footerStyle={1} breadcrumbTitle="About company">
+      <Layout
+        headerStyle={4}
+        footerStyle={1}
+        breadcrumbTitle="About company"
+        bgImg="assets/img/about/about1.png"
+      >
         {/*Start About Three*/}
         <section className="about-three">
-            <div className="about-three__shape1 float-bob-y">
-                <img src="assets/img/shape/about-three__shape1.png" alt="shapes"/>
-            </div>
-            <div className="about-three__shape2">
-                <img src="assets/img/shape/about-three__shape2.png" alt="shapes"/>
-            </div>
-            <div className="about-three__shape3">
-                <img src="assets/img/shape/about-three__shape3.png" alt="shapes"/>
-            </div>
-            <div className="container">
-                <div className="row">
-                    <div className="col-xl-6">
-                        <div className="about-three__content mx-auto mb-md-5">
-                            <div className="sec-title-four sec-title-animation animation-style1">
-                                <div className="sub-title">
-                                    <h4>Get To Know About Us</h4>
-                                </div>
-                                <h2>
-                                    We Are Here to Give You<br/>Effective Ideas
-                                </h2>
-                            </div>
-                            <div className="text">
-                                <p>Creative design slogans can help people connect more to the<br/>
-                                    scenario that the accounts for making available.</p>
-                            </div>
-                            <div className="about-three__fact-box">
-                                <div className="row">
-                                    <div className="col-xl-6 col-lg-6 col-md-6">
-                                        <div className="about-three__fact-single">
-                                            <div className="count-outer count-box">
-                                            <CounterUp end={25} />
-                                                <i className="icon-plus-symbol-button"></i>
-                                            </div>
-                                            <div className="title">
-                                                <h3>Completed Projects</h3>
-                                            </div>
-                                            <div className="text">
-                                                <p>With 100% Satisfaction</p>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div className="col-xl-6 col-lg-6 col-md-6">
-                                        <div className="about-three__fact-single">
-                                            <div className="count-outer count-box">
-                                            <CounterUp end={89} />
-                                                <i className="icon-percentage"></i>
-                                            </div>
-                                            <div className="title">
-                                                <h3>Company Growth</h3>
-                                            </div>
-                                            <div className="text">
-                                                <p>Avg. Every Year</p>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-                            <div className="about-three__img">
-                                <div className="img-box">
-                                    <img src="assets/img/about/about-three__img1 (2).jpg" alt="image"/>
-                                </div>
-                                <div className="title-box">
-                                    <h3>We Are The Best Digital<br/>Agencies In The City</h3>
-                                    <div className="btn-box">
-                                        <Link className="thm-btn" href="about">
-                                            <span className="txt">Learn More</span>
-                                            <i className="icon-next"></i>
-                                        </Link>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+          <div className="about-three__shape1 float-bob-y">
+            <img src="assets/img/shape/about-three__shape1.png" alt="shapes" />
+          </div>
+          <div className="about-three__shape2">
+            <img src="assets/img/shape/about-three__shape2.png" alt="shapes" />
+          </div>
+          <div className="about-three__shape3">
+            <img src="assets/img/shape/about-three__shape3.png" alt="shapes" />
+          </div>
+          <div className="container">
+            <div className="row">
+              <div className="col-xl-6">
+                <div className="about-three__content mx-auto mb-md-5">
+                  <div className="sec-title-four sec-title-animation animation-style1">
+                    <div className="sub-title">
+                      <h4>Get To Know About Us</h4>
                     </div>
-                    <div className="col-xl-6">
-                        <div className="about-three__img-box mx-auto">
-                            <ul>
-                                <li className="wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
-                                    {/*Single About Three Img*/}
-                                    <div className="single-about-three__img-box">
-                                        <img src="assets/img/about/about-three__img2 (2).jpg" alt="image"/>
-                                    </div>
-                                    {/*End About Three Img*/}
-                                </li>
-
-                                <li className="wow fadeInRight" data-wow-delay="0ms" style={{transform:"scale(1.25)"}} data-wow-duration="1500ms">
-                                    {/*Single About Three Img*/}
-                                    <div className="single-about-three__img-box">
-                                        <img src="assets/img/about/about-three__img3 (2).jpg"  alt="image"/>
-                                    </div>
-                                    {/*End About Three Img*/}
-                                </li>
-                            </ul>
-
-                            <div className="about-three__img-box-bottom wow fadeInLeft" data-wow-delay="0ms"
-                                data-wow-duration="1500ms">
-                                {/*Single About Three Img*/}
-                                <div className="single-about-three__img-box">
-                                    <img src="assets/img/about/about-three__img4 (2).jpg" alt="image"/>
-                                </div>
-                                {/*End About Three Img*/}
-                            </div>
-
-                            <div className="overlay-box text-center">
-                                <div className="outer-box">
-                                    <div className="count-outer count-box">
-                                    <CounterUp end={5} />
-                                        <i className="icon-plus-symbol-button"></i>
-                                    </div>
-                                    <div className="title">
-                                        <p>Years Of<br/>Experiences</p>
-                                    </div>
-                                </div>
-                            </div>
-
+                    <h2>
+                      We Are Here to Give You
+                      <br />
+                      Effective Ideas
+                    </h2>
+                  </div>
+                  <div className="text">
+                    <p>
+                      Creative design slogans can help people connect more to
+                      the
+                      <br />
+                      scenario that the accounts for making available.
+                    </p>
+                  </div>
+                  <div className="about-three__fact-box">
+                    <div className="row">
+                      <div className="col-xl-6 col-lg-6 col-md-6">
+                        <div className="about-three__fact-single">
+                          <div className="count-outer count-box">
+                            <CounterUp end={25} />
+                            <i className="icon-plus-symbol-button"></i>
+                          </div>
+                          <div className="title">
+                            <h3>Completed Projects</h3>
+                          </div>
+                          <div className="text">
+                            <p>With 100% Satisfaction</p>
+                          </div>
                         </div>
+                      </div>
+
+                      <div className="col-xl-6 col-lg-6 col-md-6">
+                        <div className="about-three__fact-single">
+                          <div className="count-outer count-box">
+                            <CounterUp end={89} />
+                            <i className="icon-percentage"></i>
+                          </div>
+                          <div className="title">
+                            <h3>Company Growth</h3>
+                          </div>
+                          <div className="text">
+                            <p>Avg. Every Year</p>
+                          </div>
+                        </div>
+                      </div>
                     </div>
+                  </div>
+                  <div className="about-three__img">
+                    <div className="img-box">
+                      <img
+                        src="assets/img/about/about-three__img1 (2).jpg"
+                        alt="image"
+                      />
+                    </div>
+                    <div className="title-box">
+                      <h3>
+                        We Are The Best Digital
+                        <br />
+                        Agencies In The City
+                      </h3>
+                      <div className="btn-box">
+                        <Link className="thm-btn" href="about">
+                          <span className="txt">Learn More</span>
+                          <i className="icon-next"></i>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
                 </div>
+              </div>
+              <div className="col-xl-6">
+                <div className="about-three__img-box mx-auto">
+                  <ul>
+                    <li
+                      className="wow fadeInRight"
+                      data-wow-delay="0ms"
+                      data-wow-duration="1500ms"
+                    >
+                      {/*Single About Three Img*/}
+                      <div className="single-about-three__img-box">
+                        <img
+                          src="assets/img/about/about-three__img2 (2).jpg"
+                          alt="image"
+                        />
+                      </div>
+                      {/*End About Three Img*/}
+                    </li>
+
+                    <li
+                      className="wow fadeInRight"
+                      data-wow-delay="0ms"
+                      style={{ transform: "scale(1.25)" }}
+                      data-wow-duration="1500ms"
+                    >
+                      {/*Single About Three Img*/}
+                      <div className="single-about-three__img-box">
+                        <img
+                          src="assets/img/about/about-three__img3 (2).jpg"
+                          alt="image"
+                        />
+                      </div>
+                      {/*End About Three Img*/}
+                    </li>
+                  </ul>
+
+                  <div
+                    className="about-three__img-box-bottom wow fadeInLeft"
+                    data-wow-delay="0ms"
+                    data-wow-duration="1500ms"
+                  >
+                    {/*Single About Three Img*/}
+                    <div className="single-about-three__img-box">
+                      <img
+                        src="assets/img/about/about-three__img4 (2).jpg"
+                        alt="image"
+                      />
+                    </div>
+                    {/*End About Three Img*/}
+                  </div>
+
+                  <div className="overlay-box text-center">
+                    <div className="outer-box">
+                      <div className="count-outer count-box">
+                        <CounterUp end={5} />
+                        <i className="icon-plus-symbol-button"></i>
+                      </div>
+                      <div className="title">
+                        <p>
+                          Years Of
+                          <br />
+                          Experiences
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
+          </div>
         </section>
         {/*End About Three*/}
 
@@ -820,8 +862,8 @@ export default function About() {
                                             </div>
                                             <div className="text">
                                                 <p>
-                                                    “ Concor delivers sectors concor delivers world className infrastructure
-                                                    the is a world className infrastructure solutions across a broad
+                                                    “ Concor delivers sectors concor delivers world class infrastructure
+                                                    the is a world class infrastructure solutions across a broad
                                                     industry start and end of creativity to customers and the
                                                     stakeholders across the world broad ...”
                                                 </p>
@@ -861,99 +903,102 @@ export default function About() {
             </div>
         </section> */}
 
-<section className="agency-section">
-      <Container>
-        <Row className="justify-content-between">
-          <Col xl={6} lg={12}>
-            <div className="inner">
-              <div className="sec-title text-center text-sm-start pb-0">
-                <h2>
-                  WE ARE YOUR DIGITAL <br /> MARKETING EXPERTS
-                  <span className="dot">.</span>
-                </h2>
-              </div>
+        <section className="agency-section">
+          <Container>
+            <Row className="justify-content-between">
+              <Col xl={6} lg={12}>
+                <div className="inner">
+                  <div className="sec-title text-center text-sm-start pb-0">
+                    <h2>
+                      WE ARE YOUR DIGITAL <br /> MARKETING EXPERTS
+                      <span className="dot">.</span>
+                    </h2>
+                  </div>
 
-              <div className="default-tabs tabs-box">
-                <div className="tab-btns flex-row">
-                  <button
-                    className={`tab-btn ${
-                      activeTab === "agency-tab-1" ? "active-btn" : ""
-                    }`}
-                    onClick={() => handleTabClick("agency-tab-1")}
-                  >
-                    Our Mission
-                  </button>
-                  <button
-                    className={`tab-btn ${
-                      activeTab === "agency-tab-2" ? "active-btn" : ""
-                    }`}
-                    onClick={() => handleTabClick("agency-tab-2")}
-                  >
-                    Our Vision
-                  </button>
-                  <button
-                    className={`tab-btn ${
-                      activeTab === "agency-tab-3" ? "active-btn" : ""
-                    }`}
-                    onClick={() => handleTabClick("agency-tab-3")}
-                  >
-                    Our History
-                  </button>
+                  <div className="default-tabs tabs-box">
+                    <div className="tab-btns flex-row">
+                      <button
+                        className={`tab-btn ${
+                          activeTab === "agency-tab-1" ? "active-btn" : ""
+                        }`}
+                        onClick={() => handleTabClick("agency-tab-1")}
+                      >
+                        Our Mission
+                      </button>
+                      <button
+                        className={`tab-btn ${
+                          activeTab === "agency-tab-2" ? "active-btn" : ""
+                        }`}
+                        onClick={() => handleTabClick("agency-tab-2")}
+                      >
+                        Our Vision
+                      </button>
+                      <button
+                        className={`tab-btn ${
+                          activeTab === "agency-tab-3" ? "active-btn" : ""
+                        }`}
+                        onClick={() => handleTabClick("agency-tab-3")}
+                      >
+                        Our History
+                      </button>
+                    </div>
+
+                    <div className="tab-content">{renderContent()}</div>
+                  </div>
                 </div>
+              </Col>
 
-                <div className="tab-content">{renderContent()}</div>
-              </div>
-            </div>
-          </Col>
-
-          <Col xl={6} lg={12}>
-            <div className="inner">
-              <div className="text sub-title-text pb-3">
-                <p>
-                  At Ekanstech solution, our team of seasoned professionals
-                  collaborates with you, tailoring our services to your budget.
-                  We optimize your online presence, maximizing profitability.
-                  With swift and efficient solutions, we ensure your brand or
-                  product is quickly launched, delivering excellent value for
-                  your investment.
-                </p>
-              </div>
-
-              <div className="featured-block-two clearfix flex-column flex-md-row">
-                <Image
-                  src="https://dalvindigital.com/wp-content/uploads/2023/07/dalvin-digital-about-us-img-2.jpg"
-                  alt="dalvin-digital-about-us-img-2"
-                  roundedCircle
-                  fluid
-                />
-                <ul className="m-0 list-unstyled">
-                  <li className="text">
+              <Col xl={6} lg={12}>
+                <div className="inner">
+                  <div className="text sub-title-text pb-3">
                     <p>
-                      Connecting our clients at the right moment, and with the
-                      right targets.
+                      At Ekanstech solution, our team of seasoned professionals
+                      collaborates with you, tailoring our services to your
+                      budget. We optimize your online presence, maximizing
+                      profitability. With swift and efficient solutions, we
+                      ensure your brand or product is quickly launched,
+                      delivering excellent value for your investment.
                     </p>
-                  </li>
-                  <li className="text">
-                    <p>Reliable & Trusted Services</p>
-                  </li>
-                  <li className="text">
-                    <p>Experienced Professional Designers</p>
-                  </li>
-                  <li className="text">
-                    <p>
-                      Trendy, creative, and feature-rich SEO friendly design
-                    </p>
-                  </li>
-                  <li className="text">
-                    <p>5-star review from Happy Customers.</p>
-                  </li>
-                </ul>
-              </div>
+                  </div>
+
+                  <div className="featured-block-two clearfix flex-column flex-md-row">
+                    <Image
+                      src="https://dalvindigital.com/wp-content/uploads/2023/07/dalvin-digital-about-us-img-2.jpg"
+                      alt="dalvin-digital-about-us-img-2"
+                      roundedCircle
+                      fluid
+                    />
+                    <ul className="m-0 list-unstyled">
+                      <li className="text">
+                        <p>
+                          Connecting our clients at the right moment, and with
+                          the right targets.
+                        </p>
+                      </li>
+                      <li className="text">
+                        <p>Reliable & Trusted Services</p>
+                      </li>
+                      <li className="text">
+                        <p>Experienced Professional Designers</p>
+                      </li>
+                      <li className="text">
+                        <p>
+                          Trendy, creative, and feature-rich SEO friendly design
+                        </p>
+                      </li>
+                      <li className="text">
+                        <p>5-star review from Happy Customers.</p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </Col>
+            </Row>
+            <div className="pt-5 mt-5">
+            <BoostSection />
             </div>
-          </Col>
-        </Row>
-      </Container>
-    </section>
+          </Container>
+        </section>
       </Layout>
     </>
   );

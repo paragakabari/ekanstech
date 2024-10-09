@@ -51,7 +51,7 @@ export default function Features() {
                             <div className="sec-title-two  sec-title-animation animation-style1">
                                 <h2>Integrating Cutting Edge<br/><span>25+ Web Technologies</span></h2>
                                 <p>
-                                    Web design is not about making a website—it’s about making an investment in your
+                                    Web design is not about making a website—it&#39;s about making an investment in your
                                     organization. Successful web design takes into<br/>account more than just aesthetics.
                                 </p>
                             </div>

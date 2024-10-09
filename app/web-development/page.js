@@ -1,6 +1,7 @@
 "use client";
 import Layout from "@/components/layout/Layout";
 import Link from "next/link";
+import BoostSection from "../BoostSection/BoostSection ";
 export default function Home() {
   return (
     <>
@@ -28,15 +29,15 @@ export default function Home() {
                       <br />
                       <p>
                         Our expert team at Ekanstech Solution has consistently
-                        delivered remarkable results in bringing our clients’
-                        visions for their website design, development, and
-                        expected returns to life. Whether it’s making updates to
-                        your current website or creating a completely new one,
-                        we possess the skills and expertise to handle it all.
-                        Our dedication to excellence ensures that we meet your
-                        requirements and exceed your expectations, creating a
-                        website that effectively showcases your brand and drives
-                        the desired outcomes.{" "}
+                        delivered remarkable results in bringing our
+                        clients&#39; visions for their website design,
+                        development, and expected returns to life. Whether
+                        it&#39;s making updates to your current website or
+                        creating a completely new one, we possess the skills and
+                        expertise to handle it all. Our dedication to excellence
+                        ensures that we meet your requirements and exceed your
+                        expectations, creating a website that effectively
+                        showcases your brand and drives the desired outcomes.{" "}
                       </p>
                     </div>
                   </div>
@@ -52,7 +53,7 @@ export default function Home() {
                         duplicate content issues that can harm your search
                         ranking. Our expertise in responsive web design ensures
                         a consistent and user-friendly experience across
-                        devices, saving you time and enhancing your brand’s
+                        devices, saving you time and enhancing your brand&#39;s
                         online presence.
                       </p>
                     </div>
@@ -232,7 +233,7 @@ export default function Home() {
                   {/*End Sidebar Single*/}
 
                   {/*Start Sidebar Single*/}
-                  <div
+                  {/* <div
                     className="sidebar__contact-info wow fadeInUp"
                     data-wow-delay=".5s"
                   >
@@ -256,11 +257,14 @@ export default function Home() {
                         </Link>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                   {/*End Sidebar Single*/}
                 </div>
               </div>
               {/*End Sidebar*/}
+            </div>
+            <div className="pt-5 mt-5">
+              <BoostSection />
             </div>
           </div>
         </section>
