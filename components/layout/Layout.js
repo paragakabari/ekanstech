@@ -140,6 +140,7 @@ export default function Layout({
             <i className="fas fa-times"></i>
           </button>
 
+        
           {/* Chatbot content */}
           <div className="chatboxContent">
             {/* Messages container */}
