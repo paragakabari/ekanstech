@@ -9,11 +9,14 @@ export default function Menu() {
             <li className={isActive === "Home" ? "active" : ""} onClick={() => setIsActive("Home")}>
                 <Link href="/">Home</Link>
             </li>
-            <li className={isActive === "About" ? "active" : ""} onClick={() => setIsActive("About")}>
-                <Link href="/about">About</Link>
-            </li>
             <li className={isActive === "Career" ? "active" : ""} onClick={() => setIsActive("Career")}>
                 <Link href="/career">Career</Link>
+            </li>
+            <li className={isActive === "Blog" ? "active" : ""} onClick={() => setIsActive("Blog")}>
+                <Link href="/blog">Blogs</Link>
+            </li>
+            <li className={isActive === "About" ? "active" : ""} onClick={() => setIsActive("About")}>
+                <Link href="/about">About</Link>
             </li>
             <li className="menu-item-has-children">
                 <Link href="#">Services</Link>
@@ -32,9 +35,7 @@ export default function Menu() {
                     </li>
                 </ul>
             </li>
-            <li className={isActive === "Blog" ? "active" : ""} onClick={() => setIsActive("Blog")}>
-                <Link href="/blog">Blog</Link>
-            </li>
+            
             <li className={isActive === "Contact" ? "active" : ""} onClick={() => setIsActive("Contact")}>
                 <Link href="/contact">Contact</Link>
             </li>

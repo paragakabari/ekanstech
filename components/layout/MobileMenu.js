@@ -49,6 +49,12 @@ const MobileMenu = ({ isSidebar, handleMobileMenu }) => {
                 <Link href="/">Home</Link>
               </li>
               <li>
+                <Link href="/career/">Career</Link>
+              </li>
+              <li>
+                <Link href="/blog/">Blogs</Link>
+              </li>
+              <li>
                 <Link href="/about/">About</Link>
               </li>
               <li
