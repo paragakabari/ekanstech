@@ -333,7 +333,7 @@ h6 a {
   }
   
   .handle-preloader .animation-preloader .txt-loading .letters-loading:before{
-    animation: letters-loading 19s infinite;
+    animation: letters-loading 5s infinite;
     content: attr(data-text-preloader);
     left: 0;
     opacity: 0;
