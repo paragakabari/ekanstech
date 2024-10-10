@@ -7,7 +7,7 @@
    font-size: 28px;
     line-height: 50px;
     cursor: pointer;
-    display: block;
+    display: none;
     color: var(--thm-white);
     margin-right: 30px;
     top: 15px;
@@ -363,7 +363,7 @@
     cursor: pointer;
     line-height: 1;
     color: var(--thm-primary);
-    display: block;
+    display: none;
     padding: 34px 0 35px;
     z-index: 5;
 }
