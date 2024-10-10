@@ -22,7 +22,7 @@ export default function Faq() {
 
     return (
         <>
-            <Layout headerStyle={3} footerStyle={1} breadcrumbTitle="Faq">
+            <Layout headerStyle={4} footerStyle={1} breadcrumbTitle="Faq">
             {/*Search Field Start*/}
             <section className="search-field">
                 <div className="container">
