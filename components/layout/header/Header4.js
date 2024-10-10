@@ -54,7 +54,7 @@ export default function Header4({ scroll, isMobileMenu, handleMobileMenu }) {
                             <div className="main-header-three__bottom-middle">
                                 <div className="menu-area__inner">
                                     <div className="mobile-nav-toggler" onClick={handleMobileMenu}>
-                                        <i className="fas fa-times"></i>test
+                                    <i className="fas fa-bars"></i>
                                     </div>
                                     <div className="menu-wrap">
                                         <nav className="menu-nav">
