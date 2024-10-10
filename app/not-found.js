@@ -4,7 +4,7 @@ import Link from "next/link"
 export default function Error404() {
     return (
         <>
-            <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="404 Error">
+            <Layout headerStyle={4} footerStyle={1} breadcrumbTitle="404 Error">
             
                 {/* Error Page Start */}
                 <section className="error-page">
