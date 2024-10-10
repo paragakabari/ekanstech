@@ -7,7 +7,7 @@
    font-size: 28px;
     line-height: 50px;
     cursor: pointer;
-    display: none;
+    /* display: none; */
     color: var(--thm-white);
     margin-right: 30px;
     top: 15px;
