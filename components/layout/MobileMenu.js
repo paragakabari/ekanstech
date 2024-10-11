@@ -1,8 +1,13 @@
 "use client";
 import Link from "next/link";
 import { useState } from "react";
+import { usePathname } from "next/navigation";
 
 const MobileMenu = ({ isSidebar, handleMobileMenu }) => {
+  const url = usePathname();
+  let newUrl = url.split("/")[1];
+  const [isActiveNav, setIsActiveNav] = useState(newUrl);
+
   const [isActive, setIsActive] = useState({
     status: false,
     key: "",
@@ -43,37 +48,38 @@ const MobileMenu = ({ isSidebar, handleMobileMenu }) => {
           </div>
           <div className="menu-outer">
             <ul className="navigation">
-              <li
-                className={isActive.key == 1 ? "dropdown current" : "dropdown"}
-              >
+              <li onClick={handleMobileMenu} className={isActiveNav === "" ? "active" : ""} >
                 <Link href="/">Home</Link>
               </li>
-              <li>
-                <Link href="/career/">Career</Link>
+              <li onClick={handleMobileMenu} className={isActiveNav === "career" ? "active" : ""}>
+                <Link href="/career">Career</Link>
               </li>
-              <li>
+              <li onClick={handleMobileMenu} className={isActiveNav === "case-studies" ? "active" : ""}>
+                <Link href="/case-studies">Case Studies</Link>
+              </li>
+              <li onClick={handleMobileMenu} className={isActiveNav === "blog" ? "active" : ""}>
                 <Link href="/blog/">Blogs</Link>
               </li>
-              <li>
+              <li onClick={handleMobileMenu} className={isActiveNav === "about" ? "active" : ""}>
                 <Link href="/about/">About</Link>
               </li>
               <li
-                className={isActive.key == 2 ? "dropdown current" : "dropdown"}
+                className={isActive.key == 2 ? "dropdown current" : "dropdown" }
               >
                 <Link href="/#">Services</Link>
                 <ul
                   style={{ display: `${isActive.key == 2 ? "block" : "none"}` }}
                 >
-                  <li>
+                  <li onClick={handleMobileMenu}>
                     <Link href="app-development">App Development</Link>
                   </li>
-                  <li>
+                  <li onClick={handleMobileMenu}>
                     <Link href="uiux-design">Ui & Ux Design</Link>
                   </li>
-                  <li>
+                  <li onClick={handleMobileMenu}>
                     <Link href="web-development">Web Development</Link>
                   </li>
-                  <li>
+                  <li onClick={handleMobileMenu}>
                     <Link href="digital-marketing">Digital Marketing</Link>
                   </li>
                 </ul>
@@ -87,7 +93,7 @@ const MobileMenu = ({ isSidebar, handleMobileMenu }) => {
                 </div>
               </li>
 
-              <li>
+              <li onClick={handleMobileMenu} className={isActiveNav === "contact" ? "active" : ""}>
                 <Link href="/contact">Contact</Link>
               </li>
             </ul>

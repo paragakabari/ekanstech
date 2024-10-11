@@ -572,7 +572,7 @@
     bottom: 0;
     right: 0;
     opacity: 0;
-    background: linear-gradient(0deg, #FF5A79 -1.22%, rgba(var(--thm-secondary-rgb), 0.70) 60.99%);
+    background: linear-gradient(0deg, #00000071 -1.22%, #41b4d16b 60.99%);
     transition: opacity 0.5s ease;
     transition: all 0.5s ease;
     z-index: 1;
@@ -590,7 +590,7 @@
 }
 
 .blog-page__single:hover .blog-page__single-img img {
-    transform: scale(1.05) rotate(1deg);
+    transform: scale(1.05) ;
 }
 
 .blog-page__single-content {
@@ -846,7 +846,7 @@
     transition-timing-function: ease-in-out;
     transition-duration: .7s;
     transition-property: all;
-    background: rgba(var(--thm-secondary-rgb), 0.6);
+    background: #41b4d16b;
     opacity: 0;
     z-index: 1;
     content: "";

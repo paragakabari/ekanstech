@@ -113,9 +113,9 @@ export default function Layout({
         <Sidebar isSidebar={isSidebar} handleSidebar={handleSidebar} />
         <SearchPopup isPopup={isPopup} handlePopup={handlePopup} />
 
-        {breadcrumbTitle && (
+        {/* {breadcrumbTitle && (
           <Breadcrumb breadcrumbTitle={breadcrumbTitle} bgImg={bgImg} />
-        )}
+        )} */}
 
         {children}
 
@@ -161,9 +161,9 @@ export default function Layout({
       ) : (
         <div
           style={{
-            height: "10vh",
+            height: "5vh",
             right: "-300px",
-            bottom: "30px",
+            bottom: "40px",
             transition: "all 0.5s",
           }}
           className="chatboxOuter"

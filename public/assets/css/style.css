@@ -42,6 +42,8 @@
 @import url('../css/module-css/team.css');
 @import url('../css/module-css/header.css');
 @import url("../css/module-css/career.css");
+@import url("../css/module-css/redux.css");
+@import url("../css/module-css/caseStudies.css");
 
 
 
@@ -362,6 +364,7 @@ h6 a {
   .handle-preloader .animation-preloader .txt-loading .letters-loading:nth-child(6):before { animation-delay: 1s;}
   .handle-preloader .animation-preloader .txt-loading .letters-loading:nth-child(7):before { animation-delay: 1.2s;}
   .handle-preloader .animation-preloader .txt-loading .letters-loading:nth-child(8):before { animation-delay: 1.4s;}
+  .handle-preloader .animation-preloader .txt-loading .letters-loading:nth-child(9):before { animation-delay: 1.6s;}
   .handle-preloader .loader-section {
     background-color: #ffffff;
     height: 100%;

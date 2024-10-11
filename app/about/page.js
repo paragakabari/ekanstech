@@ -963,7 +963,8 @@ export default function About() {
 
                   <div className="featured-block-two clearfix flex-column flex-md-row">
                     <Image
-                      src="https://dalvindigital.com/wp-content/uploads/2023/07/dalvin-digital-about-us-img-2.jpg"
+                      style={{ width: "200px", height: "200px" }}
+                      src="/assets/img/aboutSctionLast.png"
                       alt="dalvin-digital-about-us-img-2"
                       roundedCircle
                       fluid
@@ -995,7 +996,7 @@ export default function About() {
               </Col>
             </Row>
             <div className="pt-5 mt-5">
-            <BoostSection />
+              <BoostSection />
             </div>
           </Container>
         </section>

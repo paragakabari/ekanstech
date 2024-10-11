@@ -7,50 +7,50 @@ const jobPositions = [
   {
     id: 1,
     title: "React Js Developer",
-    openPositions: 0,
+    openPositions: 1,
     description: "Build and maintain modern applications, and work with a team of professionals.",
     imageSrc: "/assets/img/react-banner-desk.png",
     imageAlt: "React Js Developer",
   },
   {
     id: 2,
-    title: "Node Js Developer",
-    openPositions: 0,
+    title: "Angular Js Developer",
+    openPositions: 2,
     description: "Build and maintain modern applications, and work with a team of professionals.",
-    imageSrc: "/assets/img/Node js.png",
-    imageAlt: "Node Js Developer",
+    imageSrc: "/assets/img/Angular.png",
+    imageAlt: "Angular Js Developer",
   },
   {
-    id: 2,
+    id: 3,
     title: "Next Js Developer",
-    openPositions: 0,
+    openPositions: 1,
     description: "Build and maintain modern applications, and work with a team of professionals.",
     imageSrc: "/assets/img/Next Js.png",
     imageAlt: "Node Js Developer",
   },
   {
-    id: 1,
-    title: "React Js Developer",
-    openPositions: 0,
+    id: 4,
+    title: "Vue Js Developer",
+    openPositions: "1 Intern" ,
     description: "Build and maintain modern applications, and work with a team of professionals.",
-    imageSrc: "/assets/img/react-banner-desk.png",
-    imageAlt: "React Js Developer",
+    imageSrc: "/assets/img/vue js.png",
+    imageAlt: "Vue Js Developer",
   },
   {
-    id: 2,
+    id: 5,
     title: "Node Js Developer",
-    openPositions: 0,
+    openPositions: 2,
     description: "Build and maintain modern applications, and work with a team of professionals.",
     imageSrc: "/assets/img/Node js.png",
     imageAlt: "Node Js Developer",
   },
   {
-    id: 2,
-    title: "Next Js Developer",
-    openPositions: 0,
+    id: 6,
+    title: "JavaScript Developer",
+    openPositions: 1,
     description: "Build and maintain modern applications, and work with a team of professionals.",
-    imageSrc: "/assets/img/Next Js.png",
-    imageAlt: "Node Js Developer",
+    imageSrc: "/assets/img/JavaScript.png",
+    imageAlt: "JavaScript Developer",
   },
   // Add more job positions as needed
 ];
@@ -65,9 +65,9 @@ export default function Career() {
         bgImg="assets/img/career.png"
       >
         {/* Start Career Page */}
-        <section className="careers-section ">
+        <section className="careers-section">
           <div className="container">
-            <div className="row text-center mb-4">
+            <div className="row text-center my-5">
               <div className="col-12">
                 <h2 className="section1-title ">We Offer Careers, Not Jobs</h2>
                 <p className="section-text ">
@@ -191,32 +191,32 @@ export default function Career() {
 
             <div className="row text-center mb-5">
               <div className="col-md-4 p-4">
-                <i className="fas fa-dollar-sign fa-3x mb-3"></i>
+                <i className="fas fa-dollar-sign fa-3x mb-3" style={{color:"#68cbf4"}} ></i>
                 <h4>Competitive Salary</h4>
                 <p>Recognizing your hard work and dedication with attractive salary packages.</p>
               </div>
               <div className="col-md-4 p-4">
-                <i className="fas fa-handshake fa-3x mb-3"></i>
+                <i className="fas fa-handshake fa-3x mb-3" style={{color:"#68cbf4"}}></i>
                 <h4>Friendly Environment</h4>
                 <p>A collaborative atmosphere that fosters creativity and teamwork.</p>
               </div>
               <div className="col-md-4 p-4">
-                <i className="fas fa-clock fa-3x mb-3"></i>
+                <i className="fas fa-clock fa-3x mb-3" style={{color:"#68cbf4"}}></i>
                 <h4>On-Time Salary & Benefits</h4>
                 <p>Supporting your growth with timely salary and benefits that enhance your personal and professional life.</p>
               </div>
               <div className="col-md-4 p-4">
-                <i className="fas fa-graduation-cap fa-3x mb-3"></i>
+                <i className="fas fa-graduation-cap fa-3x mb-3" style={{color:"#68cbf4"}}></i>
                 <h4>Career Development</h4>
                 <p>Access to career development programs and leadership opportunities.</p>
               </div>
               <div className="col-md-4 p-4">
-                <i className="fas fa-users fa-3x mb-3"></i>
+                <i className="fas fa-users fa-3x mb-3" style={{color:"#68cbf4"}}></i>
                 <h4>Global Team</h4>
                 <p>Be part of a growing team with global exposure and opportunities for collaboration.</p>
               </div>
               <div className="col-md-4 p-4">
-                <i className="fas fa-balance-scale fa-3x mb-3"></i>
+                <i className="fas fa-balance-scale fa-3x mb-3" style={{color:"#68cbf4"}}></i>
                 <h4>Work-Life Balance</h4>
                 <p>Enjoy a healthy balance between your professional life and personal well-being.</p>
               </div>
@@ -235,7 +235,7 @@ export default function Career() {
 
 
 
-        <section className="career-page">
+        <section className="career-page rounded-5">
           <div className="career-page__positions">
             <Container>
               <h2 className="positions-title text-center mb-4">

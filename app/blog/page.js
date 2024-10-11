@@ -15,7 +15,7 @@ export default function Home() {
                                     {/*Start Single Blog Page*/}
                                     <div className="blog-page__single">
                                         <div className="blog-page__single-img">
-                                            <img src="assets/img/blog/blog-page1__img1.jpg" alt="image"/>
+                                            <img src="assets/img/blog/blog-page1__img1.png" alt="image"/>
                                         </div>
                                         <div className="blog-page__single-content">
                                             <div className="meta-box">
@@ -30,7 +30,7 @@ export default function Home() {
                                                         <div className="icon">
                                                             <span className="icon-calendar"></span>
                                                         </div>
-                                                        <p><Link href="#">Oct 14, 2022</Link></p>
+                                                        <p><Link href="#">Oct 05, 2024</Link></p>
                                                     </li>
                                                     <li>
                                                         <div className="icon">
@@ -42,13 +42,13 @@ export default function Home() {
                                             </div>
                                             <div className="title-box">
                                                 <h3>
-                                                    <Link href="blog-details">Communicate The Message Your Audience is
-                                                        <br/>Waiting for Products
+                                                    <Link href="redux">Redux: A Predictable State Container for
+                                                    <br/> JavaScript Apps
                                                     </Link>
                                                 </h3>
                                             </div>
                                             <div className="btn-box">
-                                                <Link href="blog-details">
+                                                <Link href="redux">
                                                     Read More
                                                     <i className="icon-right"></i>
                                                 </Link>
@@ -75,7 +75,7 @@ export default function Home() {
                                                         <div className="icon">
                                                             <span className="icon-calendar"></span>
                                                         </div>
-                                                        <p><Link href="#">Oct 14, 2022</Link></p>
+                                                        <p><Link href="#">Sept 30, 2024</Link></p>
                                                     </li>
                                                     <li>
                                                         <div className="icon">
@@ -87,13 +87,11 @@ export default function Home() {
                                             </div>
                                             <div className="title-box">
                                                 <h3>
-                                                    <Link href="blog-details">Digital Marketing is The Backbone of
-                                                        Your<br/>Business Growth
-                                                    </Link>
+                                                    <Link href="flutter">A Beginner’s Guide to Flutter: Why You Should Learn It</Link>
                                                 </h3>
                                             </div>
                                             <div className="btn-box">
-                                                <Link href="blog-details">
+                                                <Link href="flutter">
                                                     Read More
                                                     <i className="icon-right"></i>
                                                 </Link>
@@ -103,7 +101,7 @@ export default function Home() {
                                     {/*End Single Blog Page*/}
 
                                     {/*Start Single Blog Page*/}
-                                    <div className="blog-page__single">
+                                    {/* <div className="blog-page__single">
                                         <div className="blog-page__single-img">
                                             <img src="assets/img/blog/blog-page1__img3.jpg" alt="image"/>
                                         </div>
@@ -144,11 +142,11 @@ export default function Home() {
                                                 </Link>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> */}
                                     {/*End Single Blog Page*/}
 
                                     {/*Start Single Blog Page*/}
-                                    <div className="blog-page__single">
+                                    {/* <div className="blog-page__single">
                                         <div className="blog-page__single-img">
                                             <img src="assets/img/blog/blog-page1__img4.jpg" alt="image"/>
                                         </div>
@@ -189,7 +187,7 @@ export default function Home() {
                                                 </Link>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> */}
                                     {/*End Single Blog Page*/}
                                 </div>
                             </div>
@@ -215,23 +213,24 @@ export default function Home() {
                                         <ul className="sidebar__latest-blog-list">
                                             <li>
                                                 <div className="img-box">
-                                                    <img src="assets/img/blog/blog-page1-sideber__img1.jpg" alt=""/>
+                                                    <img src="assets/img/blog/blog-page1__img1.png" alt=""/>
                                                 </div>
                                                 <div className="content-box">
-                                                    <h4><Link href="#">Powerful Ideas & Sales<br/>Acceleration</Link></h4>
-                                                    <p><span className="icon-calendar"></span> September 10, 2022</p>
+                                                    <h4><Link href="redux">Redux: A Predictable State Container for
+                                                    <br/> JavaScript Apps</Link></h4>
+                                                    <p><span className="icon-calendar"></span> Oct 05, 2024</p>
                                                 </div>
                                             </li>
                                             <li>
                                                 <div className="img-box">
-                                                    <img src="assets/img/blog/blog-page1-sideber__img2.jpg" alt=""/>
+                                                    <img src="assets/img/blog/blog-page1__img2.jpg" alt=""/>
                                                 </div>
                                                 <div className="content-box">
-                                                    <h4><Link href="#">Craft Digital Marketing<br/>That Converts</Link></h4>
-                                                    <p><span className="icon-calendar"></span> December 12, 2022</p>
+                                                    <h4><Link href="flutter">A Beginner’s Guide to Flutter: Why You Should Learn It</Link></h4>
+                                                    <p><span className="icon-calendar"></span> Sept 30, 2024</p>
                                                 </div>
                                             </li>
-                                            <li>
+                                            {/* <li>
                                                 <div className="img-box">
                                                     <img src="assets/img/blog/blog-page1-sideber__img3.jpg" alt=""/>
                                                 </div>
@@ -239,12 +238,12 @@ export default function Home() {
                                                     <h4><Link href="#">Start with A Plan and<br/>Finish with Results.</Link></h4>
                                                     <p><span className="icon-calendar"></span> November 08, 2022</p>
                                                 </div>
-                                            </li>
+                                            </li> */}
                                         </ul>
                                     </div>
                                     {/*End Sidebar Single*/}
                                     {/*Start Sidebar Single*/}
-                                    <div className="sidebar__single sidebar__category wow fadeInUp" data-wow-delay=".3s">
+                                    {/* <div className="sidebar__single sidebar__category wow fadeInUp" data-wow-delay=".3s">
                                         <div className="title-box">
                                             <h2>Categories</h2>
                                         </div>
@@ -271,11 +270,11 @@ export default function Home() {
                                                 <Link href="#"> Digital Marketing <span>(9)</span></Link>
                                             </li>
                                         </ul>
-                                    </div>
+                                    </div> */}
                                     {/*End Sidebar Single*/}
 
                                     {/*Start Sidebar Single*/}
-                                    <div className="sidebar__single sidebar__tags wow fadeInUp" data-wow-delay=".5s">
+                                    {/* <div className="sidebar__single sidebar__tags wow fadeInUp" data-wow-delay=".5s">
                                         <div className="title-box">
                                             <h2>Popular Tags</h2>
                                         </div>
@@ -292,14 +291,14 @@ export default function Home() {
                                             <li> <Link href="#">Design Studio</Link> </li>
                                             <li> <Link href="#">Web App</Link> </li>
                                         </ul>
-                                    </div>
+                                    </div> */}
                                     {/*End Sidebar Single*/}
                                 </div>
                             </div>
                             {/*End Sidebar*/}
 
                         </div>
-                        <ul className="styled-pagination text-center clearfix">
+                        {/* <ul className="styled-pagination text-center clearfix">
                             <li><Link href="#">1</Link></li>
                             <li><Link href="#">2</Link></li>
                             <li><Link href="#">3</Link></li>
@@ -307,7 +306,7 @@ export default function Home() {
                             <li>
                                 <Link href="#"><span className="icon-right-arrow-angle right"></span></Link>
                             </li>
-                        </ul>
+                        </ul> */}
                     </div>
                 </section>
                 {/*End Blog Three*/}
