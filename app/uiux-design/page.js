@@ -29,7 +29,7 @@ export default function Home() {
                         <br />
                         Regardless of possessing a groundbreaking idea,
                         executing outstanding marketing campaigns, and employing
-                        top-notch salespeople, you might be wondering why you&#39;re
+                        top-notch salespeople, you might be wondering why you're
                         still not attracting a significant number of customers.
                         The probable reason behind this could be attributed to
                         the subpar user experience offered by your website. At

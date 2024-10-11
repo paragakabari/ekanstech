@@ -20,7 +20,7 @@ export default function Pricing() {
             <div className="container">
                 <div className="sec-title-two text-center sec-title-animation animation-style1">
                     <h2>Our Affordable <span>Services</span></h2>
-                    <p>It&#39;s about telling a story through the message and visuals that get your<br/>
+                    <p>It's about telling a story through the message and visuals that get your<br/>
                         ideas across to your customers</p>
                 </div>
                 <div className="row">

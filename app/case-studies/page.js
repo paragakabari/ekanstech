@@ -77,7 +77,7 @@ export default function Home() {
       >
         <div className="container text-center mt-5 pt-5">
           <h1 className="display-4  text-white  mt-5">
-            Explore Our Team's Recent Success Stories
+            Explore Our Team s Recent Success Stories
           </h1>
           <p className="lead mb-5 text-white">
             We deliver each project to remove difficulties and boost your sales

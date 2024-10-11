@@ -105,7 +105,7 @@ export default function Cases() {
                                             <img src="assets/img/resource/cases-one__img1.jpg" alt="cases"/>
                                             <div className="overlay-content text-center">
                                                 <h3><Link href="#">Website Design</Link></h3>
-                                                <p>We&#39;re a team of hard-core nerds & we&#39;re bringing more
+                                                <p>We're a team of hard-core nerds & we're bringing more
                                                     of you that you marketing business advantage.</p>
                                                 <div className="overlay-one-btn">
                                                     <Link href="#"><span className="icon-next"></span></Link>
@@ -125,7 +125,7 @@ export default function Cases() {
                                             <img src="assets/img/resource/cases-one__img2.jpg" alt="cases"/>
                                             <div className="overlay-content text-center">
                                                 <h3><Link href="#">Website Design</Link></h3>
-                                                <p>We&#39;re a team of hard-core nerds & we&#39;re bringing more
+                                                <p>We're a team of hard-core nerds & we're bringing more
                                                     of you that you marketing business advantage.</p>
                                                 <div className="overlay-one-btn">
                                                     <Link href="#"><span className="icon-next"></span></Link>
@@ -145,7 +145,7 @@ export default function Cases() {
                                             <img src="assets/img/resource/cases-one__img3.jpg" alt="cases"/>
                                             <div className="overlay-content text-center">
                                                 <h3><Link href="#">Website Design</Link></h3>
-                                                <p>We&#39;re a team of hard-core nerds & we&#39;re bringing more
+                                                <p>We're a team of hard-core nerds & we're bringing more
                                                     of you that you marketing business advantage.</p>
                                                 <div className="overlay-one-btn">
                                                     <Link href="#"><span className="icon-next"></span></Link>
@@ -163,7 +163,7 @@ export default function Cases() {
                                             <img src="assets/img/resource/cases-one__img1.jpg" alt="cases"/>
                                             <div className="overlay-content text-center">
                                                 <h3><Link href="#">Website Design</Link></h3>
-                                                <p>We&#39;re a team of hard-core nerds & we&#39;re bringing more
+                                                <p>We're a team of hard-core nerds & we're bringing more
                                                     of you that you marketing business advantage.</p>
                                                 <div className="overlay-one-btn">
                                                     <Link href="#"><span className="icon-next"></span></Link>
@@ -183,7 +183,7 @@ export default function Cases() {
                                             <img src="assets/img/resource/cases-one__img2.jpg" alt="cases"/>
                                             <div className="overlay-content text-center">
                                                 <h3><Link href="#">Website Design</Link></h3>
-                                                <p>We&#39;re a team of hard-core nerds & we&#39;re bringing more
+                                                <p>We're a team of hard-core nerds & we're bringing more
                                                     of you that you marketing business advantage.</p>
                                                 <div className="overlay-one-btn">
                                                     <Link href="#"><span className="icon-next"></span></Link>
@@ -203,7 +203,7 @@ export default function Cases() {
                                             <img src="assets/img/resource/cases-one__img3.jpg" alt="cases"/>
                                             <div className="overlay-content text-center">
                                                 <h3><Link href="#">Website Design</Link></h3>
-                                                <p>We&#39;re a team of hard-core nerds & we&#39;re bringing more
+                                                <p>We're a team of hard-core nerds & we're bringing more
                                                     of you that you marketing business advantage.</p>
                                                 <div className="overlay-one-btn">
                                                     <Link href="#"><span className="icon-next"></span></Link>

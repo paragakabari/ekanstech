@@ -14,9 +14,9 @@ export default function About() {
                     <div className="col-xl-5">
                         <div className="about-two__content">
                             <div className="sec-title-two  sec-title-animation animation-style1">
-                                <h2>We&#39;re Not Average <br/> <span>Web Design</span> Company</h2>
+                                <h2>We're Not Average <br/> <span>Web Design</span> Company</h2>
                                 <p>
-                                    Web design is not about making a website—it&#39;s about making an investment in your
+                                    Web design is not about making a website—it's about making an investment in your
                                     organization. Successful web design takes into account more than just aesthetics.
                                 </p>
                             </div>

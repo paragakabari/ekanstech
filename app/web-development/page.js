@@ -30,9 +30,9 @@ export default function Home() {
                       <p>
                         Our expert team at Ekanstech Solution has consistently
                         delivered remarkable results in bringing our
-                        clients&#39; visions for their website design,
+                        clients' visions for their website design,
                         development, and expected returns to life. Whether
-                        it&#39;s making updates to your current website or
+                        it's making updates to your current website or
                         creating a completely new one, we possess the skills and
                         expertise to handle it all. Our dedication to excellence
                         ensures that we meet your requirements and exceed your
@@ -53,7 +53,7 @@ export default function Home() {
                         duplicate content issues that can harm your search
                         ranking. Our expertise in responsive web design ensures
                         a consistent and user-friendly experience across
-                        devices, saving you time and enhancing your brand&#39;s
+                        devices, saving you time and enhancing your brand's
                         online presence.
                       </p>
                     </div>

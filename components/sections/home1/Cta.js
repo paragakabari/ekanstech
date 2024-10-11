@@ -24,7 +24,7 @@ export default function Cta() {
                   <h4>Get To Know About Us</h4>
                 </div>
                 <h2>
-                  Let&#39;s Get To Work Together
+                  Let's Get To Work Together
                   <br /> Ready To Work Us
                 </h2>
               </div>

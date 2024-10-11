@@ -201,16 +201,16 @@ export default App;
               that involve:
             </p>
             <ul className="blog-lists" style={{ listStyleType: "disc" }}>
-              <li>&#x25BA; Multiple components that need to share data</li>
+              <li> Multiple components that need to share data</li>
               <li>
-                &#x25BA; Global states like user authentication, theme settings,
+                 Global states like user authentication, theme settings,
                 or form states
               </li>
               <li>
-                &#x25BA; Predictable state transitions for easier debugging and
+                 Predictable state transitions for easier debugging and
                 testing
               </li>
-              <li>&#x25BA; A single source of truth for state management</li>
+              <li> A single source of truth for state management</li>
             </ul>
 
             <h2 className="section-titles mt-5" id="key-redux-concepts">
@@ -222,23 +222,23 @@ export default App;
             </div>
             <ul className="blog-lists">
               <li>
-                &#x25BA; <strong>Store:</strong> The single source of truth that
+                 <strong>Store:</strong> The single source of truth that
                 holds the state of your application.
               </li>
               <li>
-                &#x25BA; <strong>Action:</strong> A plain JavaScript object that
+                 <strong>Action:</strong> A plain JavaScript object that
                 represents an event in the app.
               </li>
               <li>
-                &#x25BA; <strong>Reducer:</strong> A pure function that takes
+                 <strong>Reducer:</strong> A pure function that takes
                 the current state and an action and returns a new state.
               </li>
               <li>
-                &#x25BA; <strong>Dispatch:</strong> The method used to send
+                 <strong>Dispatch:</strong> The method used to send
                 actions to the Redux store.
               </li>
               <li>
-                &#x25BA; <strong>Selectors:</strong> Functions that extract
+                 <strong>Selectors:</strong> Functions that extract
                 specific data from the Redux state.
               </li>
             </ul>
@@ -251,8 +251,8 @@ export default App;
               install a few dependencies:
             </p>
             <ul>
-              <li>&#x25BA; Redux - Core library for state management.</li>
-              <li>&#x25BA; React-Redux - Official React bindings for Redux.</li>
+              <li> Redux - Core library for state management.</li>
+              <li> React-Redux - Official React bindings for Redux.</li>
             </ul>
             <p className="blog-text">
               You can install Redux and React-Redux using the following
@@ -298,19 +298,19 @@ export default App;
             </p>
             <ul className="blog-lists">
               <li>
-                &#x25BA; Action: An event occurs (e.g., user clicks a button),
+                 Action: An event occurs (e.g., user clicks a button),
                 and an action is dispatched.
               </li>
               <li>
-                &#x25BA; Reducer: The reducer listens to the action and updates
+                 Reducer: The reducer listens to the action and updates
                 the state.
               </li>
               <li>
-                &#x25BA; Store: The state is updated and stored in the Redux
+                 Store: The state is updated and stored in the Redux
                 store.
               </li>
               <li>
-                &#x25BA; React Component: The component is updated with the new
+                 React Component: The component is updated with the new
                 state.
               </li>
             </ul>
@@ -436,8 +436,8 @@ export default App;
               <strong>Further Learning:</strong>
             </p>
             <ul className="blog-lists">
-              <li>&#x25BA; Explore advanced concepts like middleware (redux-thunk for async operations), selectors, and action creators.</li>
-              <li>&#x25BA; Use Redux DevTools for easier debugging.</li>
+              <li> Explore advanced concepts like middleware (redux-thunk for async operations), selectors, and action creators.</li>
+              <li> Use Redux DevTools for easier debugging.</li>
             </ul>
           </div>
 

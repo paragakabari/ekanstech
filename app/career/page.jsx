@@ -156,7 +156,7 @@ export default function Career() {
                 <p>Career Growth Opportunity</p>
               </div>
               <div className="circle">
-                <p>Healthy Food & Snacks</p>
+                <p>Healthy Food  Snacks</p>
               </div>
             </div>
           </div>

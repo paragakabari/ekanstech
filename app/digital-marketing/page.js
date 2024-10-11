@@ -67,7 +67,7 @@ export default function Home() {
                             that ensure a seamless experience for visitors to
                             your website. Our team goes the extra mile,
                             utilizing innovative approaches, strategies, and
-                            tools to enhance your company&#39;s corporate image.
+                            tools to enhance your company's corporate image.
                           </p>
                           <ul className="list-item clearfix">
                             <li>

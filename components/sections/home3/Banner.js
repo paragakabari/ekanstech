@@ -22,7 +22,7 @@ export default function Banner() {
                             <h5>Senior Web Developer</h5>
                         </div>
                         <div className="big-title">
-                            <h2>Hi I&#39;m Jhon Smith<br/>Web Developer</h2>
+                            <h2>Hi I'm Jhon Smith<br/>Web Developer</h2>
                         </div>
                         <div className="text">
                             <p>There are many variations of passages of available, but the<br/> majority have suffered

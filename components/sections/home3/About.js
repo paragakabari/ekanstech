@@ -41,7 +41,7 @@ export default function About() {
                             </div>
                             <div className="text">
                                 <p>
-                                    Im a About Me Web Developer, Over the past10+ years I&#39;ve created well-crafted mobile
+                                    Im a About Me Web Developer, Over the past10+ years I've created well-crafted mobile
                                     and web apps by connecting Business goals with user needs. Previously worked at a
                                     healthcare start-up as a product designer and Formerly at Electronic Arts, Apple,
                                     Sea Group.
