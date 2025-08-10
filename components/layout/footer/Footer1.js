@@ -202,7 +202,7 @@ export default function Footer1() {
                             <span className="icon-phone-call"></span>
                           </div>
                           <p>
-                            <Link href="tel:8160362614">+91 81603 62614</Link>
+                            <Link href="tel:9714149838">+91 97141 49838</Link>
                           </p>
                         </li>
                       </ul>
